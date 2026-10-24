@@ -1,0 +1,188 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q42266827&languages=ja%7Cen%7Cvi%7Cmul&props=labels%7Cclaims%7Cdescriptions",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "entities": {
+   "Q42266827": {
+    "type": "item",
+    "id": "Q42266827",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Doki Doki Literature Club!"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "ドキドキ文芸部!"
+     },
+     "mul": {
+      "language": "mul",
+      "value": "Doki Doki Literature Club!"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "2017 horror visual novel game developed by Team Salvato"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "2017年のアメリカ合衆国のビジュアルノベル"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "visual novel miễn phí của Mỹ năm 2017 do Team Salvato phát triển"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 7889,
+          "id": "Q7889"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2017-09-22T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "v21905"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P1733": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "698780"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P407": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1860,
+          "id": "Q1860"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P674": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 65040188,
+          "id": "Q65040188"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 65040165,
+          "id": "Q65040165"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 65040172,
+          "id": "Q65040172"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 65039853,
+          "id": "Q65039853"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 65040154,
+          "id": "Q65040154"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P495": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 30,
+          "id": "Q30"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "success": 1
+ }
+}

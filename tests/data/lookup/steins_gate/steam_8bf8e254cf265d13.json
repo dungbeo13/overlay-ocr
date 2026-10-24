@@ -1,0 +1,29 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://store.steampowered.com/api/appdetails?appids=412830&filters=basic%2Cdevelopers%2Cpublishers%2Crelease_date&l=english",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "412830": {
+   "success": true,
+   "data": {
+    "type": "game",
+    "name": "STEINS;GATE",
+    "steam_appid": 412830,
+    "supported_languages": "English, Japanese<strong>*</strong>, Simplified Chinese, Traditional Chinese<br><strong>*</strong>languages with full audio support",
+    "developers": [
+     "MAGES. Inc."
+    ],
+    "publishers": [
+     "Spike Chunsoft Co., Ltd."
+    ],
+    "release_date": {
+     "coming_soon": false,
+     "date": "8 Sep, 2016"
+    }
+   }
+  }
+ }
+}

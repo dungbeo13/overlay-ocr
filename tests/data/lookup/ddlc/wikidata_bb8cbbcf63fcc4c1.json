@@ -1,0 +1,391 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q65040188%7CQ65040165%7CQ65040172%7CQ65039853%7CQ65040154&languages=ja%7Cen%7Cvi%7Cmul&props=labels%7Cclaims",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "entities": {
+   "Q65040188": {
+    "type": "item",
+    "id": "Q65040188",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Yuri"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "ユリ"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "doki-doki-literature-club:Yuri"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "yandere:Yuri_(DDLC)"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "villains:Yuri_(Doki_Doki_Literature_Club)"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c64504"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q65040165": {
+    "type": "item",
+    "id": "Q65040165",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "MC"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "主人公"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": null
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c64506"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q65040172": {
+    "type": "item",
+    "id": "Q65040172",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Natsuki"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "ナツキ"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c64505"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q65039853": {
+    "type": "item",
+    "id": "Q65039853",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Sayori"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "サヨリ"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c64503"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q65040154": {
+    "type": "item",
+    "id": "Q65040154",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Monika"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "モニカ"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "Monika"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 55566469,
+          "id": "Q55566469"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c64502"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "yandere:Monika_(DDLC)"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "success": 1
+ }
+}

@@ -1,0 +1,1182 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q39766615%7CQ3817446%7CQ3959462%7CQ20873825%7CQ3936121%7CQ16562850%7CQ3860049%7CQ20886666%7CQ3978387%7CQ19876319%7CQ21013718&languages=ja%7Cen%7Cvi%7Cmul&props=labels%7Cclaims",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "entities": {
+   "Q39766615": {
+    "type": "item",
+    "id": "Q39766615",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Nakabachi"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "ドクター中鉢"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q3817446": {
+    "type": "item",
+    "id": "Q3817446",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Kurisu Makise"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "牧瀬紅莉栖"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6487"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c57058"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P1449": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "text": "クリスティーナ",
+          "language": "ja"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Kurisu_Makise"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "hero:Kurisu_Makise"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "es.doblaje:Kurisu_Makise"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q3959462": {
+    "type": "item",
+    "id": "Q3959462",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Mayuri Shiina"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "椎名まゆり"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6491"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P1449": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "text": "MayuShī",
+          "language": "ja"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Mayuri_Shiina"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q20873825": {
+    "type": "item",
+    "id": "Q20873825",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Luka Urushibara"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "漆原るか"
+     }
+    },
+    "claims": {
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6497"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 9151342,
+          "id": "Q9151342"
+         }
+        }
+       },
+       "rank": "deprecated"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Luka_Urushibara"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "es.doblaje:Luka_Urushibara"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q3936121": {
+    "type": "item",
+    "id": "Q3936121",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Rintarō Okabe"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "岡部倫太郎"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c57056"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P1449": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "text": "OkaRin",
+          "language": "ja"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Rintaro_Okabe"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q16562850": {
+    "type": "item",
+    "id": "Q16562850",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Itaru Hashida"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "橋田至"
+     }
+    },
+    "claims": {
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c57403"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Itaru_Hashida"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q3860049": {
+    "type": "item",
+    "id": "Q3860049",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Moeka Kiryū"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "桐生萌郁"
+     }
+    },
+    "claims": {
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6496"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Moeka_Kiryu"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "villains:Moeka_Kiryuu"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q20886666": {
+    "type": "item",
+    "id": "Q20886666",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Faris Nyannyan"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "フェイリス・ニャンニャン"
+     }
+    },
+    "claims": {
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Faris_NyanNyan"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q3978387": {
+    "type": "item",
+    "id": "Q3978387",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Suzuha Amane"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "阿万音鈴羽"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6492"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c73599"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c73598"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Suzuha_Amane"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "es.doblaje:Suzuha_Amane"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q19876319": {
+    "type": "item",
+    "id": "Q19876319",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Yuugo Tennouji"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "天王寺裕吾"
+     }
+    },
+    "claims": {
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581097,
+          "id": "Q6581097"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c6495"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Yugo_Tennouji"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   },
+   "Q21013718": {
+    "type": "item",
+    "id": "Q21013718",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Nae Tennouji"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "天王寺綯"
+     }
+    },
+    "claims": {
+     "P21": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 6581072,
+          "id": "Q6581072"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "c15469"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 15632617,
+          "id": "Q15632617"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1569167,
+          "id": "Q1569167"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 80447738,
+          "id": "Q80447738"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 87576284,
+          "id": "Q87576284"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P6262": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "steins-gate:Nae_Tennouji"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "robotics-notes:Nae_Tennouji"
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "success": 1
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://store.steampowered.com/api/storesearch/?cc=US&l=english&term=Doki+Doki+Literature+Club",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "total": 4,
+  "items": [
+   {
+    "type": "app",
+    "name": "Doki Doki Literature Club!",
+    "id": 698780,
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/698780/capsule_231x87.jpg?t=1681943582",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": true,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "Doki Doki Literature Club Plus!",
+    "id": 1388880,
+    "price": {
+     "currency": "USD",
+     "initial": 1499,
+     "final": 1499
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388880/68f86b3672d4c01a0b8bba990f5e9b7ef3c5e937/capsule_231x87.jpg?t=1769459840",
+    "metascore": "81",
+    "platforms": {
+     "windows": true,
+     "mac": true,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "Doki Doki Literature Club Fan Pack",
+    "id": 717250,
+    "price": {
+     "currency": "USD",
+     "initial": 999,
+     "final": 999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/717250/capsule_231x87.jpg?t=1507279662",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": true,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "Doki Doki Literature Club Plus! Soundtrack",
+    "id": 1781690,
+    "price": {
+     "currency": "USD",
+     "initial": 999,
+     "final": 999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1781690/capsule_231x87.jpg?t=1644427885",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": true,
+     "linux": true
+    },
+    "streamingvideo": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,1154 @@
+{
+ "about": "Held-out set D2 (origin heldout-d): 60 original game/manga/anime dialogue lines (ja/en -> vi) for checking Vietnamese pronoun ROLE errors. 'own' = the speaker's self word, 'other' = the word for the listener. label 'error' = at least one own/other word used in the wrong role; 'wrong' lists [word, k] with k the 0-based index among case-insensitive whole-word occurrences of that word in the translation. Wrong words in the right role (tôi, cậu, con, bạn, quý khách, người), third persons (anh Takumi, cậu ấy, ông, mẹ as third person), plurals (chúng ta) and correct vocatives are not errors. 'ref' is a correct translation with {S:..}/{L:..} tags on every pronoun use of the pair words. Written blind to the tool and to earlier test sets.",
+ "lines": [
+  {
+   "id": "HD2-01",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃん、昨日はひどいこと言ってごめんね。",
+   "translation": "Anh ơi, hôm qua anh đã nói những lời quá đáng, xin lỗi nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     1
+    ]
+   ],
+   "ref": "{L:Anh} ơi, hôm qua {S:em} đã nói những lời quá đáng, {S:em} xin lỗi nhé.",
+   "note": "Younger sister -> older brother. Dropped subject of 言って (the speaker) filled with the listener's word: 'hôm qua anh đã nói'. The vocative 'Anh ơi' is correct."
+  },
+  {
+   "id": "HD2-02",
+   "cat": "thanks",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "弁当作ってくれたのか。ありがとな、セラ。",
+   "translation": "Em làm cơm hộp cho anh à? Cảm ơn em nhé, Sera.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} làm cơm hộp cho {S:anh} à? Cảm ơn {L:em} nhé, Sera.",
+   "note": "Older brother -> younger sister. Maker of the lunch = listener ('em'), beneficiary = speaker ('anh'). All roles correct."
+  },
+  {
+   "id": "HD2-03",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "ねえ、宿題手伝ってくれない?数学が全然わかんないの。",
+   "translation": "Này anh, giúp em làm bài tập được không? Em chẳng hiểu gì môn toán cả.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Này {L:anh}, giúp {S:em} làm bài tập được không? {S:Em} chẳng hiểu gì môn toán cả.",
+   "note": "Younger sister -> older brother. Helper = listener, the one who doesn't understand = speaker. Correct."
+  },
+  {
+   "id": "HD2-04",
+   "cat": "promise",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "約束する。来週の祭りには絶対連れて行くから。",
+   "translation": "Em hứa đấy. Lễ hội tuần sau em nhất định sẽ dẫn anh đi.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "em",
+     1
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{S:Anh} hứa đấy. Lễ hội tuần sau {S:anh} nhất định sẽ dẫn {L:em} đi.",
+   "note": "Older brother -> younger sister. Full perspective swap: the promiser is called 'em' twice and the sister being taken is 'anh'."
+  },
+  {
+   "id": "HD2-05",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "だから言っただろ、夜更かしするなって。",
+   "translation": "Em đã bảo em rồi mà, đừng thức khuya nữa.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{S:Anh} đã bảo {L:em} rồi mà, đừng thức khuya nữa.",
+   "note": "Older brother -> younger sister. 'I told you' rendered 'Em đã bảo em': first 'em' is the speaker (wrong), second 'em' is the listener (right)."
+  },
+  {
+   "id": "HD2-06",
+   "cat": "question",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma Fumi",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、膝の具合はどう?まだ痛む?",
+   "translation": "Bà ơi, đầu gối của bà sao rồi ạ? Vẫn còn đau không bà?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Bà} ơi, đầu gối của {L:bà} sao rồi ạ? Vẫn còn đau không {L:bà}?",
+   "note": "Grandchild -> grandmother. Every 'bà' refers to the listener (vocative, possessor, sentence-final address). Correct."
+  },
+  {
+   "id": "HD2-07",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma Fumi",
+   "own": "cháu",
+   "other": "bà",
+   "source": "重いでしょ、その荷物ぼくが持つよ。",
+   "translation": "Đồ nặng lắm phải không? Để bà xách cho cháu.",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ],
+    [
+     "cháu",
+     0
+    ]
+   ],
+   "ref": "Đồ nặng lắm phải không {L:bà}? Để {S:cháu} xách cho {L:bà}.",
+   "note": "Grandchild -> grandmother. Offer rendered from the grandmother's perspective: the carrier (ぼく) is 'bà', the person helped is 'cháu'. Both wrong."
+  },
+  {
+   "id": "HD2-08",
+   "cat": "greeting",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Grandma Fumi",
+   "listener": "Haru",
+   "own": "bà",
+   "other": "cháu",
+   "source": "あらハル、よく来たねえ。大きくなったこと。",
+   "translation": "Ôi Haru, cháu đến chơi đấy à. Cháu lớn quá rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Ôi Haru, {L:cháu} đến chơi đấy à. {L:Cháu} lớn quá rồi đấy.",
+   "note": "Grandmother -> grandchild. Both 'cháu' refer to the listener. Correct."
+  },
+  {
+   "id": "HD2-09",
+   "cat": "who-did-what",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Grandma Fumi",
+   "listener": "Haru",
+   "own": "bà",
+   "other": "cháu",
+   "source": "この柿、あんたのために取っておいたんだよ。",
+   "translation": "Quả hồng này, cháu để dành cho bà đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "bà",
+     0
+    ]
+   ],
+   "ref": "Quả hồng này {S:bà} để dành cho {L:cháu} đấy.",
+   "note": "Grandmother -> grandchild. The one who saved the persimmon is the speaker, rendered 'cháu'; the beneficiary あんた is rendered 'bà'. Swapped."
+  },
+  {
+   "id": "HD2-10",
+   "cat": "teasing",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Grandma Fumi",
+   "listener": "Haru",
+   "own": "bà",
+   "other": "cháu",
+   "source": "おじいさんも若い頃はあんたみたいに泣き虫だったんだよ。",
+   "translation": "Hồi trẻ ông cũng mít ướt y như cháu đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hồi trẻ ông cũng mít ướt y như {L:cháu} đấy.",
+   "note": "Grandmother -> grandchild. 'ông' is a third person (grandfather), not a pair word; 'cháu' = listener. Correct."
+  },
+  {
+   "id": "HD2-11",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、花瓶割っちゃった…ごめんなさい。",
+   "translation": "Mẹ ơi, con làm vỡ cái bình hoa rồi... Con xin lỗi mẹ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {S:con} làm vỡ cái bình hoa rồi... {S:Con} xin lỗi {L:mẹ}.",
+   "note": "Child -> mother. Correct roles throughout."
+  },
+  {
+   "id": "HD2-12",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、明日の遠足のお弁当、唐揚げ入れてくれる?",
+   "translation": "Mẹ ơi, cơm hộp đi dã ngoại ngày mai, con cho gà rán vào giúp mẹ nhé?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "ref": "{L:Mẹ} ơi, cơm hộp đi dã ngoại ngày mai {L:mẹ} cho gà rán vào giúp {S:con} nhé?",
+   "note": "Child -> mother. 入れてくれる (you put it in for me) swapped: the doer (mother) is 'con', the beneficiary (child) is 'mẹ'. Vocative 'Mẹ ơi' (mẹ #0) is correct, so the wrong 'mẹ' is #1."
+  },
+  {
+   "id": "HD2-13",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mom",
+   "listener": "Yuta",
+   "own": "mẹ",
+   "other": "con",
+   "source": "何度言ったらわかるの!靴はそろえなさい!",
+   "translation": "Mẹ phải nói bao nhiêu lần con mới chịu nghe hả! Xếp giày cho ngay ngắn vào!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Mẹ} phải nói bao nhiêu lần {L:con} mới chịu nghe hả! Xếp giày cho ngay ngắn vào!",
+   "note": "Mother -> child. Sayer = speaker 'mẹ', the one who won't listen = 'con'. Correct."
+  },
+  {
+   "id": "HD2-14",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mom",
+   "listener": "Yuta",
+   "own": "mẹ",
+   "other": "con",
+   "source": "疲れたでしょう。お風呂沸かしておいたから先に入りなさい。",
+   "translation": "Mệt rồi phải không? Con đã đun nước tắm rồi, mẹ vào tắm trước đi.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     0
+    ]
+   ],
+   "ref": "{L:Con} mệt rồi phải không? {S:Mẹ} đun nước tắm rồi đấy, {L:con} vào tắm trước đi.",
+   "note": "Mother -> child. The one who heated the bath (speaker) is 'con' and the one told to bathe first (listener) is 'mẹ'. Swapped."
+  },
+  {
+   "id": "HD2-15",
+   "cat": "promise",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "次のテストは絶対百点取るから、見ててね。",
+   "translation": "Bài kiểm tra tới con nhất định sẽ được một trăm điểm, mẹ cứ chờ xem nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Bài kiểm tra tới {S:con} nhất định sẽ được một trăm điểm, {L:mẹ} cứ chờ xem nhé.",
+   "note": "Child -> mother. Correct."
+  },
+  {
+   "id": "HD2-16",
+   "cat": "teasing",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "お前、また振られたのかよ。ダッセー。",
+   "translation": "Mày lại bị đá nữa à? Quê thế.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mày} lại bị đá nữa à? Quê thế.",
+   "note": "Rude male friends. 'Mày' = listener. Correct."
+  },
+  {
+   "id": "HD2-17",
+   "cat": "who-did-what",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "俺のプリン食ったの、お前だろ!",
+   "translation": "Đứa ăn bánh pudding của mày là tao chứ ai!",
+   "label": "error",
+   "wrong": [
+    [
+     "mày",
+     0
+    ],
+    [
+     "tao",
+     0
+    ]
+   ],
+   "ref": "Đứa ăn bánh pudding của {S:tao} là {L:mày} chứ ai!",
+   "note": "Rude male friends. 'My pudding / it was you' swapped into 'your pudding / it was me'."
+  },
+  {
+   "id": "HD2-18",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "金ないなら、今日は俺がおごってやるよ。",
+   "translation": "Mày hết tiền thì hôm nay để tao bao.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mày} hết tiền thì hôm nay để {S:tao} bao.",
+   "note": "Rude male friends. Broke one = listener, payer = speaker. Correct."
+  },
+  {
+   "id": "HD2-19",
+   "cat": "multi-clause",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "お前が先に行けよ。俺は後から追いつくから。",
+   "translation": "Mày đi trước đi. Lát nữa mày đuổi theo sau.",
+   "label": "error",
+   "wrong": [
+    [
+     "mày",
+     1
+    ]
+   ],
+   "ref": "{L:Mày} đi trước đi. Lát nữa {S:tao} đuổi theo sau.",
+   "note": "Rude male friends. Second clause (俺は) keeps the first clause's 'mày' for the speaker. First 'Mày' correct, second wrong."
+  },
+  {
+   "id": "HD2-20",
+   "cat": "greeting",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mina (shop clerk)",
+   "listener": "Mr. Sato (customer)",
+   "own": "em",
+   "other": "anh",
+   "source": "いらっしゃいませ。何かお探しですか?",
+   "translation": "Xin chào quý khách. Anh đang tìm món gì ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Xin chào quý khách. {L:Anh} đang tìm món gì ạ?",
+   "note": "Clerk -> male customer. 'quý khách' is not this pair's word but is used for the listener (right role); 'Anh' = listener. Correct."
+  },
+  {
+   "id": "HD2-21",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mina (shop clerk)",
+   "listener": "Mr. Sato (customer)",
+   "own": "em",
+   "other": "anh",
+   "source": "よろしければ、ご試着なさいますか?",
+   "translation": "Nếu được thì em có muốn mặc thử không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Nếu {L:anh} muốn thì có thể mặc thử ạ.",
+   "note": "Clerk -> male customer. The customer (listener) is addressed with the clerk's own word 'em'."
+  },
+  {
+   "id": "HD2-22",
+   "cat": "thanks",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mina (shop clerk)",
+   "listener": "Mr. Sato (customer)",
+   "own": "em",
+   "other": "anh",
+   "source": "本日はご来店いただき、ありがとうございました。またお越しくださいませ。",
+   "translation": "Em cảm ơn anh đã ghé cửa hàng hôm nay ạ. Hẹn gặp lại anh lần sau ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Em} cảm ơn {L:anh} đã ghé cửa hàng hôm nay ạ. Hẹn gặp lại {L:anh} lần sau ạ.",
+   "note": "Clerk -> male customer. Correct."
+  },
+  {
+   "id": "HD2-23",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mina (shop clerk)",
+   "listener": "Mr. Sato (customer)",
+   "own": "em",
+   "other": "anh",
+   "source": "お待たせして申し訳ございません。すぐにお包みいたします。",
+   "translation": "Xin lỗi đã để anh phải chờ lâu. Anh sẽ gói hàng ngay ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     1
+    ]
+   ],
+   "ref": "{S:Em} xin lỗi đã để {L:anh} phải chờ lâu ạ. {S:Em} gói hàng ngay đây ạ.",
+   "note": "Clerk -> male customer. The wrapper (speaker, humble いたします) is 'Anh', copied from the previous clause. First 'anh' correct, second wrong."
+  },
+  {
+   "id": "HD2-24",
+   "cat": "question",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Mr. Tanaka (teacher)",
+   "own": "em",
+   "other": "thầy",
+   "source": "先生、この問題の解き方をもう一度教えていただけますか?",
+   "translation": "Thầy ơi, thầy có thể giảng lại cho em cách giải bài này được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Thầy} ơi, {L:thầy} có thể giảng lại cho {S:em} cách giải bài này được không ạ?",
+   "note": "Student -> teacher. Correct."
+  },
+  {
+   "id": "HD2-25",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Mr. Tanaka (teacher)",
+   "own": "em",
+   "other": "thầy",
+   "source": "先生、宿題を忘れてしまいました。すみません。",
+   "translation": "Thầy ơi, thầy quên làm bài tập rồi. Em xin lỗi ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "thầy",
+     1
+    ]
+   ],
+   "ref": "{L:Thầy} ơi, {S:em} quên làm bài tập rồi ạ. {S:Em} xin lỗi {L:thầy}.",
+   "note": "Student -> teacher. Dropped subject of 忘れて (the student) filled with the vocative's word 'thầy'. 'Thầy ơi' (#0) is correct, 'thầy' #1 wrong."
+  },
+  {
+   "id": "HD2-26",
+   "cat": "praise",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mr. Tanaka (teacher)",
+   "listener": "Aoi",
+   "own": "thầy",
+   "other": "em",
+   "source": "よく頑張ったな。先生はお前を誇りに思うぞ。",
+   "translation": "Em cố gắng giỏi lắm. Thầy rất tự hào về em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} cố gắng giỏi lắm. {S:Thầy} rất tự hào về {L:em}.",
+   "note": "Teacher -> student. 先生は = speaker -> 'Thầy'. Correct."
+  },
+  {
+   "id": "HD2-27",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Mr. Tanaka (teacher)",
+   "listener": "Aoi",
+   "own": "thầy",
+   "other": "em",
+   "source": "廊下を走るなと何度言えばわかるんだ。後で職員室に来なさい。",
+   "translation": "Em đã nhắc bao nhiêu lần là không được chạy ngoài hành lang rồi hả? Lát nữa lên phòng giáo viên gặp thầy.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{S:Thầy} đã nhắc bao nhiêu lần là không được chạy ngoài hành lang rồi hả? Lát nữa lên phòng giáo viên gặp {S:thầy}.",
+   "note": "Teacher -> student. The one who has said it many times is the teacher, rendered 'Em'. The later 'gặp thầy' (speaker) is correct."
+  },
+  {
+   "id": "HD2-28",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Nao",
+   "listener": "Kana (senior coworker)",
+   "own": "em",
+   "other": "chị",
+   "source": "先輩、この資料のチェックをお願いしてもいいですか?",
+   "translation": "Chị ơi, chị kiểm tra giúp em tài liệu này được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Chị} ơi, {L:chị} kiểm tra giúp {S:em} tài liệu này được không ạ?",
+   "note": "Junior -> female senior at work. Correct."
+  },
+  {
+   "id": "HD2-29",
+   "cat": "thanks",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Nao",
+   "listener": "Kana (senior coworker)",
+   "own": "em",
+   "other": "chị",
+   "source": "昨日は残業を代わってくださって、本当に助かりました。",
+   "translation": "Hôm qua em đã làm thêm giờ thay chị, thật sự đã giúp ích rất nhiều.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "chị",
+     0
+    ]
+   ],
+   "ref": "Hôm qua {L:chị} đã làm thêm giờ thay {S:em}, thật sự giúp {S:em} nhiều lắm ạ.",
+   "note": "Junior -> female senior. 代わってくださって (you took my overtime) inverted: the junior 'em' did it in place of 'chị'."
+  },
+  {
+   "id": "HD2-30",
+   "cat": "advice",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kana (senior coworker)",
+   "listener": "Nao",
+   "own": "chị",
+   "other": "em",
+   "source": "無理しないでね。困ったらいつでも私に相談して。",
+   "translation": "Đừng cố quá sức nhé. Có gì khó thì cứ nói với chị bất cứ lúc nào.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Đừng cố quá sức nhé. Có gì khó thì cứ nói với {S:chị} bất cứ lúc nào.",
+   "note": "Senior -> junior. 私 = 'chị' (speaker). Correct."
+  },
+  {
+   "id": "HD2-31",
+   "cat": "who-did-what",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kana (senior coworker)",
+   "listener": "Nao",
+   "own": "chị",
+   "other": "em",
+   "source": "このミス、あなたがやったんじゃないって分かってるから。",
+   "translation": "Tôi biết lỗi này không phải do chị gây ra mà.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ]
+   ],
+   "ref": "{S:Chị} biết lỗi này không phải do {L:em} gây ra mà.",
+   "note": "Senior -> junior. 'Tôi' is a wrong word in the right role (not counted); あなた (listener) is rendered with the speaker's word 'chị' -> role error."
+  },
+  {
+   "id": "HD2-32",
+   "cat": "invite",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "Hina",
+   "own": "mình",
+   "other": "bạn",
+   "source": "ねえ、放課後一緒にクレープ食べに行かない?",
+   "translation": "Này, tan học bạn đi ăn bánh crepe với mình không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Này, tan học {L:bạn} đi ăn bánh crepe với {S:mình} không?",
+   "note": "Schoolgirl friends (mình/bạn). Correct."
+  },
+  {
+   "id": "HD2-33",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "Hina",
+   "own": "mình",
+   "other": "bạn",
+   "source": "ごめん、借りてたノート、家に忘れてきちゃった。",
+   "translation": "Xin lỗi, bạn để quên quyển vở mượn của mình ở nhà rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "bạn",
+     0
+    ],
+    [
+     "mình",
+     0
+    ]
+   ],
+   "ref": "Xin lỗi {L:bạn} nha, {S:mình} để quên quyển vở mượn của {L:bạn} ở nhà mất rồi.",
+   "note": "Friends. Swapped: the forgetter (speaker) is 'bạn', the notebook's owner (listener) is 'mình'."
+  },
+  {
+   "id": "HD2-34",
+   "cat": "teasing",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "Hina",
+   "own": "mình",
+   "other": "bạn",
+   "source": "あれ、顔赤いよ?もしかして先輩のこと好きなんでしょ?",
+   "translation": "Ơ, mặt cậu đỏ kìa? Chắc là cậu thích anh khóa trên rồi đúng không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Ơ, mặt {L:bạn} đỏ kìa? Chắc là {L:bạn} thích anh khóa trên rồi đúng không?",
+   "note": "Friends. 'cậu' is not this pair's word but is used for the listener (right role) -> ok. 'anh khóa trên' is a third person."
+  },
+  {
+   "id": "HD2-35",
+   "cat": "greeting",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Dad",
+   "listener": "Mio",
+   "own": "bố",
+   "other": "con",
+   "source": "ミオ、誕生日おめでとう。パパからのプレゼントだよ。",
+   "translation": "Mio, chúc mừng sinh nhật con. Đây là quà bố tặng con đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mio, chúc mừng sinh nhật {L:con}. Đây là quà {S:bố} tặng {L:con} đấy.",
+   "note": "Father -> daughter. Correct."
+  },
+  {
+   "id": "HD2-36",
+   "cat": "promise",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Dad",
+   "listener": "Mio",
+   "own": "bố",
+   "other": "con",
+   "source": "約束破ってごめんな。今度の日曜は必ず遊園地に連れて行くから。",
+   "translation": "Xin lỗi vì đã thất hứa nhé. Chủ nhật tới con nhất định sẽ đưa bố đi công viên giải trí.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "bố",
+     0
+    ]
+   ],
+   "ref": "{S:Bố} xin lỗi vì đã thất hứa nhé. Chủ nhật tới {S:bố} nhất định sẽ đưa {L:con} đi công viên giải trí.",
+   "note": "Father -> daughter. Taker (speaker) is 'con', the daughter being taken is 'bố'. Swapped."
+  },
+  {
+   "id": "HD2-37",
+   "cat": "question",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんの友達のタクミさん、今日うちに来るって。",
+   "translation": "Anh Takumi bạn của anh bảo hôm nay sẽ qua nhà mình đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Anh Takumi bạn của {L:anh} bảo hôm nay sẽ qua nhà mình đấy.",
+   "note": "Younger sister -> older brother. 'Anh Takumi' is a title for a third person (anh #0, untagged); 'bạn của anh' = listener. 'nhà mình' = our house. Correct."
+  },
+  {
+   "id": "HD2-38",
+   "cat": "multi-clause",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前が先に風呂入っていいぞ。俺はまだゲームの途中だから。",
+   "translation": "Em tắm trước đi. Anh còn đang chơi game dở.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} tắm trước đi. {S:Anh} còn đang chơi game dở.",
+   "note": "Older brother -> younger sister. Correct."
+  },
+  {
+   "id": "HD2-39",
+   "cat": "teasing",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんってば、また寝癖ついてるよ。だらしないなあ。",
+   "translation": "Anh này, em lại để tóc ngủ dậy rối bù rồi kìa. Luộm thuộm quá đi.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} này, {L:anh} lại để tóc ngủ dậy rối bù rồi kìa. Luộm thuộm quá đi.",
+   "note": "Younger sister -> older brother. The one with bed hair (listener) is called 'em' (the speaker's word)."
+  },
+  {
+   "id": "HD2-40",
+   "cat": "praise",
+   "origin": "heldout-d",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma Fumi",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃんの作る煮物、ぼく大好き!",
+   "translation": "Con thích món hầm bà nấu nhất!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Cháu} thích món hầm {L:bà} nấu nhất!",
+   "note": "Grandchild -> grandmother. 'Con' (southern usage) is not this pair's word but is the speaker (right role) -> ok; 'bà' = listener."
+  },
+  {
+   "id": "HD2-41",
+   "cat": "thanks",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Emma",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Thanks for covering for me today. I owe you one!",
+   "translation": "Cảm ơn cậu hôm nay đã gánh giúp tớ nhé. Tớ nợ cậu một lần!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:cậu} hôm nay đã gánh giúp {S:tớ} nhé. {S:Tớ} nợ {L:cậu} một lần!",
+   "note": "Friends (tớ/cậu). Correct."
+  },
+  {
+   "id": "HD2-42",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Emma",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Can you lend me your charger? My phone's about to die.",
+   "translation": "Tớ cho cậu mượn sạc được không? Điện thoại của tớ sắp hết pin rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "tớ",
+     0
+    ],
+    [
+     "cậu",
+     0
+    ]
+   ],
+   "ref": "{L:Cậu} cho {S:tớ} mượn sạc được không? Điện thoại của {S:tớ} sắp hết pin rồi.",
+   "note": "Friends. 'lend me' inverted: lender (listener) is 'Tớ', borrower (speaker) is 'cậu'. The later 'của tớ' (#1) is correct."
+  },
+  {
+   "id": "HD2-43",
+   "cat": "question",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Emma",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Did you finish the history essay already? How do you even do that?",
+   "translation": "Cậu viết xong bài luận lịch sử rồi á? Làm sao mà cậu làm được thế?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Cậu} viết xong bài luận lịch sử rồi á? Làm sao mà {L:cậu} làm được thế?",
+   "note": "Friends. Correct."
+  },
+  {
+   "id": "HD2-44",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Master Garron",
+   "listener": "Finn (apprentice)",
+   "own": "ta",
+   "other": "con",
+   "source": "Hold your sword higher, boy. I won't tell you again.",
+   "translation": "Giơ kiếm cao lên, nhóc. Ta sẽ không nhắc con lần nữa đâu.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Giơ kiếm cao lên, nhóc. {S:Ta} sẽ không nhắc {L:con} lần nữa đâu.",
+   "note": "Master -> apprentice. 'nhóc' is a vocative noun, not a pair word. Correct."
+  },
+  {
+   "id": "HD2-45",
+   "cat": "praise",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Master Garron",
+   "listener": "Finn (apprentice)",
+   "own": "ta",
+   "other": "con",
+   "source": "You did well today. I'm proud of you.",
+   "translation": "Hôm nay con làm tốt lắm. Con rất tự hào về ta.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     1
+    ],
+    [
+     "ta",
+     0
+    ]
+   ],
+   "ref": "Hôm nay {L:con} làm tốt lắm. {S:Ta} rất tự hào về {L:con}.",
+   "note": "Master -> apprentice. First sentence correct; second sentence swapped (proud one = speaker 'Con', object = listener 'ta')."
+  },
+  {
+   "id": "HD2-46",
+   "cat": "promise",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Master Garron",
+   "listener": "Finn (apprentice)",
+   "own": "ta",
+   "other": "con",
+   "source": "Once you master this spell, we'll leave the tower together. I promise.",
+   "translation": "Khi con thành thạo phép thuật này, chúng ta sẽ cùng rời khỏi tòa tháp. Ta hứa.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Khi {L:con} thành thạo phép thuật này, chúng ta sẽ cùng rời khỏi tòa tháp. {S:Ta} hứa.",
+   "note": "Master -> apprentice. 'chúng ta' is a plural (untagged, ta #0); 'Ta hứa' (#1) = speaker. Correct."
+  },
+  {
+   "id": "HD2-47",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Finn (apprentice)",
+   "listener": "Master Garron",
+   "own": "con",
+   "other": "thầy",
+   "source": "Master, please teach me that spell. I'll practice every night.",
+   "translation": "Thầy ơi, xin thầy dạy con phép thuật đó. Thầy sẽ luyện tập mỗi đêm.",
+   "label": "error",
+   "wrong": [
+    [
+     "thầy",
+     2
+    ]
+   ],
+   "ref": "{L:Thầy} ơi, xin {L:thầy} dạy {S:con} phép thuật đó. {S:Con} sẽ luyện tập mỗi đêm.",
+   "note": "Apprentice -> master. The practicer (speaker) in the second sentence is 'Thầy' (#2). Earlier 'Thầy ơi' and 'xin thầy' are correct."
+  },
+  {
+   "id": "HD2-48",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Finn (apprentice)",
+   "listener": "Master Garron",
+   "own": "con",
+   "other": "thầy",
+   "source": "Sorry I'm late, Master. I overslept.",
+   "translation": "Con xin lỗi vì đến muộn, thưa thầy. Con ngủ quên mất.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Con} xin lỗi vì đến muộn, thưa {L:thầy}. {S:Con} ngủ quên mất.",
+   "note": "Apprentice -> master. Correct."
+  },
+  {
+   "id": "HD2-49",
+   "cat": "promise",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Sir Cedric (knight)",
+   "listener": "Princess Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "Your Highness, I will protect you with my life.",
+   "translation": "Thưa công chúa, thần xin dùng cả tính mạng này để bảo vệ người.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thưa {L:công chúa}, {S:thần} xin dùng cả tính mạng này để bảo vệ người.",
+   "note": "Knight -> princess. 'người' (royal 'you') is not a pair word, right role. Correct."
+  },
+  {
+   "id": "HD2-50",
+   "cat": "apology",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Sir Cedric (knight)",
+   "listener": "Princess Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "Please forgive me, Princess. I failed to stop the thief.",
+   "translation": "Xin công chúa thứ tội. Công chúa đã không ngăn được tên trộm.",
+   "label": "error",
+   "wrong": [
+    [
+     "công chúa",
+     1
+    ]
+   ],
+   "ref": "Xin {L:công chúa} thứ tội. {S:Thần} đã không ngăn được tên trộm.",
+   "note": "Knight -> princess. The one who failed (speaker) is 'Công chúa' (#1), repeated from the address in the first sentence (#0, correct)."
+  },
+  {
+   "id": "HD2-51",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Princess Elise",
+   "listener": "Sir Cedric (knight)",
+   "own": "ta",
+   "other": "ngươi",
+   "source": "You may rise, Sir Cedric. I have a task for you.",
+   "translation": "Ngươi có thể đứng lên, hiệp sĩ Cedric. Ta có một nhiệm vụ giao cho ngươi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Ngươi} có thể đứng lên, hiệp sĩ Cedric. {S:Ta} có một nhiệm vụ giao cho {L:ngươi}.",
+   "note": "Princess -> knight (ta/ngươi). Correct."
+  },
+  {
+   "id": "HD2-52",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Princess Elise",
+   "listener": "Sir Cedric (knight)",
+   "own": "ta",
+   "other": "ngươi",
+   "source": "Why didn't you tell me about the attack? I trusted you!",
+   "translation": "Tại sao ta không báo cho ngươi biết về cuộc tấn công? Ta đã tin tưởng ngươi!",
+   "label": "error",
+   "wrong": [
+    [
+     "ta",
+     0
+    ],
+    [
+     "ngươi",
+     0
+    ]
+   ],
+   "ref": "Tại sao {L:ngươi} không báo cho {S:ta} biết về cuộc tấn công? {S:Ta} đã tin tưởng {L:ngươi}!",
+   "note": "Princess -> knight. First sentence swapped (teller = listener, told = speaker); second sentence correct."
+  },
+  {
+   "id": "HD2-53",
+   "cat": "greeting",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Merchant",
+   "listener": "Traveler",
+   "own": "tôi",
+   "other": "quý khách",
+   "source": "Welcome, traveler! What can I get for you today?",
+   "translation": "Chào mừng quý khách! Hôm nay tôi có thể giúp gì cho quý khách?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Chào mừng {L:quý khách}! Hôm nay {S:tôi} có thể giúp gì cho {L:quý khách}?",
+   "note": "Shopkeeper -> customer (tôi/quý khách). Correct."
+  },
+  {
+   "id": "HD2-54",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Merchant",
+   "listener": "Traveler",
+   "own": "tôi",
+   "other": "quý khách",
+   "source": "That sword's a fine choice. I'll give you a discount since you're new in town.",
+   "translation": "Thanh kiếm đó là lựa chọn tốt đấy. Vì bạn mới đến thị trấn nên tôi sẽ giảm giá cho bạn.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thanh kiếm đó là lựa chọn tốt đấy. Vì {L:quý khách} mới đến thị trấn nên {S:tôi} sẽ giảm giá cho {L:quý khách}.",
+   "note": "Shopkeeper -> customer. 'bạn' is a wrong word but in the listener role (not counted); 'tôi' = speaker. ok."
+  },
+  {
+   "id": "HD2-55",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Ben",
+   "listener": "Amy",
+   "own": "anh",
+   "other": "em",
+   "source": "Hey, I saved you the last slice of pizza. Don't tell Mom.",
+   "translation": "Này, anh để dành cho em miếng pizza cuối cùng đấy. Đừng mách mẹ nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Này, {S:anh} để dành cho {L:em} miếng pizza cuối cùng đấy. Đừng mách mẹ nhé.",
+   "note": "Older brother -> younger sister. 'mẹ' is a third person, not a pair word here. Correct."
+  },
+  {
+   "id": "HD2-56",
+   "cat": "offer",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Ben",
+   "listener": "Amy",
+   "own": "anh",
+   "other": "em",
+   "source": "You can borrow my bike, but bring it back before dinner.",
+   "translation": "Anh có thể mượn xe đạp của em, nhưng nhớ trả trước bữa tối nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} có thể mượn xe đạp của {S:anh}, nhưng nhớ trả trước bữa tối nhé.",
+   "note": "Older brother -> younger sister. Swapped: borrower (listener) is 'Anh', owner (speaker) is 'em'."
+  },
+  {
+   "id": "HD2-57",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Amy",
+   "listener": "Ben",
+   "own": "em",
+   "other": "anh",
+   "source": "Can you drive me to practice? Mom's still at work.",
+   "translation": "Anh chở em đi tập được không? Mẹ vẫn còn đang làm.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} chở {S:em} đi tập được không? Mẹ vẫn còn đang làm.",
+   "note": "Younger sister -> older brother. Correct; 'Mẹ' is a third person."
+  },
+  {
+   "id": "HD2-58",
+   "cat": "multi-clause",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Emma",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "If you see Jake, tell him I'm not mad anymore. I just need some time.",
+   "translation": "Nếu cậu gặp Jake thì nói với cậu ấy là tớ không giận nữa. Tớ chỉ cần chút thời gian thôi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nếu {L:cậu} gặp Jake thì nói với cậu ấy là {S:tớ} không giận nữa. {S:Tớ} chỉ cần chút thời gian thôi.",
+   "note": "Friends. 'cậu ấy' (Jake, cậu #1) is third person and untagged. Correct."
+  },
+  {
+   "id": "HD2-59",
+   "cat": "scolding",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Mrs. Carter",
+   "listener": "Toby",
+   "own": "mẹ",
+   "other": "con",
+   "source": "I told you to wear a jacket. Now you've caught a cold.",
+   "translation": "Con đã bảo mẹ mặc áo khoác rồi mà. Giờ thì mẹ bị cảm rồi đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "ref": "{S:Mẹ} đã bảo {L:con} mặc áo khoác rồi mà. Giờ thì {L:con} bị cảm rồi đấy.",
+   "note": "Mother -> son. Full swap from the child's perspective: teller 'Con', the told one and the sick one 'mẹ'."
+  },
+  {
+   "id": "HD2-60",
+   "cat": "request",
+   "origin": "heldout-d",
+   "src_lang": "en",
+   "speaker": "Toby",
+   "listener": "Mrs. Carter",
+   "own": "con",
+   "other": "mẹ",
+   "source": "Mom, I cleaned my room! Can I go play outside now?",
+   "translation": "Mẹ ơi, con dọn phòng xong rồi! Giờ con ra ngoài chơi được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {S:con} dọn phòng xong rồi! Giờ {S:con} ra ngoài chơi được không ạ?",
+   "note": "Son -> mother. Correct."
+  }
+ ]
+}

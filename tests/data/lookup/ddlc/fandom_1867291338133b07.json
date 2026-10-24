@@ -1,0 +1,35 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://doki-doki-literature-club.fandom.com/api.php?action=query&format=json&prop=revisions&redirects=1&rvprop=content&rvsection=0&rvslots=main&titles=Yuri",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "redirects": [
+    {
+     "from": "Yuri",
+     "to": "Yuri (DDLC)"
+    }
+   ],
+   "pages": {
+    "97": {
+     "pageid": 97,
+     "ns": 0,
+     "title": "Yuri (DDLC)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Yuri\n | image     = Yuri - Full Body Illustration.png\n | name      = Yuri\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 5'5\" (165 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Dark Purple<ref>[https://x.com/_Satchely/status/959664231401578496 Satchely's tweet about Yuri's hair color]</ref>\n | eyecolor  = Light Purple\n | filename  = yuri.chr\n | appearsin = [[Act 1]], [[Act 2]], [[Act 4]]\n}}"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

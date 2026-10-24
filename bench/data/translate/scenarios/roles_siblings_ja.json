@@ -1,0 +1,48 @@
+{
+  "name": "roles_siblings_ja",
+  "lang": "ja",
+  "split": "tune",
+  "description": "Pronoun ROLES (who apologises, thanks, asks, offers): an older sister and her younger brother after he broke her headphones. chị -> em / em -> chị; she demands an apology (謝って = the listener apologises). Refs tag every pronoun use: {S:..} the speaker, {L:..} the listener.",
+  "style": "Lời thoại tự nhiên giữa hai chị em ruột.",
+  "glossary": [],
+  "characters": [
+    {"name": "葵", "name_vi": "Aoi", "gender": "nữ", "self_pronoun": "chị",
+     "notes": "19 tuổi, chị gái của Yuto, nóng tính nhưng thương em. Xưng 'chị', gọi Yuto là 'em'."},
+    {"name": "悠斗", "name_vi": "Yuto", "gender": "nam", "self_pronoun": "em",
+     "notes": "14 tuổi, em trai của Aoi, hơi vụng về. Gọi Aoi là 'chị' (姉ちゃん), xưng 'em'."}
+  ],
+  "pronouns": {
+    "葵>悠斗": {"self": ["chị"], "other": ["em"]},
+    "悠斗>葵": {"self": ["em"], "other": ["chị"]}
+  },
+  "lines": [
+    {"speaker": "悠斗", "text": "姉ちゃん、ごめん！姉ちゃんのヘッドホン、壊しちゃった…。",
+     "ref": "{L:Chị} ơi, {S:em} xin lỗi! {S:Em} lỡ làm hỏng tai nghe của {L:chị} rồi…"},
+    {"speaker": "葵", "text": "はあ？あれ、先月買ったばっかりなんだけど！ちゃんと謝って。",
+     "ref": "Hả? Cái đó {S:chị} mới mua tháng trước đấy! {L:Em} xin lỗi cho đàng hoàng vào."},
+    {"speaker": "悠斗", "text": "本当にごめんなさい。お小遣いで弁償するから、許して。",
+     "ref": "{S:Em} thật sự xin lỗi {L:chị}. {S:Em} sẽ lấy tiền tiêu vặt đền cho {L:chị}, {L:chị} tha lỗi cho {S:em} nhé."},
+    {"speaker": "葵", "text": "…もういいよ。その代わり、今日の晩ご飯、作ってくれる？",
+     "ref": "…Thôi được rồi. Đổi lại, tối nay {L:em} nấu cơm cho {S:chị} được không?"},
+    {"speaker": "悠斗", "text": "任せて！姉ちゃんの好きなカレー、作ってあげる。",
+     "ref": "Cứ để {S:em}! {S:Em} sẽ nấu món cà ri {L:chị} thích cho {L:chị}."},
+    {"speaker": "葵", "text": "ありがとう。じゃあ、私は買い物に行ってくるね。",
+     "ref": "Cảm ơn {L:em}. Vậy {S:chị} đi chợ một lát nhé."},
+    {"speaker": "悠斗", "text": "待って、僕も一緒に行くよ。荷物、持ってあげる。",
+     "ref": "Chờ đã, {S:em} cũng đi với {L:chị}. Để {S:em} xách đồ cho."},
+    {"speaker": "葵", "text": "助かる。悠斗、意外と優しいじゃん。",
+     "ref": "Đỡ quá. Yuto, hóa ra {L:em} cũng tốt bụng ghê."},
+    {"speaker": "悠斗", "text": "意外とって何だよ。姉ちゃんこそ、いつも僕に怒ってばっかりじゃん。",
+     "ref": "'Hóa ra' là sao chứ. {L:Chị} mới là người lúc nào cũng mắng {S:em} đấy."},
+    {"speaker": "葵", "text": "それは悠斗が悪いことばっかりするからでしょ。",
+     "ref": "Đó là tại {L:em} toàn làm chuyện bậy bạ thôi."},
+    {"speaker": "悠斗", "text": "はいはい、僕が悪かったです。だから機嫌直してよ。",
+     "ref": "Rồi rồi, là lỗi của {S:em}. Nên {L:chị} đừng giận nữa mà."},
+    {"speaker": "葵", "text": "仕方ないなあ。じゃあ、帰りにアイス買ってあげる。",
+     "ref": "Hết cách với {L:em} thật. Vậy lúc về {S:chị} sẽ mua kem cho {L:em}."},
+    {"speaker": "悠斗", "text": "やった！ありがとう、姉ちゃん。大好き！",
+     "ref": "Yeah! {S:Em} cảm ơn {L:chị}! {S:Em} quý {L:chị} nhất!"},
+    {"speaker": "葵", "text": "調子いいんだから。ほら、早く靴履いて。",
+     "ref": "Đúng là dẻo miệng. Nào, mau đi giày vào."}
+  ]
+}

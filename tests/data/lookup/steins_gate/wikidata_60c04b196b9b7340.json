@@ -1,0 +1,46 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q1490&languages=ja%7Cen%7Cvi%7Cmul&props=labels%7Cdescriptions",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "entities": {
+   "Q1490": {
+    "type": "item",
+    "id": "Q1490",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Tokyo"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "東京都"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "Tokyo"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "capital and largest city of Japan"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "日本国の首都、日本国の都道府県の1つ"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "Thành phố lớn nhất, đông dân nhất và được coi như là thủ đô của Nhật Bản"
+     }
+    },
+    "claims": {}
+   }
+  },
+  "success": 1
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "en_bookshop",
+  "lang": "en",
+  "split": "tune",
+  "description": "A polite young bookshop clerk and an older male customer. Clerk: em -> anh / quý khách; customer: tôi -> cô.",
+  "style": "Giọng lịch sự, nhã nhặn của nhân viên bán hàng.",
+  "glossary": [
+    {"source": "Moonlight Books", "target": "Hiệu sách Ánh Trăng", "kind": "place"},
+    {"source": "The Silver Compass", "target": "La Bàn Bạc", "kind": "item"}
+  ],
+  "characters": [
+    {"name": "Lily", "name_vi": "Lily", "gender": "nữ", "self_pronoun": "em",
+     "notes": "22 tuổi, nhân viên hiệu sách, rất lễ phép. Xưng 'em', gọi khách là 'anh' hoặc 'quý khách'."},
+    {"name": "Carter", "name_vi": "Carter", "gender": "nam", "self_pronoun": "tôi",
+     "notes": "Khách hàng khoảng 40 tuổi, lịch sự. Xưng 'tôi', gọi Lily là 'cô'."}
+  ],
+  "pronouns": {
+    "Lily>Carter": {"self": ["em"], "other": ["anh", "quý khách"]},
+    "Carter>Lily": {"self": ["tôi"], "other": ["cô"]}
+  },
+  "lines": [
+    {"speaker": "Lily", "text": "Welcome to Moonlight Books! Are you looking for anything in particular?",
+     "ref": "Chào mừng {L:anh} đến Hiệu sách Ánh Trăng! {L:Anh} đang tìm cuốn nào cụ thể không ạ?"},
+    {"speaker": "Carter", "text": "Yes, I'm looking for a novel called The Silver Compass. Do you have it?",
+     "ref": "Vâng, {S:tôi} đang tìm cuốn tiểu thuyết tên là La Bàn Bạc. Ở đây có không {L:cô}?"},
+    {"speaker": "Lily", "text": "Let me check for you... I'm sorry, sir, it's sold out right now.",
+     "ref": "Để {S:em} kiểm tra giúp {L:anh}... {S:Em} xin lỗi {L:anh}, hiện cuốn này hết hàng rồi ạ."},
+    {"speaker": "Carter", "text": "That's a shame. I promised my daughter I'd get it for her birthday.",
+     "ref": "Tiếc thật. {S:Tôi} đã hứa mua tặng con gái vào dịp sinh nhật."},
+    {"speaker": "Lily", "text": "We're getting a new shipment on Friday. Would you like me to reserve a copy for you?",
+     "ref": "Thứ Sáu này bên {S:em} sẽ nhập lô hàng mới. {L:Anh} có muốn {S:em} giữ trước một cuốn cho {L:anh} không ạ?"},
+    {"speaker": "Carter", "text": "That would be wonderful. Thank you, you've been very helpful.",
+     "ref": "Vậy thì tuyệt quá. Cảm ơn {L:cô}, {L:cô} đã giúp {S:tôi} rất nhiều."},
+    {"speaker": "Lily", "text": "It's my pleasure! May I have your name, please?",
+     "ref": "Được phục vụ {L:anh} là niềm vui của {S:em} ạ! {L:Anh} cho {S:em} xin tên được không ạ?"},
+    {"speaker": "Carter", "text": "It's Carter. I'll come back on Friday, then.",
+     "ref": "{S:Tôi} là Carter. Vậy thứ Sáu {S:tôi} sẽ quay lại."},
+    {"speaker": "Lily", "text": "Thank you, Mr. Carter. Have a nice day!",
+     "ref": "{S:Em} cảm ơn anh Carter ạ. Chúc {L:anh} một ngày tốt lành!"}
+  ]
+}

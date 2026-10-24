@@ -1,0 +1,111 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&limit=7&search=Doki+Doki+Literature+Club&type=item&uselang=en",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "searchinfo": {
+   "search": "Doki Doki Literature Club"
+  },
+  "search": [
+   {
+    "id": "Q42266827",
+    "title": "Q42266827",
+    "pageid": 43550167,
+    "concepturi": "http://www.wikidata.org/entity/Q42266827",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q42266827",
+    "display": {
+     "label": {
+      "value": "Doki Doki Literature Club!",
+      "language": "en"
+     },
+     "description": {
+      "value": "2017 horror visual novel game developed by Team Salvato",
+      "language": "en"
+     }
+    },
+    "label": "Doki Doki Literature Club!",
+    "description": "2017 horror visual novel game developed by Team Salvato",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Doki Doki Literature Club!"
+    }
+   },
+   {
+    "id": "Q111051127",
+    "title": "Q111051127",
+    "pageid": 106048783,
+    "concepturi": "http://www.wikidata.org/entity/Q111051127",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q111051127",
+    "display": {
+     "label": {
+      "value": "Doki Doki Literature Club Plus!",
+      "language": "en"
+     },
+     "description": {
+      "value": "2021 video game",
+      "language": "en"
+     }
+    },
+    "label": "Doki Doki Literature Club Plus!",
+    "description": "2021 video game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Doki Doki Literature Club Plus!"
+    }
+   },
+   {
+    "id": "Q110455153",
+    "title": "Q110455153",
+    "pageid": 105509659,
+    "concepturi": "http://www.wikidata.org/entity/Q110455153",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q110455153",
+    "display": {
+     "label": {
+      "value": "Doki Doki Literature Club! Original Soundtrack",
+      "language": "en"
+     },
+     "description": {
+      "value": "Soundtrack for \"Doki Doki Literature Club!\"",
+      "language": "en"
+     }
+    },
+    "label": "Doki Doki Literature Club! Original Soundtrack",
+    "description": "Soundtrack for \"Doki Doki Literature Club!\"",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Doki Doki Literature Club! Original Soundtrack"
+    }
+   },
+   {
+    "id": "Q135457301",
+    "title": "Q135457301",
+    "pageid": 129192238,
+    "concepturi": "http://www.wikidata.org/entity/Q135457301",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q135457301",
+    "display": {
+     "label": {
+      "value": "Doki Doki Literature Club ! Briser les remparts de la fiction",
+      "language": "fr"
+     }
+    },
+    "label": "Doki Doki Literature Club ! Briser les remparts de la fiction",
+    "match": {
+     "type": "label",
+     "language": "fr",
+     "text": "Doki Doki Literature Club ! Briser les remparts de la fiction"
+    }
+   }
+  ],
+  "success": 1
+ }
+}

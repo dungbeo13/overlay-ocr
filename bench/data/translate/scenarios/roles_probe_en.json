@@ -1,0 +1,42 @@
+{
+  "name": "roles_probe_en",
+  "lang": "en",
+  "split": "probe",
+  "description": "Pronoun ROLES, hard English cases the review found (split 'probe', see roles_probe_ja): 'Why should I apologize? You apologize!' from either sibling, 'say \"sorry\"' as a quoted word, reported apologies (told me to say sorry, did he say sorry), 'if I ..., you'll ...'. Sera (em -> anh), Ren (anh -> em).",
+  "style": "Lời thoại tự nhiên giữa hai anh em ruột.",
+  "glossary": [
+    {"source": "Kenji", "target": "Kenji", "kind": "person"}
+  ],
+  "characters": [
+    {"name": "Sera", "name_vi": "Sera", "gender": "nữ", "self_pronoun": "em",
+     "notes": "15 tuổi, em gái của Ren. Xưng 'em', gọi Ren là 'anh'."},
+    {"name": "Ren", "name_vi": "Ren", "gender": "nam", "self_pronoun": "anh",
+     "notes": "18 tuổi, anh trai của Sera. Xưng 'anh', gọi Sera là 'em'."}
+  ],
+  "pronouns": {
+    "Sera>Ren": {"self": ["em"], "other": ["anh"]},
+    "Ren>Sera": {"self": ["anh"], "other": ["em"]}
+  },
+  "lines": [
+    {"speaker": "Ren", "text": "Hey, Sera. What happened to my cup?",
+     "ref": "Này, Sera. Cái cốc của {S:anh} đâu rồi?"},
+    {"speaker": "Sera", "text": "Sorry, I broke it.",
+     "ref": "{S:Em} xin lỗi, {S:em} làm vỡ nó rồi."},
+    {"speaker": "Ren", "text": "Apologize to me now.",
+     "ref": "{L:Em} xin lỗi {S:anh} ngay đi."},
+    {"speaker": "Sera", "text": "Why should I apologize? You apologize!",
+     "ref": "Sao {S:em} phải xin lỗi chứ? {L:Anh} mới là người phải xin lỗi!"},
+    {"speaker": "Ren", "text": "Why should I apologize? You apologize!",
+     "ref": "Sao {S:anh} phải xin lỗi chứ? {L:Em} mới là người phải xin lỗi!"},
+    {"speaker": "Ren", "text": "All you have to do is say \"sorry\".",
+     "ref": "{L:Em} chỉ cần nói một câu \"xin lỗi\" là được."},
+    {"speaker": "Sera", "text": "Mom told me to say sorry to you.",
+     "ref": "Mẹ bảo {S:em} phải xin lỗi {L:anh}."},
+    {"speaker": "Ren", "text": "Did he say sorry to you?",
+     "ref": "Nó đã xin lỗi {L:em} chưa?"},
+    {"speaker": "Sera", "text": "If I don't go, you'll be angry, right?",
+     "ref": "Nếu {S:em} không đi, {L:anh} sẽ giận đúng không?"},
+    {"speaker": "Ren", "text": "You should thank me.",
+     "ref": "{L:Em} nên cảm ơn {S:anh} mới phải."}
+  ]
+}

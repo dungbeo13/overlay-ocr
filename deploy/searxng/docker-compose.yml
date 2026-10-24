@@ -1,0 +1,28 @@
+# SearXNG for Screen Translator in Docker (optional: the app can also run its own native copy, see README.md).
+# Same SearXNG commit as the native install (tools/setup_searxng.py SEARXNG_COMMIT). Laid out like upstream's
+# container/docker-compose.yml at that commit, without Valkey (the limiter is off). Not yet tested under Docker.
+#
+# Start:  python -m tools.setup_searxng --docker   (writes a copy of this folder with a real secret_key)
+#         cd %USERPROFILE%\.screen-translator\searxng\docker ; docker compose up -d
+# The app finds it at http://127.0.0.1:8888 (Settings > Tra cứu game) and uses it instead of starting its own.
+
+name: screen-translator-searxng
+
+services:
+  searxng:
+    container_name: screen-translator-searxng
+    image: docker.io/searxng/searxng:2026.10.24-ef0ec03da
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:8080"  # this machine only, never 0.0.0.0
+    volumes:
+      - ./settings.yml:/etc/searxng/settings.yml:ro
+      - searxng-cache:/var/cache/searxng/
+    logging:
+      driver: json-file
+      options:
+        max-size: "1m"
+        max-file: "1"
+
+volumes:
+  searxng-cache:

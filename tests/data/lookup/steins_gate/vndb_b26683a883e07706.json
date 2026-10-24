@@ -1,0 +1,303 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/vn",
+  "body": {
+   "filters": [
+    "search",
+    "=",
+    "Steins;Gate"
+   ],
+   "fields": "id,title,alttitle,olang,released,languages,votecount,titles.lang,titles.title,titles.latin,titles.main,titles.official,developers.name,extlinks.name,extlinks.url",
+   "sort": "searchrank",
+   "results": 5
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": true,
+  "results": [
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p42",
+      "name": "NITRO PLUS"
+     },
+     {
+      "id": "p146",
+      "name": "MAGES."
+     },
+     {
+      "id": "p6307",
+      "name": "MAGES. Inc."
+     }
+    ],
+    "extlinks": [
+     {
+      "name": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q482494"
+     }
+    ],
+    "id": "v2002",
+    "languages": [
+     "ar",
+     "cs",
+     "de",
+     "en",
+     "es",
+     "hu",
+     "it",
+     "ja",
+     "ko",
+     "pl",
+     "pt-br",
+     "ru",
+     "th",
+     "tr",
+     "vi",
+     "zh-Hans",
+     "zh-Hant"
+    ],
+    "olang": "ja",
+    "released": "2009-10-15",
+    "title": "STEINS;GATE",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Steins;Gate"
+     },
+     {
+      "lang": "ja",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "STEINS;GATE"
+     },
+     {
+      "lang": "ko",
+      "latin": "STEINS;GATE",
+      "main": false,
+      "official": false,
+      "title": "슈타인즈 게이트"
+     },
+     {
+      "lang": "zh-Hans",
+      "latin": "Mingyun Shi zhi Men",
+      "main": false,
+      "official": true,
+      "title": "命运石之门"
+     },
+     {
+      "lang": "zh-Hant",
+      "latin": "Mingyun Shi zhi Men",
+      "main": false,
+      "official": true,
+      "title": "命運石之門"
+     }
+    ],
+    "votecount": 17080
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p146",
+      "name": "MAGES."
+     },
+     {
+      "id": "p5008",
+      "name": "M2 Co., Ltd."
+     }
+    ],
+    "extlinks": [
+     {
+      "name": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q21775901"
+     }
+    ],
+    "id": "v17102",
+    "languages": [
+     "en",
+     "es",
+     "ja",
+     "ko",
+     "pl",
+     "ru",
+     "zh-Hans",
+     "zh-Hant"
+    ],
+    "olang": "ja",
+    "released": "2015-12-10",
+    "title": "STEINS;GATE 0",
+    "titles": [
+     {
+      "lang": "es",
+      "latin": null,
+      "main": false,
+      "official": false,
+      "title": "Steins;Gate 0"
+     },
+     {
+      "lang": "ja",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "STEINS;GATE 0"
+     },
+     {
+      "lang": "ko",
+      "latin": "Steins;Gate 0",
+      "main": false,
+      "official": false,
+      "title": "슈타인즈 게이트 제로"
+     },
+     {
+      "lang": "zh-Hans",
+      "latin": "Mingyun Shi zhi Men 0",
+      "main": false,
+      "official": false,
+      "title": "命运石之门0"
+     }
+    ],
+    "votecount": 7732
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p8729",
+      "name": "Elm"
+     }
+    ],
+    "extlinks": [],
+    "id": "v25047",
+    "languages": [
+     "en",
+     "es"
+    ],
+    "olang": "en",
+    "released": "2019-01-06",
+    "title": "Steins;Gate Gamma",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Steins;Gate Gamma"
+     }
+    ],
+    "votecount": 93
+   },
+   {
+    "alttitle": "STEINS;GATE 比翼恋理のだーりん",
+    "developers": [
+     {
+      "id": "p42",
+      "name": "NITRO PLUS"
+     },
+     {
+      "id": "p146",
+      "name": "MAGES."
+     }
+    ],
+    "extlinks": [
+     {
+      "name": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q28127143"
+     }
+    ],
+    "id": "v6618",
+    "languages": [
+     "en",
+     "es",
+     "ja",
+     "ko",
+     "zh-Hans"
+    ],
+    "olang": "ja",
+    "released": "2011-06-16",
+    "title": "STEINS;GATE: Hiyoku Renri no Darling",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "STEINS;GATE: My Darling’s Embrace"
+     },
+     {
+      "lang": "ja",
+      "latin": "STEINS;GATE: Hiyoku Renri no Darling",
+      "main": true,
+      "official": true,
+      "title": "STEINS;GATE 比翼恋理のだーりん"
+     },
+     {
+      "lang": "zh-Hans",
+      "latin": "Mingyunshizhimen: Biyi Lianli de Airen",
+      "main": false,
+      "official": true,
+      "title": "命运石之门：比翼恋理的爱人"
+     }
+    ],
+    "votecount": 1430
+   },
+   {
+    "alttitle": "STEINS;GATE 変移空間のオクテット",
+    "developers": [
+     {
+      "id": "p146",
+      "name": "MAGES."
+     }
+    ],
+    "extlinks": [
+     {
+      "name": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q482494"
+     }
+    ],
+    "id": "v9887",
+    "languages": [
+     "en",
+     "es",
+     "it",
+     "ja",
+     "pt-br",
+     "zh-Hans"
+    ],
+    "olang": "ja",
+    "released": "2011-10-28",
+    "title": "STEINS;GATE: Hen'i Kuukan no Octet",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "STEINS;GATE Octet of Shifting Space"
+     },
+     {
+      "lang": "ja",
+      "latin": "STEINS;GATE: Hen'i Kuukan no Octet",
+      "main": true,
+      "official": true,
+      "title": "STEINS;GATE 変移空間のオクテット"
+     },
+     {
+      "lang": "zh-Hans",
+      "latin": "STEINS;GATE Bianyi Kongjian de Ba Bite",
+      "main": false,
+      "official": false,
+      "title": "STEINS;GATE 変移空间的八比特"
+     }
+    ],
+    "votecount": 521
+   }
+  ]
+ }
+}

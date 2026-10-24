@@ -1,0 +1,141 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://doki-doki-literature-club.fandom.com/api.php?action=query&format=json&gcmlimit=39&gcmnamespace=0&gcmtitle=Category%3ACharacters&gcmtype=page&generator=categorymembers&prop=revisions&rvprop=content&rvsection=0&rvslots=main",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "pages": {
+    "21697": {
+     "pageid": 21697,
+     "ns": 0,
+     "title": "Monika (DDLC Plus)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title      = Monika\n | image      = Monika (DDLC Plus).png\n | name       = Monika\n | age        = 18 (born September 22nd)<ref><!-- Do not edit this line -->[https://twitter.com/dansalvato/status/931311515860328453 Monika's birthdate the same as game release date], [https://twitter.com/lilmonix3/status/886427256259620864 appearing before such date but \"in beta\"], and [https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png the statement by Dan Salvato on subreddit Discord] (now deleted)</ref>\n | height     = 5'3\" (160 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender     = Female\n | haircolor  = Coral Brown<ref name=\"color\">[https://twitter.com/_Satchely/status/958935975748620288 Satchely (DDLC's character artist)'s tweet about Monika and Sayori's hair colors]</ref>\n | eyecolor   = Emerald Green\n | filename   = monika.chr\n | appearsin  = [[Trust]], [[Understanding]], [[Respect]], [[Balance]], [[Reflection]], [[Self-Love]], [[Equals]]\n | voiceactor = [[Jillian Ashcraft]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "19800": {
+     "pageid": 19800,
+     "ns": 0,
+     "title": "Monika (DDLC)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title      = Monika\n | image      = Monika - Full Body Illustration.png\n | name       = Monika\n | age        = 18 (born September 22nd)<ref><!-- Do not edit this line -->[https://twitter.com/dansalvato/status/931311515860328453 Monika's birthdate the same as game release date], [https://twitter.com/lilmonix3/status/886427256259620864 appearing before such date but \"in beta\"], and [https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png the statement by Dan Salvato on subreddit Discord] (now deleted)</ref>\n | height     = 5'3\" (160 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender     = Female\n | haircolor  = Coral Brown<ref name=\"color\">[https://twitter.com/_Satchely/status/958935975748620288 Satchely (DDLC's character artist)'s tweet about Monika and Sayori's hair colors]</ref>\n | eyecolor   = Emerald Green\n | filename   = monika.chr\n | appearsin  = [[Act 1]], [[Act 2]], [[Act 3]]\n | voiceactor = [[Jillian Ashcraft]]}}"
+        }
+       }
+      }
+     ]
+    },
+    "21700": {
+     "pageid": 21700,
+     "ns": 0,
+     "title": "Natsuki (DDLC Plus)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Natsuki\n | image     = 608aaa4735c2ff37339e47ae Natsuki-hc-724.png\n | name      = Natsuki\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png the statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 4'11\" (150 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Pastel Pink<ref>[https://twitter.com/_Satchely/status/959288313977880579 Satchely (DDLC's character artist)'s tweet about Natsuki's hair color]</ref>\n | eyecolor  = Pink\n | filename  = natsuki.chr\n | appearsin = [[Respect]], [[Balance]], [[Self-Love]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "98": {
+     "pageid": 98,
+     "ns": 0,
+     "title": "Natsuki (DDLC)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Natsuki\n | image     = Natsuki - Full Body Illustration.png\n | name      = Natsuki\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png the statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 4'11\" (149 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Pastel Pink<ref>[https://twitter.com/_Satchely/status/959288313977880579 Satchely (DDLC's character artist)'s tweet about Natsuki's hair color]</ref>\n | eyecolor  = Pink\n | filename  = natsuki.chr\n | appearsin = [[Act 1]], [[Act 2]], [[Act 4]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "149": {
+     "pageid": 149,
+     "ns": 0,
+     "title": "Protagonist",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|image     = Protagonist.png\n|name      = Player’s Choice\n|age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n|gender    = Male\n|haircolor = Dark Brown\n|eyecolor  = Unknown\n|filename  = N/A\n|appearsin = [[Act 1]], [[Act 2]], [[Act 3]], [[Act 4]]\n|caption1=Protagonist in a CG with [[Sayori (DDLC)|Sayori]]}}"
+        }
+       }
+      }
+     ]
+    },
+    "21698": {
+     "pageid": 21698,
+     "ns": 0,
+     "title": "Sayori (DDLC Plus)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Sayori\n | image     = 60911578ffde10cee66f6247 Sayori-hc-724.png\n | name      = Sayori\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 5'2\" (157 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Coral Pink<ref>[https://twitter.com/_Satchely/status/958935975748620288 Satchely (DDLC's character artist)'s tweet about Monika and Sayori's hair colors]</ref>\n | eyecolor  = Sky Blue\n | filename  = sayori.chr\n | appearsin = [[Trust]], [[Understanding]], [[Balance]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "96": {
+     "pageid": 96,
+     "ns": 0,
+     "title": "Sayori (DDLC)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Sayori\n | image     = Sayori - Full Body Illustration.png\n | name      = Sayori\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 5'2\" (157 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Coral Pink<ref>[https://twitter.com/_Satchely/status/958935975748620288 Satchely (DDLC's character artist)'s tweet about Monika and Sayori's hair colors]</ref>\n | eyecolor  = Sky Blue\n | filename  = sayori.chr\n | appearsin = [[Act 1]], [[Act 4]]\n|caption1=}}<gallery caption=\"\">"
+        }
+       }
+      }
+     ]
+    },
+    "21699": {
+     "pageid": 21699,
+     "ns": 0,
+     "title": "Yuri (DDLC Plus)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Yuri\n | image     = 608aaa4735c2ffcf9d9e47af Yuri-hc-724.png\n | name      = Yuri\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 5'5\" (165 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Dark Purple<ref>[https://twitter.com/IMakeGudArt/status/959579071507255297 Satchely (DDLC's character artist)'s tweet about Monika and Sayori's hair colors]</ref>\n | eyecolor  = Light Purple\n | filename  = yuri.chr\n | appearsin = [[Understanding]], [[Reflection]], [[Self-Love]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "97": {
+     "pageid": 97,
+     "ns": 0,
+     "title": "Yuri (DDLC)",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n | title     = Yuri\n | image     = Yuri - Full Body Illustration.png\n | name      = Yuri\n | age       = 18<ref><!-- Do not edit this line -->[https://cdn.discordapp.com/attachments/389567762143379458/400781271883841547/1508196969537.png Age statement by Dan Salvato on subreddit Discord]</ref>\n | height    = 5'5\" (165 cm)<ref>[https://web.archive.org/web/20201111194753/https://imgur.com/a/hWCAX Concept height and statement on canon height]</ref>\n | gender    = Female\n | haircolor = Dark Purple<ref>[https://x.com/_Satchely/status/959664231401578496 Satchely's tweet about Yuri's hair color]</ref>\n | eyecolor  = Light Purple\n | filename  = yuri.chr\n | appearsin = [[Act 1]], [[Act 2]], [[Act 4]]\n}}"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

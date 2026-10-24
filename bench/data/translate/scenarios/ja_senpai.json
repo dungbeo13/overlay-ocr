@@ -1,0 +1,40 @@
+{
+  "name": "ja_senpai",
+  "lang": "ja",
+  "split": "tune",
+  "description": "School morning: a polite junior girl asks her senpai (student council) for help with the culture festival. He uses 俺/お前 but should still be anh -> em, not tao/mày.",
+  "style": "",
+  "glossary": [
+    {"source": "文化祭", "target": "lễ hội văn hóa", "kind": "term"},
+    {"source": "生徒会", "target": "hội học sinh", "kind": "term"},
+    {"source": "写真部", "target": "câu lạc bộ nhiếp ảnh", "kind": "term"}
+  ],
+  "characters": [
+    {"name": "春香", "name_vi": "Haruka", "gender": "nữ", "self_pronoun": "em",
+     "notes": "16 tuổi, đàn em của Souta ở trường, lễ phép, hơi nũng nịu. Gọi Souta là 'anh' (hoặc 'tiền bối'), xưng 'em'."},
+    {"name": "蒼太", "name_vi": "Souta", "gender": "nam", "self_pronoun": "anh",
+     "notes": "17 tuổi, đàn anh của Haruka, ở hội học sinh, hơi nghiêm nhưng tốt bụng. Xưng 'anh', gọi Haruka là 'em'."}
+  ],
+  "pronouns": {
+    "春香>蒼太": {"self": ["em"], "other": ["anh", "tiền bối", "senpai"]},
+    "蒼太>春香": {"self": ["anh"], "other": ["em"]}
+  },
+  "lines": [
+    {"speaker": "春香", "text": "蒼太先輩！おはようございます！",
+     "ref": "Tiền bối Souta! Chào buổi sáng ạ!"},
+    {"speaker": "蒼太", "text": "おう、春香か。朝から元気だな。",
+     "ref": "Ờ, Haruka đấy à. Mới sáng ra mà {L:em} đã hăng hái thế."},
+    {"speaker": "春香", "text": "先輩、文化祭の準備、手伝ってもらえませんか？写真部の展示がまだ全然できてなくて…",
+     "ref": "{L:Tiền bối} ơi, {L:anh} giúp {S:em} chuẩn bị lễ hội văn hóa được không ạ? Gian trưng bày của câu lạc bộ nhiếp ảnh vẫn chưa xong chút nào…"},
+    {"speaker": "蒼太", "text": "俺が？生徒会の仕事もあるんだけどな…。まあ、放課後なら少しは手伝えるよ。",
+     "ref": "{S:Anh} á? {S:Anh} còn việc của hội học sinh nữa mà… Thôi, sau giờ học thì {S:anh} giúp {L:em} được một chút."},
+    {"speaker": "春香", "text": "やった！先輩、本当にありがとうございます！",
+     "ref": "Tuyệt quá! {L:Tiền bối}, {S:em} cảm ơn {L:anh} nhiều lắm ạ!"},
+    {"speaker": "蒼太", "text": "その代わり、お前もちゃんと宿題を終わらせろよ。",
+     "ref": "Đổi lại, {L:em} cũng phải làm xong bài tập về nhà đấy."},
+    {"speaker": "春香", "text": "うっ…先輩、厳しいです…。",
+     "ref": "Ư… {L:tiền bối} khắt khe quá…"},
+    {"speaker": "蒼太", "text": "春香のためを思って言ってるんだぞ。ほら、遅刻するから急げ。",
+     "ref": "{S:Anh} nói vậy là vì muốn tốt cho {L:em} đấy. Nào, nhanh lên kẻo muộn."}
+  ]
+}

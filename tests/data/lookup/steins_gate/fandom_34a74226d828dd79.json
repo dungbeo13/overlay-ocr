@@ -1,0 +1,439 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://steins-gate.fandom.com/api.php?action=query&format=json&gcmlimit=30&gcmnamespace=0&gcmtitle=Category%3ACharacters&gcmtype=page&generator=categorymembers&prop=revisions&rvprop=content&rvsection=0&rvslots=main",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "continue": {
+   "gcmcontinue": "page|59554b4954414b4120414b494841|2497",
+   "continue": "gcmcontinue||"
+  },
+  "query": {
+   "pages": {
+    "2040": {
+     "pageid": 2040,
+     "ns": 0,
+     "title": "Character List",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "3288": {
+     "pageid": 3288,
+     "ns": 0,
+     "title": "4℃",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name = 4℃\n|gallery1_label = Steins;Gate series\n|gallery1_image =\n|japanese = シド\n|romaji = Shido\n|aliases=\n|age = 21\n|height = 180 cm (5'11\")\n|weight = 86 kg (190 lbs)\n|status = Alive\n|va-jap = [[wikipedia:Minoru Shiraishi|Minoru Shiraishi]]\n|va-eng = [[wikipedia:Ian Sinclair (voice actor)|Ian Sinclair]]\n|gender=Male|birthdate=June 28, 1989 [[File:Cancer symbol (bold).svg|link=Cancer]]|bloodType=B|affiliations=Viral Attackers|occupations=Gang leader|relatives=<Missing Data>|first-vn=[[Steins;Gate (visual novel)|''Steins;Gate'']] ([[Steins;Gate (visual novel)/Plot#Chapter 7 – Made in Complex| Chapter 7]])|first-manga=[[Rebellion of the Missing Ring]] (Cameo)|first-anime=*[[Episode 17: Made in Complex]] (voice only)\n}}{{Nihongo|'''4℃'''|シド|Shido}}{{Nihongo|'''Katsuo Suzuki'''|鈴木 功夫|Suzuki Katsuo}}"
+        }
+       }
+      }
+     ]
+    },
+    "6566": {
+     "pageid": 6566,
+     "ns": 0,
+     "title": "Alexis Leskinen",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name=Alexis Leskinen\n|gallery1_label = Steins;Gate 0\n|gallery1_image=\n|gallery2_label = Epigraph of the Closed Curve (manga)\n|japanese=アレクシス・<br>レスキネン\n|romaji=Arekushisu<br>Resukinen\n|aliases=\n|gender=Male\n|age = 43\n|birthdate=August 23, 1967 [[File:Leo symbol (bold).svg|link=Leo]]\n|height=185 cm\n|weight=75 kg\n|bloodType=B\n|status = Alive\n|affiliations=\n|occupations=\n|relatives=<Missing Data>\n|first-vn=[[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#Absolute Zero|Absolute Zero]])</small>\n|first-manga=[[Epigraph of the Closed Curve (manga)|''Steins;Gate: Epigraph of the Closed Curve'']] <small>(Chapter 3)</small>\n|first-anime=[[Episode 01: Missing Link of the Annihilator -Absolute Zero-]]\n|first-ln=[[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = [[wikipedia:Yoji Ueda|Yoji Ueda]]\n|va-eng = [https://www.imdb.com/name/nm1204639/ Christopher Wehkamp]\n}}{{Nihongo|'''Alexis Leskinen'''|アレクシス・レスキネン}}"
+        }
+       }
+      }
+     ]
+    },
+    "13458": {
+     "pageid": 13458,
+     "ns": 0,
+     "title": "Amadeus System/Kurisu",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Amadeus System\n|tab2 = Kurisu\n|tab2a = [Kurisu]\n}}\n{{Character\n|name = [Kurisu]\n|gallery1_label = VN\n|gallery1_image = Amadeus Portrait.png\n|gallery2_label = Anime\n|gallery2_image =\n|aliases =\n|gender = N/A (identifies itself as female)\n|age = 1 (year 2011)\n|birthdate = March 2010\n|height = None\n|weight = None\n|bloodType = N/A\n|measurements = N/A\n|status =\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = [[S;G 0 (VN)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#Absolute Zero|Absolute Zero]])</small>\n|first-manga = [[Pandora of Eternal Return (manga)|''Steins;Gate: Pandora of Eternal Return'']] <small>(Chapter 1)</small>\n|first-anime =\n|first-ln = [[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = [[Wikipedia:Asami Imai|Asami Imai]]\n|va-eng = [[Wikipedia:Trina Nishimura|Trina Nishimura]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "3299": {
+     "pageid": 3299,
+     "ns": 0,
+     "title": "Chikane Akiha",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|kanji = \n|romaji = Akiha Chikane\n|sex =  \n|voice-jap = \n|imagepath=|caption=|First_Gallery=\n|gallery1_label = Babel of the Grieved Maze\n|debut-vn=|debut-mangachp=|name=Chikane Akiha|gallery1_image=<gallery>"
+        }
+       }
+      }
+     ]
+    },
+    "2425": {
+     "pageid": 2425,
+     "ns": 0,
+     "title": "Dr. Nakabachi",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|gallery1_label = Steins;Gate\n|gallery2_label = Babel of the Grieved Maze\n|age = 43\n|height = 171 cm (5'7\")\n|weight = 75 kg (165 lbs)\n|status = Alive\n|va-jap = [[Wikipedia:Mitsuru Ogata|Mitsuru Ogata]]\n|va-eng = [[Wikipedia:Kent Williams (voice actor)|Kent Williams]]\n|name=Dr. Nakabachi\n|gallery1_image=\n|gallery2_image=\n|japanese=牧瀬 章一\n|aliases=\n|gender=Male\n|birthdate=January 13, 1967 [[File:Capricornus symbol (bold).svg|link=Capricorn]]\n|bloodType=A\n|affiliations=<Missing Data>\n|occupations=\n|relatives=\n|first-vn=[[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga=''[[Steins;Gate: History's Strongest Slight Fever]]''\n|first-anime=[[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln=<Missing Data>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "13361": {
+     "pageid": 13361,
+     "ns": 0,
+     "title": "Eisuke Urushibara",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name = Eisuke Urushibara\n|gallery1_label = Steins;Gate Series\n|gallery1_image =\n|japanese = 漆原 栄輔\n|romaji = Urushibara Eisuke\n|gender = Male\n|birthdate = 1959/1960\n|age = 50\n|hair=\n|eyes=\n|status = Alive\n|affiliations = [[Yanabayashi Shrine]]\n|first-vn = [[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Chapter 2 - Interpreter Rendezvous|Chapter 2]])</small>\n|va-jap =[[Wikipedia:Mitsuaki_Hoshino|Mitsuaki Hoshino]]\n|va-eng =[[Wikipedia:Robert McCollum|Robert MacCollum]]\n|occupations = Chief Priest of [[Yanabayashi Shrine]]\n|relatives = \n|first-anime=[[S;G (anime) - Ep.04|Episode 04: Abstractly Wandering Rendezvous <small>-Interpreter Rendezvous-</small>]]\n|aliases=<Missing Data>\n|height=<Missing Data>\n|weight=<Missing Data>\n|bloodType=<Missing Data>\n|first-manga=<Missing Data>\n|first-ln=<Missing Data>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2093": {
+     "pageid": 2093,
+     "ns": 0,
+     "title": "Faris NyanNyan",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Faris NyanNyan\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Faris NyanNyan\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = フェイリス・<br>ニャンニャン\n|romaji = Feirisu<br>NyanNyan\n|aliases=\n|gender = Female\n|age =\n|birthdate = April 3,<ref name=\"S;GMDE-OP-X360\"/> 1993 [[File:Aries symbol (bold).svg|link=Aries]]\n|height = 143 cm<ref name=\"S;GMDE-OP-X360\"/> (4'8\")\n|weight = 43 kg (95 lbs)\n|bodymeasures = B80/W54/H77<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType = AB<ref name=\"S;GMDE-OP-X360\"/>\n|status = Alive\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = ''[[Steins;Gate (visual novel)|Steins;Gate]]'' <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = [[Steins;Gate: Rebellion of the Missing Ring]]\n|first-anime = [[S;G (anime) - Ep.02|Episode 02: Time Leap Paranoia <small>-Time Travel Paranoia-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Haruko Momoi|Haruko Momoi]]\n|va-eng = [[Wikipedia:Jad Saxton|Jad Saxton]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2090": {
+     "pageid": 2090,
+     "ns": 0,
+     "title": "Itaru Hashida",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Itaru Hashida\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Itaru Hashida\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 橋田 至\n|romaji = Hashida Itaru\n|aliases =\n|gender = Male\n|age =\n|birthdate = May 19, 1991 [[File:Taurus symbol (bold).svg|link=Taurus]]\n|height = 164 cm (5'5\")\n|weight = 98 kg (216 lbs)\n|bloodType = B\n|status =\n|affiliations = [[Future Gadget Lab]] <small>(Lab Mem 003)</small>\n|occupations = Student at [[wikipedia:Tokyo Denki University|Tokyo Denki University]]\n|relatives =\n|first-vn = [[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = <Missing Data>\n|first-anime = [[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Tomokazu Seki|Tomokazu Seki]]\n|va-eng = [https://www.imdb.com/name/nm4535080/ Tyson Rinehart]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2480": {
+     "pageid": 2480,
+     "ns": 0,
+     "title": "John Titor",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "10466": {
+     "pageid": 10466,
+     "ns": 0,
+     "title": "Judy Reyes",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name=Judy Reyes\n|gallery1_label = Steins;Gate 0\n|gallery1_image=\n|japanese=ジュディ・レイエス\n|romaji=Judi Reiesu\n|aliases=Professor Reyes\n|gender=Female\n|age=40\n|birthdate=June 13, 1970\n|height=179 cm (5'10\")\n|weight=65 kg (143 lbs)\n|bodymeasures=<Missing Data>\n|bloodType=<Missing Data>\n|status = Deceased\n|affiliations=\n|occupations=\n|relatives=<Missing Data>\n|first-vn=[[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small> ([[Steins;Gate 0 (visual novel)/Plot#A Stray Sheep| A Stray Sheep]]) </small>\n|first-manga=[[Epigraph of the Closed Curve (manga)]] <small>(Cameo, special Chapter)</small>\n|first-anime=[[S;G0 (anime) - Ep.05|Episode 05: Solitude of the Astigmatism: Entangled Sheep]]\n|first-ln=<Missing Data>\n|va-jap = [https://www.imdb.com/name/nm8317782/ Maya Nishimura]\n|va-eng = [[wikipedia:Emily Neves|Emily Neves]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "10217": {
+     "pageid": 10217,
+     "ns": 0,
+     "title": "Kaede Kurushima",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name=Kaede Kurushima\n|gallery1_label = Steins;Gate 0\n|gallery1_image=\n|japanese=来嶋 かえで\n|romaji = Kurushima Kaede\n|aliases=Kaede\n|gender=Female\n|age=20\n|birthdate=October 4, 1990\n|height=161 cm\n|weight=51 kg\n|bodymeasures=B85/W57/H78\n|bloodType=AB\n|status = Alive\n|affiliations=<Missing Data>\n|occupations=University Student\n|relatives=<Missing Data>\n|first-vn=\n|first-manga=[[Epigraph of the Closed Curve (manga)|''Steins;Gate: Epigraph of the Closed Curve'']] <small>(Chapter 2)</small>\n|first-anime=[[Episode 01: Missing Link of the Annihilator -Absolute Zero-]]\n|first-ln=''[[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = [[wikipedia:Hina Kino|Hina Kino]]\n|va-eng = [[Wikipedia:Bryn Apprill|Bryn Apprill]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "3302": {
+     "pageid": 3302,
+     "ns": 0,
+     "title": "Kagari Shiina",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Kagari Shiina\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name=Kagari Shiina\n|gallery1_label = Age 10\n|gallery1_image=\n|gallery2_label= Age 22\n|gallery2_image=\n|japanese=椎名 かがり\n|romaji = Shiina Kagari\n|aliases=\n|gender=Female\n|age =\n|birthdate=July 7, 2026 [[File:Cancer symbol (bold).svg|link=Cancer]]\n|height =\n|weight =\n|bodymeasures=\n|bloodType=A\n|status =\n|affiliations=\n|occupations=[[Strategic Focus]] Agent\n|relatives=\n|first-vn=[[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#Closed Epigraph|Closed Epigraph]])</small>\n|first-manga=[[Epigraph of the Closed Curve (manga)|''Steins;Gate: Epigraph of the Closed Curve'']] <small>(Chapter 1)</small>\n|first-anime=[[Episode 01: Missing Link of the Annihilator -Absolute Zero-]]\n|first-ln=''[[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = \n|va-eng = [[Wikipedia:Alexis Tipton|Alexis Tipton]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "8692": {
+     "pageid": 8692,
+     "ns": 0,
+     "title": "Katsumi Nakase",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name=Katsumi Nakase\n|gallery1_label = Steins;Gate 0\n|gallery1_image=\n|japanese=中瀬 克実\n|romaji = Nakase Katsumi\n|aliases=\n|gender=Female\n|age=16-17\n|birthdate=January 14, 1994\n|height=158 cm\n|weight=48 kg\n|bodymeasures=B82/W52/H79\n|bloodType=B\n|status = Alive\n|affiliations=[[MayQueen+Nyan²]] <small>(in the [[Alpha Attractor Field]])</small>\n|occupations=\n|relatives=[[Shinichi Nakase]] <small>(brother)</small>\n|first-vn=\n|first-manga=[[Steins;Gate: Epigraph of the Closed Curve (manga)|''<small>Steins;Gate:</small> Epigraph of the Closed Curve'']] <small>(Chapter 2)</small>\n|first-anime=\n|first-ln=[[Steins;Gate: Epigraph of the Closed Curve (light novel)|''<small>Steins;Gate:</small> Epigraph of the Closed Curve'']]\n|va-jap = [[Wikipedia: Mariko Honda|Mariko Honda]]\n|va-eng = [https://www.imdb.com/name/nm5092426/ Mikaela Krantz]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "3286": {
+     "pageid": 3286,
+     "ns": 0,
+     "title": "Kayano",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|gallery1_label = Rebellion of the Missing Ring\n|japanese = 伽夜乃\n|romaji = Kayano\n|aliases = <Missing Data>\n|gender = Female\n|age = ~16-18\n|birthdate = ~2018-2020\n|height = ~163-170cm\n|weight = <Missing Data>\n|bloodType = <Missing Data>\n|bodymeasures = <Missing Data>\n|status = Alive\n|name=Kayano\n|gallery1_image =\n|affiliations = [[Rounders]]\n|occupations = <Missing Data>\n|relatives = <Missing Data>\n|first-manga = [[Rebellion of the Missing Ring]] <small>(Chapter 1)</small>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2052": {
+     "pageid": 2052,
+     "ns": 0,
+     "title": "Kurisu Makise",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Kurisu Makise\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Kurisu Makise\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 牧瀬 紅莉栖\n|romaji = Makise Kurisu\n|aliases =\n|gender = Female\n|age = 18<ref name=\"S;GMDE-OP-X360\">''[[Steins;Gate: My Darling's Embrace]]'' - Xbox 360 Opening Theme “[[La*La*La Labolution]]”</ref>\n|birthdate = July 25,<ref name=\"S;GMDE-OP-X360\"/> 1992 [[File:Leo symbol (bold).svg|link=Leo]]\n|height = 160 cm<ref name=\"S;GMDE-OP-X360\"/> (5'3\")\n|weight = 45 kg (99 lbs)\n|bodymeasures = B79/W56/H83<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType = A<ref name=\"S;GMDE-OP-X360\"/>\n|status =\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = [[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = <Missing Data>\n|first-anime = [[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Asami Imai|Asami Imai]]\n|va-eng = [[Wikipedia:Trina Nishimura|Trina Nishimura]]\n}}\n{{Nihongo|'''Kurisu Makise'''|牧瀬 紅莉栖|Makise Kurisu}}"
+        }
+       }
+      }
+     ]
+    },
+    "3301": {
+     "pageid": 3301,
+     "ns": 0,
+     "title": "Kuroki",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|gallery1_image=<gallery>\n|gallery1_label = Steins;Gate Series\n|japanese =黒木 \n|romaji=Kuroki\n|alias=\n|nickname=\n|gender=Male\n|birthdate=\n|bloodtype=\n|age=\n|height=\n|weight=\n|status=Alive\n|affiliations=Akiha Household\n|first-vn=\n|first-anime=[[Episode 09: Chaos Theory Homeostasis II]]\n|first-ln=\n|va-jap=[[wikipedia:Shinya Fukumatsu|Shinya Fukumatsu]]\n|va-eng=\n|occupations = Butler\n|first-manga=[[Babel of the Grieved Maze (manga)|''Steins;Gate: Babel of the Grieved Maze'']] <small>(Chapter 11)</small>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2098": {
+     "pageid": 2098,
+     "ns": 0,
+     "title": "Luka Urushibara",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Luka Urushibara\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Luka Urushibara\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 漆原 るか\n|romaji = Urushibara Ruka\n|aliases =\n|gender =\n|age =\n|birthdate = August 30,<ref name=\"S;GMDE-OP-X360\"/> 1993 [[File:Virgo symbol (bold).svg|link=Virgo]]\n|height = 161 cm<ref name=\"S;GMDE-OP-X360\"/> (5'3\")\n|weight = 44 kg (97 lbs)\n|bodymeasures = B73/W60/H77<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType = A<ref name=\"S;GMDE-OP-X360\"/>\n|status = Alive\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = [[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = <Missing Data>\n|first-anime = [[S;G (anime) - Ep.02|Episode 02: Time Leap Paranoia <small>-Time Travel Paranoia-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Yū Kobayashi|Yū Kobayashi]]\n|va-eng = [[Wikipedia:Lindsay Seidel|Lindsay Seidel]]\n}}{{Nihongo|'''Luka Urushibara'''|漆原るか|Urushibara Ruka}}"
+        }
+       }
+      }
+     ]
+    },
+    "2782": {
+     "pageid": 2782,
+     "ns": 0,
+     "title": "Maho Hiyajo",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Maho Hiyajo\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Maho Hiyajo\n|gallery1_label = Steins;Gate 0\n|gallery1_image =\n|japanese = 比屋定 真帆\n|romaji = Hiyajō Maho\n|aliases =\n|gender = Female\n|age = 21\n|birthdate = November 2, 1989 [[File:Scorpius symbol (bold).svg|link=Scorpio]]\n|height = 140 cm (4'7\")\n|weight = 39 kg (86 lbs)\n|bodymeasures = B78/W54/H80\n|bloodType = B\n|status = Alive\n|affiliations =\n|occupations = Researcher\n|relatives = <Missing Data>\n|first-vn = [[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#Absolute Zero|Absolute Zero]])</small>\n|first-manga = [[Epigraph of the Closed Curve (manga)|Steins;Gate: Epigraph of the Closed Curve]] <small>(Chapter 3)</small>\n|first-anime =\n|first-ln = [[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = [[wikipedia:Sayuri Yahagi|Sayuri Yahagi]]\n|va-eng = [[Wikipedia:Monica Rial|Monica Rial]]\n}}\n{{Nihongo|'''Maho Hiyajo'''|比屋定 真帆|Hiyajō Maho}}"
+        }
+       }
+      }
+     ]
+    },
+    "2053": {
+     "pageid": 2053,
+     "ns": 0,
+     "title": "Mayuri Shiina",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Mayuri Shiina\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Mayuri Shiina\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 椎名 まゆり\n|romaji = Shiina Mayuri\n|aliases =\n|gender = Female\n|age =\n|birthdate = February 1,<ref name=\"S;GMDE-OP-X360\"/> 1994 [[File:Aquarius symbol (bold).svg|link=Aquarius]]\n|height = 152 cm<ref name=\"S;GMDE-OP-X360\"/> (5'0\")\n|weight = 45 kg\n|bodymeasures = B85/W56/H82<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType = O<ref name=\"S;GMDE-OP-X360\"/>\n|status =\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = ''[[S;G (VN)|Steins;Gate]]'' <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = <Missing Data>\n|first-anime = [[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Kana Hanazawa|Kana Hanazawa]]\n|va-eng =\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2088": {
+     "pageid": 2088,
+     "ns": 0,
+     "title": "Moeka Kiryu",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Moeka Kiryu\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Moeka Kiryu\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 桐生 萌郁\n|romaji = Kiryū Moeka\n|aliases =\n|gender = Female\n|age =\n|birthdate = June 6,<ref name=\"S;GMDE-OP-X360\"/> 1990 [[File:Gemini symbol (bold).svg|link=Gemini]]\n|height = 167 cm<ref name=\"S;GMDE-OP-X360\"/> (5'6\")\n|weight = 54 kg (119 lbs)\n|bodymeasures = B88/W59/H88<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType = B<ref name=\"S;GMDE-OP-X360\"/>\n|status = Alive\n|affiliations =\n|occupations =\n|relatives = Unnamed parents\n|first-vn = [[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = Chapter 1\n|first-anime = [[S;G (anime) - Ep.02|Episode 02: Time Leap Paranoia <small>-Time Travel Paranoia-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Saori Gotō|Saori Gotō]]\n|va-eng = [https://www.imdb.com/name/nm4857862/ Jessica Cavanaugh]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "14349": {
+     "pageid": 14349,
+     "ns": 0,
+     "title": "Mr. Cateaux",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name=Mr. Cateaux\n|gallery1_label = Visual Novel\n|gallery2_label = Manga\n|height= ~150 cm\n|gallery1_image=\n|gallery2_image=\n|japanese=<Missing Data>\n|romaji=<Missing Data>\n|aliases=<Missing Data>\n|gender=Male\n|birthdate=<Missing Data>\n|weight=<Missing Data>\n|bloodType=<Missing Data>\n|status=Deceased\n|affiliations=\n|occupations=Researcher\n|first-vn=[[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#X-Day Protocol|X-Day Protocol]])\n|first-manga=[[Epigraph of the Closed Curve (manga)|Steins;Gate: Epigraph of the Closed Curve]] <small>(Chapter 6)</small>\n|va-jap=<Missing Data>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2423": {
+     "pageid": 2423,
+     "ns": 0,
+     "title": "Nae Tennouji",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Nae Tennouji\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Nae Tennouji\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|japanese = 天王寺 綯\n|romaji = Tennōji Nae\n|aliases =\n|gender = Female\n|age =\n|birthdate = November 9, 1998 [[File:Scorpius symbol (bold).svg|link=Scorpio]]\n|height = 137 cm (4'6\")\n|weight = 31 kg (68 lbs)\n|bloodType = A\n|status = Alive\n|affiliations = [[Rounders]] <small>(some [[Attractor Field/Alpha|Alpha world lines]])</small>\n|occupations = Student\n|relatives =\n|first-vn = ''[[Steins;Gate (visual novel)|Steins;Gate]]:'' [[Steins;Gate (visual novel)/Plot#Chapter 3 – Butterfly Effect’s “Divergence”|Chapter 3]]\n|first-manga = <Missing Data>\n|first-anime = [[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Ayano Yamamoto|Ayano Yamamoto]]\n|va-eng = [[Wikipedia:Brina Palencia|Brina Palencia]]\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2050": {
+     "pageid": 2050,
+     "ns": 0,
+     "title": "Rintaro Okabe",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = {{BASEPAGENAME}}\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name = Rintaro Okabe\n|gallery1_label = Steins;Gate\n|gallery1_image =\n|gallery2_label = Steins;Gate 0\n|gallery2_image =\n|gallery3_label = Child\n|gallery3_image = \n|japanese = 岡部 倫太郎\n|romaji = Okabe Rintarō\n|aliases =\n|gender = Male\n|age =\n|birthdate = December 14, 1991 [[File:Sagittarius symbol (bold).svg|link=Sagittarius]]\n|height = 177 cm (5'10\")\n|weight = 59 kg (130 lbs)\n|bloodType = A.\n|status =\n|affiliations =\n|occupations =\n|relatives =\n|first-vn = ''[[Steins;Gate (visual novel)|Steins;Gate]]'' <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga = Chapter 1\n|first-anime = [[S;G (anime) - Ep.01|Episode 01: Prologue of the Beginning and the End <small>-Turning Point-</small>]]\n|first-ln = <Missing Data>\n|va-jap = [[Wikipedia:Mamoru Miyano|Mamoru Miyano]]\n|va-eng =\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2696": {
+     "pageid": 2696,
+     "ns": 0,
+     "title": "Rounders",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name =Rounders\n|kana = \n|romaji = Raundā\n|affiliation = \n|imagepath = \n|gallery1_label = Steins;Gate\n|gallery2_label = Steins;Gate 0\n|debut-anime = \n|debut-vn=\n|gallery1_image=\n|japanese=ラウンダー\n|status=<Missing Data>\n|affiliations=[[SERN]]\n|occupations=<Missing Data>\n|first-vn=[[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Chapter 5 – Dogma in Event Horizon|Chapter 5]])</small>\n|first-manga=<Missing Data>\n|first-anime=[[S;G (anime) - Ep.12|Episode 12: Dogma in Ergosphere]]\n|first-ln=<Missing Data>\n|gallery2_image=\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "12829": {
+     "pageid": 12829,
+     "ns": 0,
+     "title": "Shimoyama",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name = Shimoyama\n|gallery1_label = Visual Novel\n|gallery1_image =\n|gallery2_label = Manga\n|gallery2_image =\n|japanese = しもやま\n|romaji = Shimoyama\n|aliases = None\n|gender = Male\n|age= ~23\n|birthdate = ~1988\n|height = ~150 cm\n|weight = <Missing Data>\n|bloodType = <Missing Data>\n|status = Unknown, presumably alive<br><small>(dead on [[List of Known World Lines#1.382733β|1.382733β]])</small>\n|affiliations = Japanese Self Defense Force\n|occupations = Soldier\n|first-vn = [[Steins;Gate 0 (visual novel)|''Steins;Gate 0'']] <small>([[Steins;Gate 0 (visual novel)/Plot#Pandora's Box|Pandora's Box]])\n|first-manga = [[Steins;Gate 0 (manga)|''Steins;Gate 0'']] Chapter 27\n|va-jap = <Missing Data>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "13744": {
+     "pageid": 13744,
+     "ns": 0,
+     "title": "Shin'ichi Nakase",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name = Shinichi Nakase\n|gallery1_label = Linear Bounded Phenogram\n|gallery1_image =\n|japanese = 中瀬 シンイチ\n|romaji = Nakase Shin'ichi\n|aliases = I chain his snake\n|gender = Male\n|height = <Missing Data>\n|weight = <Missing Data>\n|bloodType = <Missing Data>\n|status = <Missing Data>\n|affiliations = <Missing Data>\n|occupations = <Missing Data>\n|relatives = [[Katsumi Nakase]] <small>(little sister)</small>\n|first-vn = ''[[Steins;Gate: Linear Bounded Phenogram]]'' <small>([[Steins;Gate: Linear Bounded Phenogram#Scenario 10: Abduction Across Three Worlds|Scenario 10]])</small>\n|va-jap = Yūki Fujiwara\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2096": {
+     "pageid": 2096,
+     "ns": 0,
+     "title": "Suzuha Amane",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Suzuha Amane\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|gallery1_label=Alpha\n|gallery2_label=Beta\n|romaji = Amane Suzuha\n|age=* 18 <small>''([[Steins;Gate]] & [[Steins;Gate: My Darling's Embrace]]<ref name=\"S;GMDE-OP-X360\">''[[Steins;Gate: My Darling's Embrace]]'' - Xbox 360 Opening Theme ''“[[La*La*La Labolution]]”''</ref>)''</small>\n|height = 163 cm<ref name=\"S;GMDE-OP-X360\"/> (5'4\")\n|weight = 51 kg (112 lbs)\n|status = Alive\n|va-jap = [[Wikipedia:Yukari Tamura|Yukari Tamura]]\n|va-eng = [[Wikipedia:Cherami Leigh|Cherami Leigh]]\n|name=Suzuha Amane\n|gallery1_image=\n|gallery2_image=\n|japanese=阿万音 鈴羽\n|aliases='''Handle:'''\n|gender=Female\n|birthdate=September 27,<ref name=\"S;GMDE-OP-X360\"/> 2017 [[File:Libra symbol (bold).svg|link=Libra]]\n|bodymeasures=B80/W59/H86<ref name=\"S;GMDE-OP-X360\"/>\n|bloodType=O<ref name=\"S;GMDE-OP-X360\"/>\n|affiliations=\n|occupations=\n|relatives=\n|first-vn=[[S;G (VN)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Prologue & Chapter 1 – Time Travel Paranoia|Chapter 1]])</small>\n|first-manga=[[S;G (manga)|''Steins;Gate'']]\n|first-anime=[[S;G (anime) - Ep.02|Episode 02: Time Leap Paranoia <small>-Time Travel Paranoia-</small>]]\n|first-ln=<Missing Data>\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "3292": {
+     "pageid": 3292,
+     "ns": 0,
+     "title": "Tsuzuri Imamiya",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|First_Gallery=\n|gallery1_label =Braunian Motion of Love and Hate\n|kanji = \n|romaji = Imamiya Tsuzuri\n|age = ~20 (at time of death)\n|sex = \n|occupation = \n|status = Deceased\n|Relative(s)= \n|debut-manga = \n|debut-mangachp=|Occupation=|debut-vn=|name=Tsuzuri Imamiya|gallery1_image=<gallery>"
+        }
+       }
+      }
+     ]
+    },
+    "3291": {
+     "pageid": 3291,
+     "ns": 0,
+     "title": "Yuki Amane",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Tabs\n|tab1 = Yuki Amane\n|tab2 = Relationships\n|tab3 = Plot\n|tab4 = Gallery\n}}\n{{Character\n|name=Yuki Amane\n|gallery1_label = Steins;Gate 0\n|gallery1_image=\n|romaji = Amane Yuki\n|age = 21\n|birthdate = May 31, 1989 [[File:Gemini symbol (bold).svg|link=Gemini]]\n|height = 162 cm (5'4\")\n|weight = 51 kg (112 lbs)\n|bodymeasures = B86/W60/H88\n|bloodType = O\n|status =\n|japanese=阿万音 由季\n|aliases=Ameyuki\n|gender=Female\n|affiliations=\n|occupations=Cosplayer\n|relatives=\n|first-vn=\n|first-manga=''[[Steins;Gate: Rebellion of the Missing Ring]]'' <small>(Chapter 1)</small>\n|first-anime=[[Episode 25-SP: Egoistic Poriomania]]\n|first-ln=''[[Epigraph of the Closed Curve (light novel)|''Steins;Gate: Epigraph of the Closed Curve'']]\n|va-jap = [[Wikipedia:Yukari Tamura|Yukari Tamura]]\n|va-eng = [[Wikipedia:Cherami Leigh|Cherami Leigh]]\n}}\n{{Nihongo|Yuki Amane|阿万音 由季|Amane Yuki}}"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

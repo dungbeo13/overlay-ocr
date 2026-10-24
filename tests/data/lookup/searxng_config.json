@@ -1,0 +1,237 @@
+{
+ "instance_name": "Screen Translator (local)",
+ "version": "2026.10.24+ef0ec03da",
+ "categories": [
+  "general",
+  "videos",
+  "stock images",
+  "other",
+  "social media",
+  "packages",
+  "it",
+  "files",
+  "books",
+  "news",
+  "apps",
+  "software wikis",
+  "images",
+  "science",
+  "scientific publications",
+  "music",
+  "web",
+  "repos",
+  "currency",
+  "icons",
+  "weather",
+  "map",
+  "dictionaries",
+  "shopping",
+  "lyrics",
+  "cargo",
+  "movies",
+  "translate",
+  "radio",
+  "blogs",
+  "q&a",
+  "wikimedia",
+  "define"
+ ],
+ "default_locale": "",
+ "default_theme": "simple",
+ "safe_search": 0,
+ "autocomplete": "duckduckgo",
+ "engines": [
+  {
+   "name": "500px",
+   "categories": [
+    "stock images",
+    "other"
+   ],
+   "shortcut": "500",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "arch linux wiki",
+   "categories": [
+    "it",
+    "software wikis"
+   ],
+   "shortcut": "al",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "arxiv",
+   "categories": [
+    "science",
+    "scientific publications"
+   ],
+   "shortcut": "arx",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "bandcamp",
+   "categories": [
+    "music"
+   ],
+   "shortcut": "bc",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "wikipedia",
+   "categories": [
+    "general"
+   ],
+   "shortcut": "wp",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "bing images",
+   "categories": [
+    "images",
+    "web"
+   ],
+   "shortcut": "bii",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "bing news",
+   "categories": [
+    "news"
+   ],
+   "shortcut": "bin",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "bing videos",
+   "categories": [
+    "videos",
+    "web"
+   ],
+   "shortcut": "biv",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "chefkoch",
+   "categories": [
+    "other"
+   ],
+   "shortcut": "chef",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "currency",
+   "categories": [
+    "currency",
+    "general"
+   ],
+   "shortcut": "cc",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "docker hub",
+   "categories": [
+    "it",
+    "packages"
+   ],
+   "shortcut": "dh",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "europepmc",
+   "categories": [
+    "science",
+    "scientific publications"
+   ],
+   "shortcut": "epmc",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "wikidata",
+   "categories": [
+    "general"
+   ],
+   "shortcut": "wd",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "duckduckgo",
+   "categories": [
+    "general",
+    "web"
+   ],
+   "shortcut": "ddg",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "duckduckgo images",
+   "categories": [
+    "images"
+   ],
+   "shortcut": "ddi",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "duckduckgo videos",
+   "categories": [
+    "videos"
+   ],
+   "shortcut": "ddv",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "duckduckgo news",
+   "categories": [
+    "news"
+   ],
+   "shortcut": "ddn",
+   "enabled": true,
+   "language_support": true
+  },
+  {
+   "name": "etymonline",
+   "categories": [
+    "dictionaries",
+    "other"
+   ],
+   "shortcut": "et",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "1x",
+   "categories": [
+    "stock images",
+    "other"
+   ],
+   "shortcut": "1x",
+   "enabled": true,
+   "language_support": false
+  },
+  {
+   "name": "genius",
+   "categories": [
+    "music",
+    "lyrics"
+   ],
+   "shortcut": "gen",
+   "enabled": true,
+   "language_support": false
+  }
+ ]
+}

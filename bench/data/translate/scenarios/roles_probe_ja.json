@@ -1,0 +1,58 @@
+{
+  "name": "roles_probe_ja",
+  "lang": "ja",
+  "split": "probe",
+  "description": "Pronoun ROLES, hard cases the review found (split 'probe': the checker's rules were fixed on these, so they are neither tune nor held-out test): reported and quoted apologies / thanks (謝れってさ, ごめんって伝えてって, ありがとうって言ってた), a rhetorical refusal next to a demand, a request next to a counter-offer, 私が in a condition, ごめんってば, 行ってきます, 手伝おうか, 'bỏ qua' = skip. Sera (em -> anh) and her older brother Ren (anh -> em). Refs tag every pronoun use: {S:..} the speaker, {L:..} the listener.",
+  "style": "Lời thoại tự nhiên giữa hai anh em ruột.",
+  "glossary": [
+    {"source": "ケンジ", "target": "Kenji", "kind": "person"}
+  ],
+  "characters": [
+    {"name": "セラ", "name_vi": "Sera", "gender": "nữ", "self_pronoun": "em",
+     "notes": "15 tuổi, em gái của Ren. Xưng 'em', gọi Ren là 'anh' (お兄ちゃん)."},
+    {"name": "蓮", "name_vi": "Ren", "gender": "nam", "self_pronoun": "anh",
+     "notes": "18 tuổi, anh trai của Sera. Xưng 'anh', gọi Sera là 'em'."}
+  ],
+  "pronouns": {
+    "セラ>蓮": {"self": ["em"], "other": ["anh"]},
+    "蓮>セラ": {"self": ["anh"], "other": ["em"]}
+  },
+  "lines": [
+    {"speaker": "蓮", "text": "おい、セラ。何してるんだ？",
+     "ref": "Này, Sera. {L:Em} đang làm gì vậy?"},
+    {"speaker": "セラ", "text": "ごめんね。一緒に探してくれる？",
+     "ref": "{S:Em} xin lỗi nhé. {L:Anh} giúp {S:em} tìm cùng được không?"},
+    {"speaker": "蓮", "text": "母さんが、お前に謝れってさ。",
+     "ref": "Mẹ bảo {S:anh} phải xin lỗi {L:em} đấy."},
+    {"speaker": "セラ", "text": "なんで私が謝らなきゃいけないの？お兄ちゃんが謝ってよ！",
+     "ref": "Sao {S:em} lại phải xin lỗi chứ? {L:Anh} mới là người phải xin lỗi chứ!"},
+    {"speaker": "セラ", "text": "お兄ちゃんが『ごめん』って言えば済む話でしょ。",
+     "ref": "Chỉ cần {L:anh} nói một câu 'xin lỗi' là xong mà."},
+    {"speaker": "蓮", "text": "ケンジがさ、お前にごめんって言ってたぞ。",
+     "ref": "Kenji nhắn là xin lỗi {L:em} đấy."},
+    {"speaker": "セラ", "text": "ケンジくんに謝れって言われた。",
+     "ref": "Kenji bảo {S:em} phải xin lỗi."},
+    {"speaker": "セラ", "text": "もう、ごめんってば、お兄ちゃん。",
+     "ref": "Thôi mà, {S:em} xin lỗi mà, {L:anh}."},
+    {"speaker": "セラ", "text": "手伝ってくれる？私も手伝うから。",
+     "ref": "{L:Anh} giúp {S:em} được không? {S:Em} cũng sẽ giúp {L:anh} mà."},
+    {"speaker": "セラ", "text": "これ持っててくれる？お兄ちゃんのために作ったの。",
+     "ref": "{L:Anh} cầm giúp {S:em} cái này nhé? {S:Em} làm cho {L:anh} đấy."},
+    {"speaker": "セラ", "text": "手伝ってくれたら、晩ご飯作ってあげる。",
+     "ref": "Nếu {L:anh} giúp {S:em} thì {S:em} sẽ nấu bữa tối cho {L:anh}."},
+    {"speaker": "蓮", "text": "何か手伝おうか？",
+     "ref": "Có cần {S:anh} giúp gì không?"},
+    {"speaker": "セラ", "text": "待ってて！すぐ手伝うから！",
+     "ref": "{L:Anh} đợi {S:em} một chút nhé! {S:Em} sẽ giúp {L:anh} ngay!"},
+    {"speaker": "セラ", "text": "私が卒業したら、お兄ちゃん寂しくなるね。",
+     "ref": "Khi {S:em} tốt nghiệp rồi, {L:anh} sẽ buồn lắm nhỉ."},
+    {"speaker": "セラ", "text": "私がいないと、お兄ちゃんは何もできないんだから。",
+     "ref": "Không có {S:em} thì {L:anh} chẳng làm được gì đâu."},
+    {"speaker": "セラ", "text": "ごめん、この問題は飛ばすね。",
+     "ref": "Xin lỗi, {S:em} bỏ qua câu này nhé."},
+    {"speaker": "セラ", "text": "お母さんが、お兄ちゃんにありがとうって言ってたよ。",
+     "ref": "Mẹ bảo cảm ơn {L:anh} đấy."},
+    {"speaker": "セラ", "text": "行ってきます！",
+     "ref": "{S:Em} đi đây!"}
+  ]
+}

@@ -1,0 +1,155 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://steins-gate.fandom.com/api.php?action=query&format=json&gcmlimit=20&gcmnamespace=0&gcmtitle=Category%3AOrganizations&gcmtype=page&generator=categorymembers&prop=revisions&rvprop=content&rvsection=0&rvslots=main",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "pages": {
+    "12676": {
+     "pageid": 12676,
+     "ns": 0,
+     "title": "Braun Tube Workshop",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "3091": {
+     "pageid": 3091,
+     "ns": 0,
+     "title": "Committee of 300",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "12621": {
+     "pageid": 12621,
+     "ns": 0,
+     "title": "DURPA",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "11504": {
+     "pageid": 11504,
+     "ns": 0,
+     "title": "Future Gadget Laboratory",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "2384": {
+     "pageid": 2384,
+     "ns": 0,
+     "title": "MayQueen+Nyan²",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "2696": {
+     "pageid": 2696,
+     "ns": 0,
+     "title": "Rounders",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": "{{Character\n|name =Rounders\n|kana = \n|romaji = Raundā\n|affiliation = \n|imagepath = \n|gallery1_label = Steins;Gate\n|gallery2_label = Steins;Gate 0\n|debut-anime = \n|debut-vn=\n|gallery1_image=\n|japanese=ラウンダー\n|status=<Missing Data>\n|affiliations=[[SERN]]\n|occupations=<Missing Data>\n|first-vn=[[Steins;Gate (visual novel)|''Steins;Gate'']] <small>([[Steins;Gate (visual novel)/Plot#Chapter 5 – Dogma in Event Horizon|Chapter 5]])</small>\n|first-manga=<Missing Data>\n|first-anime=[[S;G (anime) - Ep.12|Episode 12: Dogma in Ergosphere]]\n|first-ln=<Missing Data>\n|gallery2_image=\n}}"
+        }
+       }
+      }
+     ]
+    },
+    "2488": {
+     "pageid": 2488,
+     "ns": 0,
+     "title": "SERN",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "8802": {
+     "pageid": 8802,
+     "ns": 0,
+     "title": "Strategic Focus",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "13289": {
+     "pageid": 13289,
+     "ns": 0,
+     "title": "Valkyrie",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "11654": {
+     "pageid": 11654,
+     "ns": 0,
+     "title": "Viktor Chondria University",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

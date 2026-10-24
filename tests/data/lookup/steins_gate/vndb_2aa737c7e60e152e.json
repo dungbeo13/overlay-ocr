@@ -1,0 +1,86 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/release",
+  "body": {
+   "filters": [
+    "and",
+    [
+     "vn",
+     "=",
+     [
+      "id",
+      "=",
+      "v2002"
+     ]
+    ],
+    [
+     "lang",
+     "=",
+     "vi"
+    ]
+   ],
+   "fields": "id,title,alttitle,languages.lang,languages.mtl,languages.title,official,patch,freeware,released,platforms,producers.name,extlinks.url,extlinks.label",
+   "sort": "released",
+   "results": 10
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": false,
+  "results": [
+   {
+    "alttitle": null,
+    "extlinks": [
+     {
+      "label": "Official website",
+      "url": "https://hako.re/forum/threads/steins-gate-tieng-viet-partial-patch-dang-tiep-tuc.30488/"
+     }
+    ],
+    "freeware": true,
+    "id": "r48703",
+    "languages": [
+     {
+      "lang": "vi",
+      "mtl": false,
+      "title": "Steins;Gate tiếng Việt"
+     }
+    ],
+    "official": false,
+    "patch": true,
+    "platforms": [
+     "win"
+    ],
+    "producers": [],
+    "released": "2017-09-10",
+    "title": "Steins;Gate tiếng Việt"
+   },
+   {
+    "alttitle": null,
+    "extlinks": [],
+    "freeware": true,
+    "id": "r132381",
+    "languages": [
+     {
+      "lang": "vi",
+      "mtl": false,
+      "title": "STEINS;GATE"
+     }
+    ],
+    "official": false,
+    "patch": true,
+    "platforms": [
+     "win"
+    ],
+    "producers": [
+     {
+      "id": "p8869",
+      "name": "Gero Saga Team"
+     }
+    ],
+    "released": "TBA",
+    "title": "STEINS;GATE"
+   }
+  ]
+ }
+}

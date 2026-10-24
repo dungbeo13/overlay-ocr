@@ -1,0 +1,3669 @@
+{
+ "about": "Reviewer-written labelled set r2 (native Vietnamese reading) for pronoun ROLE checking, focused on questions about the listener, greetings and explicit source pronouns, with near-misses. Same schema as roles_dev/roles_labelled.json. Pairs: Sera em->anh Ren; Ren anh->em Sera; Aoi chị->em Yuto; Yuto em->chị Aoi; Chiyo bà->cháu Minato; Minato cháu->bà Chiyo; Mori cô->em Mio; Mio em->cô Mori; Kenta tao->mày Ryuuji; Mark tôi->anh Daniel; Daniel em->anh Mark; Yoko mẹ->con Hana; Hana con->mẹ Yoko; Takeshi bố->con Hana; Genji ta->con Tobi; Tobi con->thầy Genji; Leon thần->công chúa Elise; Zarek ta->ngươi Garron",
+ "lines": [
+  {
+   "id": "R2-A01",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "姉ちゃん、大丈夫？顔色悪いよ。",
+   "translation": "Chị ơi, chị có sao không? Trông chị xanh xao quá.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A02",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "姉ちゃん、大丈夫？顔色悪いよ。",
+   "translation": "Chị ơi, em có sao không? Trông chị xanh xao quá.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A03",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、寒くない？",
+   "translation": "Bà ơi, bà có lạnh không ạ?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A04",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、寒くない？",
+   "translation": "Bà ơi, cháu có lạnh không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A05",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "どうしたの？誰かにいじめられたの？",
+   "translation": "Con sao thế? Có ai bắt nạt con à?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A06",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "どうしたの？誰かにいじめられたの？",
+   "translation": "Mẹ sao thế? Có ai bắt nạt mẹ à?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "note": "second mẹ has no anchor: partial catch acceptable"
+  },
+  {
+   "id": "R2-A07",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "どこか痛いの？",
+   "translation": "Em đau ở đâu à?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A08",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "どこか痛いの？",
+   "translation": "Cô đau ở đâu à?",
+   "label": "error",
+   "wrong": [
+    [
+     "cô",
+     0
+    ]
+   ],
+   "note": "どこか before 痛い"
+  },
+  {
+   "id": "R2-A09",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前、熱あるんじゃないか？",
+   "translation": "Em bị sốt rồi phải không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A10",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前、熱あるんじゃないか？",
+   "translation": "Anh bị sốt rồi phải không?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ],
+   "note": "熱ある: cue outside the list"
+  },
+  {
+   "id": "R2-A11",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "Are you okay? You look pale.",
+   "translation": "Anh có ổn không? Trông anh xanh lắm.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A12",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "Are you okay? You look pale.",
+   "translation": "Em có ổn không? Trông anh xanh lắm.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A13",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "Did you sleep at all last night?",
+   "translation": "Tối qua anh có ngủ được chút nào không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A14",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "Did you sleep at all last night?",
+   "translation": "Tối qua em có ngủ được chút nào không?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A15",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "お腹すいてない？何か作ろうか？",
+   "translation": "Cháu có đói không? Để bà nấu gì cho cháu ăn nhé?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A16",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "お腹すいてない？何か作ろうか？",
+   "translation": "Bà có đói không? Để bà nấu gì cho cháu ăn nhé?",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A17",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "ねえ、何してるの？",
+   "translation": "Này chị, chị đang làm gì thế?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A18",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "ねえ、何してるの？",
+   "translation": "Này, em đang làm gì thế?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A19",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "元気にしてた？",
+   "translation": "Dạo này em vẫn khỏe chứ?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A20",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "元気にしてた？",
+   "translation": "Dạo này anh vẫn khỏe chứ?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A21",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "眠くない？",
+   "translation": "Con có buồn ngủ không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A22",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "眠くない？",
+   "translation": "Mẹ có buồn ngủ không?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A23",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "ちゃんと寝てる？",
+   "translation": "Cháu có ngủ đủ giấc không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A24",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "ちゃんと寝てる？",
+   "translation": "Bà có ngủ đủ giấc không?",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ]
+   ],
+   "note": "寝てる: cue outside the list"
+  },
+  {
+   "id": "R2-A25",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "大丈夫？",
+   "translation": "Có sao không em?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "sentence-final address with the speaker's word"
+  },
+  {
+   "id": "R2-A26",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "大丈夫か、セラ？",
+   "translation": "Anh không sao chứ, Sera?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ],
+   "note": "sentence-final name vocative"
+  },
+  {
+   "id": "R2-A27",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生！大丈夫ですか？",
+   "translation": "Cô ơi! Cô có sao không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "note": "先生！ is a vocative"
+  },
+  {
+   "id": "R2-A28",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生！大丈夫ですか？",
+   "translation": "Cô ơi! Em có sao không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A29",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "その手、どうしたの？",
+   "translation": "Tay anh bị sao vậy?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A30",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "その手、どうしたの？",
+   "translation": "Tay em bị sao vậy?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A31",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Kenta",
+   "listener": "Ryuuji",
+   "own": "tao",
+   "other": "mày",
+   "source": "What's wrong with you?",
+   "translation": "Mày bị làm sao thế?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A32",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Kenta",
+   "listener": "Ryuuji",
+   "own": "tao",
+   "other": "mày",
+   "source": "What's wrong with you?",
+   "translation": "Tao bị làm sao thế?",
+   "label": "error",
+   "wrong": [
+    [
+     "tao",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A33",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Are you cold? Here, take my jacket.",
+   "translation": "Em lạnh à? Đây, cầm lấy áo khoác của anh.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A34",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Are you cold? Here, take my jacket.",
+   "translation": "Anh lạnh à? Đây, cầm lấy áo khoác của em.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A35",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Are you hurt? Let me see.",
+   "translation": "Em có bị thương không? Để anh xem nào.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A36",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Are you hurt? Let me see.",
+   "translation": "Anh có bị thương không? Để em xem nào.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-A37",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "What happened to your hand?",
+   "translation": "Tay con bị sao thế?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-A38",
+   "cat": "ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "What happened to your hand?",
+   "translation": "Tay mẹ bị sao thế?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ],
+   "note": "your hand -> tay <x> (no của)"
+  },
+  {
+   "id": "R2-N01",
+   "cat": "ask/answer",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "うん、大丈夫。心配しないで。",
+   "translation": "Ừ, em không sao. Anh đừng lo.",
+   "label": "ok",
+   "wrong": [],
+   "note": "an answer: the speaker is fine"
+  },
+  {
+   "id": "R2-N02",
+   "cat": "ask/answer",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "うん、大丈夫。心配しないで。",
+   "translation": "Ừ, anh không sao. Em đừng lo.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N03",
+   "cat": "ask/answer",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "はい、大丈夫です。",
+   "translation": "Dạ, em không sao ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N04",
+   "cat": "ask/answer",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "はい、大丈夫です。",
+   "translation": "Dạ, cô không sao ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cô",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N05",
+   "cat": "ask/third",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "大丈夫？ケンジくんが怪我したって聞いたけど。",
+   "translation": "Anh có sao không? Em nghe nói Kenji bị thương.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N06",
+   "cat": "ask/self question",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "私、大丈夫かな？",
+   "translation": "Em có ổn không nhỉ?",
+   "label": "ok",
+   "wrong": [],
+   "note": "the speaker wonders about herself"
+  },
+  {
+   "id": "R2-N07",
+   "cat": "ask/stranger",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "大丈夫？お姉ちゃんが絆創膏貼ってあげるね。",
+   "translation": "Em có sao không? Để chị dán băng cá nhân cho em nhé.",
+   "label": "ok",
+   "wrong": [],
+   "note": "Sera talks to a little child who fell; the app's listener guess is still Ren"
+  },
+  {
+   "id": "R2-N08",
+   "cat": "ask/answer+return",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "うん、平気だよ。お母さんこそ大丈夫？",
+   "translation": "Dạ, con không sao ạ. Mẹ có sao không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N09",
+   "cat": "ask/answer+return",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "うん、平気だよ。お母さんこそ大丈夫？",
+   "translation": "Dạ, mẹ không sao ạ. Con có sao không?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "con",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N10",
+   "cat": "ask/answer+return",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "I'm okay. Are you?",
+   "translation": "Em không sao. Còn anh?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N11",
+   "cat": "ask/answer+return",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "I'm okay. Are you?",
+   "translation": "Anh không sao. Còn em?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N12",
+   "cat": "ask/guess",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "お腹すいたでしょ、たくさん食べてね。",
+   "translation": "Chắc cháu đói rồi, ăn nhiều vào nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N13",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "お腹すいたよー",
+   "translation": "Bà ơi, cháu đói quá.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N14",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "お腹すいたよー",
+   "translation": "Bà ơi, bà đói quá.",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-N15",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "寒い…",
+   "translation": "Em lạnh quá…",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N16",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "寒い…",
+   "translation": "Anh lạnh quá…",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ],
+   "note": "寒い as a statement"
+  },
+  {
+   "id": "R2-N17",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "心配したんだからね！",
+   "translation": "Em lo cho anh lắm đấy!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N18",
+   "cat": "ask/own state",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "心配したんだからね！",
+   "translation": "Anh lo cho em lắm đấy!",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "んだからね tail"
+  },
+  {
+   "id": "R2-N19",
+   "cat": "ask+request",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "何してるの？私も入れて！",
+   "translation": "Anh đang làm gì thế? Cho em chơi với!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N20",
+   "cat": "ask/third subject",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Did they hurt you?",
+   "translation": "Bọn chúng có làm em bị thương không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N21",
+   "cat": "ask/third subject",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Did they hurt you?",
+   "translation": "Bọn chúng có làm anh bị thương không?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N22",
+   "cat": "ask/tag",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "You're tired, aren't you?",
+   "translation": "Em mệt rồi phải không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-N23",
+   "cat": "ask/tag",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "You're tired, aren't you?",
+   "translation": "Anh mệt rồi phải không?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-N24",
+   "cat": "greet/question about the listener's trip",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃん、明日東京に行ってくるんでしょ？",
+   "translation": "Anh ơi, mai anh đi Tokyo đúng không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G01",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Tobi",
+   "listener": "Genji",
+   "own": "con",
+   "other": "thầy",
+   "source": "師匠、行ってまいります！",
+   "translation": "Thưa thầy, con đi đây ạ!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G02",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Tobi",
+   "listener": "Genji",
+   "own": "con",
+   "other": "thầy",
+   "source": "師匠、行ってまいります！",
+   "translation": "Thầy ơi, thầy đi đây ạ!",
+   "label": "error",
+   "wrong": [
+    [
+     "thầy",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-G03",
+   "cat": "greet/excuse",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、お先に失礼します。",
+   "translation": "Em xin phép về trước ạ, thưa cô.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G04",
+   "cat": "greet/excuse",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、お先に失礼します。",
+   "translation": "Thưa cô, cô xin phép về trước ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cô",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-G05",
+   "cat": "greet/home",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "ただいまー！おやつある？",
+   "translation": "Con về rồi đây! Có gì ăn không mẹ?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G06",
+   "cat": "greet/home",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "ただいまー！おやつある？",
+   "translation": "Mẹ về rồi đây! Có gì ăn không mẹ?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G07",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "おかえり。手を洗ってきなさい。",
+   "translation": "Con về rồi à. Đi rửa tay đi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G08",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "おかえり。手を洗ってきなさい。",
+   "translation": "Mẹ về rồi đây. Đi rửa tay đi con.",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G09",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "行ってきまーす！",
+   "translation": "Cháu đi đây ạ!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G10",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "行ってきまーす！",
+   "translation": "Bà đi đây ạ!",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G11",
+   "cat": "greet/go+request",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "じゃ、行ってくるわ。留守番頼むな。",
+   "translation": "Thôi, anh đi đây. Em ở nhà trông nhà giúp anh nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G12",
+   "cat": "greet/go+request",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "じゃ、行ってくるわ。留守番頼むな。",
+   "translation": "Thôi, em đi đây. Em ở nhà trông nhà giúp anh nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G13",
+   "cat": "greet/eat",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "いただきます！",
+   "translation": "Em mời anh ăn cơm!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G14",
+   "cat": "greet/eat",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "いただきます！",
+   "translation": "Anh mời em ăn cơm!",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G15",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "おやすみ、セラ。",
+   "translation": "Chúc em ngủ ngon, Sera.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G16",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "おやすみ、セラ。",
+   "translation": "Chúc anh ngủ ngon, Sera.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G17",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "おやすみ。電気消すよ。",
+   "translation": "Em ngủ ngon nhé. Chị tắt đèn đây.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G18",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "おやすみ。電気消すよ。",
+   "translation": "Chị ngủ ngon nhé. Em tắt đèn đây.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G19",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、おかえりなさい！",
+   "translation": "Cô về rồi ạ!",
+   "label": "ok",
+   "wrong": [],
+   "note": "the teacher comes back to the classroom"
+  },
+  {
+   "id": "R2-G20",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、おかえりなさい！",
+   "translation": "Cô ơi, em về rồi ạ!",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G21",
+   "cat": "greet/home+ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "I'm back. Did you eat yet?",
+   "translation": "Em về rồi đây. Anh ăn gì chưa?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G22",
+   "cat": "greet/home+ask",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "I'm back. Did you eat yet?",
+   "translation": "Anh về rồi đây. Em ăn gì chưa?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G23",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Tobi",
+   "listener": "Genji",
+   "own": "con",
+   "other": "thầy",
+   "source": "Welcome back, Master.",
+   "translation": "Thầy đã về rồi ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G24",
+   "cat": "greet/welcome",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Tobi",
+   "listener": "Genji",
+   "own": "con",
+   "other": "thầy",
+   "source": "Welcome back, Master.",
+   "translation": "Con về rồi đây, thưa thầy.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G25",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "Good night, Grandma.",
+   "translation": "Bà ngủ ngon ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G26",
+   "cat": "greet/goodnight",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "Good night, Grandma.",
+   "translation": "Cháu ngủ ngon nhé, bà.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G27",
+   "cat": "greet/home+ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "ただいま。いい子にしてたか？",
+   "translation": "Bố về rồi đây. Con có ngoan không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G28",
+   "cat": "greet/home+ask",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "ただいま。いい子にしてたか？",
+   "translation": "Con về rồi đây. Con có ngoan không?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G29",
+   "cat": "greet/welcome + name",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "おかえり、ユウ。遅かったじゃない。",
+   "translation": "Yuu về rồi à. Sao con về muộn thế?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G30",
+   "cat": "greet/welcome + name",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "おかえり、ユウ。遅かったじゃない。",
+   "translation": "Mẹ về rồi đây, Yuu. Sao con về muộn thế?",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G31",
+   "cat": "greet/home+welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "ただいま。あ、お兄ちゃんもおかえり。",
+   "translation": "Em về rồi đây. Ơ, anh cũng về rồi à.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G32",
+   "cat": "greet/home+welcome",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "ただいま。あ、お兄ちゃんもおかえり。",
+   "translation": "Anh về rồi đây. Ơ, em cũng về rồi à.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G33",
+   "cat": "greet/see off",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "いってらっしゃい。車に気をつけるんだよ。",
+   "translation": "Cháu đi đường cẩn thận xe cộ nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G34",
+   "cat": "greet/see off",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "いってらっしゃい。車に気をつけるんだよ。",
+   "translation": "Bà đi nhé. Nhớ cẩn thận xe cộ đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G35",
+   "cat": "greet/go + role word",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "行ってきます！お母さんも仕事頑張ってね。",
+   "translation": "Con đi đây! Mẹ cũng làm việc vui vẻ nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G36",
+   "cat": "greet/go + role word",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "行ってきます！お母さんも仕事頑張ってね。",
+   "translation": "Mẹ đi đây! Con cũng làm việc vui vẻ nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "con",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G37",
+   "cat": "greet/welcome + possessor",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "おかえり。お兄ちゃんの分、とっておいたよ。",
+   "translation": "Anh về rồi à. Em để dành phần của anh đấy.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G38",
+   "cat": "greet/welcome + possessor",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "おかえり。お兄ちゃんの分、とっておいたよ。",
+   "translation": "Em về rồi à. Anh để dành phần của em đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-G39",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "ちょっとコンビニ行ってくる。",
+   "translation": "Anh ra cửa hàng tiện lợi một chút.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G40",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "ちょっとコンビニ行ってくる。",
+   "translation": "Em ra cửa hàng tiện lợi một chút.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "rendered with 'ra', not 'đi'"
+  },
+  {
+   "id": "R2-G41",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "明日、東京に行ってくるね。",
+   "translation": "Mai em đi Tokyo nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G42",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "明日、東京に行ってくるね。",
+   "translation": "Mai anh đi Tokyo nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G43",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I'm heading out. Don't wait up for me.",
+   "translation": "Anh ra ngoài đây. Đừng thức đợi anh nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G44",
+   "cat": "greet/go",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I'm heading out. Don't wait up for me.",
+   "translation": "Em ra ngoài đây. Đừng thức đợi em nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-G45",
+   "cat": "greet/goodnight + 俺は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "おやすみ。俺はもう少し起きてるよ。",
+   "translation": "Em ngủ ngon nhé. Anh thức thêm chút nữa.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G46",
+   "cat": "greet/goodnight + 俺は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "おやすみ。俺はもう少し起きてるよ。",
+   "translation": "Anh ngủ ngon nhé. Em thức thêm chút nữa.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G47",
+   "cat": "greet/eat",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "いただきます！",
+   "translation": "Cháu mời bà ăn cơm ạ!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G48",
+   "cat": "greet/eat",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "いただきます！",
+   "translation": "Bà mời cháu ăn cơm ạ!",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     0
+    ],
+    [
+     "cháu",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-G49",
+   "cat": "greet/thanks for the meal",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "ごちそうさまでした！",
+   "translation": "Con cảm ơn mẹ, con no rồi ạ!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-G50",
+   "cat": "greet/thanks for the meal",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Hana",
+   "listener": "Yoko",
+   "own": "con",
+   "other": "mẹ",
+   "source": "ごちそうさまでした！",
+   "translation": "Mẹ cảm ơn con, mẹ no rồi ạ!",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "note": "second mẹ has no anchor"
+  },
+  {
+   "id": "R2-GN1",
+   "cat": "greet/quoted",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "帰ったら、ちゃんと『ただいま』って言いなさい。",
+   "translation": "Về đến nhà thì phải nói “Con về rồi ạ” chứ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN2",
+   "cat": "greet/after you",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mark",
+   "listener": "Daniel",
+   "own": "tôi",
+   "other": "anh",
+   "source": "お先にどうぞ。",
+   "translation": "Anh đi trước đi ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN3",
+   "cat": "greet/self-quoted",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "ただいま…って、誰もいないか。",
+   "translation": "Anh về rồi đây… mà chẳng có ai ở nhà à.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN4",
+   "cat": "greet/quoted",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前、昨日『ただいま』も言わなかっただろ。",
+   "translation": "Hôm qua em về nhà mà chẳng chào ai cả.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN5",
+   "cat": "greet/welcome + self",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃん、おかえり。私も今帰ってきたところ。",
+   "translation": "Anh về rồi à. Em cũng vừa mới về.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN6",
+   "cat": "greet/quoted offer",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが『俺に任せろ』って言ったんじゃん。",
+   "translation": "Chính anh đã nói “cứ để anh lo” mà.",
+   "label": "ok",
+   "wrong": [],
+   "note": "Ren's own words quoted back to him"
+  },
+  {
+   "id": "R2-GN7",
+   "cat": "greet/day off",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "明日はお休みだから、ゆっくり寝ていいよ。",
+   "translation": "Mai con được nghỉ, cứ ngủ thoải mái đi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN8",
+   "cat": "greet/announcement",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "ただいまより、テストを始めます。",
+   "translation": "Bây giờ cô sẽ bắt đầu bài kiểm tra.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-GN9",
+   "cat": "greet/third",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お母さん、まだ帰ってこないね。",
+   "translation": "Mẹ vẫn chưa về anh nhỉ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P01",
+   "cat": "pron/お前は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Genji",
+   "listener": "Tobi",
+   "own": "ta",
+   "other": "con",
+   "source": "お前はもう一人前じゃ。",
+   "translation": "Giờ con đã có thể tự lập rồi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P02",
+   "cat": "pron/お前は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Genji",
+   "listener": "Tobi",
+   "own": "ta",
+   "other": "con",
+   "source": "お前はもう一人前じゃ。",
+   "translation": "Giờ ta đã có thể tự lập rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "ta",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P03",
+   "cat": "pron/俺のこと",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "俺のことは気にするな。",
+   "translation": "Đừng lo cho anh.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P04",
+   "cat": "pron/俺のこと",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "俺のことは気にするな。",
+   "translation": "Đừng lo cho em.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P05",
+   "cat": "pron/私のこと",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "私のこと、忘れないでね。",
+   "translation": "Anh đừng quên em nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P06",
+   "cat": "pron/私のこと",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "私のこと、忘れないでね。",
+   "translation": "Em đừng quên anh nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P07",
+   "cat": "pron/stative",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前の気持ちは分かってる。",
+   "translation": "Anh hiểu cảm giác của em.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P08",
+   "cat": "pron/stative",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前の気持ちは分かってる。",
+   "translation": "Em hiểu cảm giác của anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "note": "分かる: deliberately not judged"
+  },
+  {
+   "id": "R2-P09",
+   "cat": "pron/あんたの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "あんたの部屋、ちゃんと片付けなさい。",
+   "translation": "Dọn phòng của em cho gọn gàng vào.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P10",
+   "cat": "pron/あんたの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "あんたの部屋、ちゃんと片付けなさい。",
+   "translation": "Dọn phòng của chị cho gọn gàng vào.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P11",
+   "cat": "pron/俺の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Kenta",
+   "listener": "Ryuuji",
+   "own": "tao",
+   "other": "mày",
+   "source": "俺の金、返せよ。",
+   "translation": "Trả tiền của tao đây!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P12",
+   "cat": "pron/俺の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Kenta",
+   "listener": "Ryuuji",
+   "own": "tao",
+   "other": "mày",
+   "source": "俺の金、返せよ。",
+   "translation": "Trả tiền của mày đây!",
+   "label": "error",
+   "wrong": [
+    [
+     "mày",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P13",
+   "cat": "pron/role word 先生は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生はあなたを信じてるわ。",
+   "translation": "Cô tin em.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P14",
+   "cat": "pron/role word 先生は",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生はあなたを信じてるわ。",
+   "translation": "Em tin cô.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "cô",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P15",
+   "cat": "pron/emotive",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生ね、あなたの作文、大好きよ。",
+   "translation": "Cô rất thích bài văn của em.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P16",
+   "cat": "pron/emotive",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生ね、あなたの作文、大好きよ。",
+   "translation": "Em rất thích bài văn của cô.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "cô",
+     0
+    ]
+   ],
+   "note": "emotive: deliberately not judged"
+  },
+  {
+   "id": "R2-P17",
+   "cat": "pron/role word お母さんが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お母さんが悪かったわ。ごめんね。",
+   "translation": "Mẹ sai rồi. Mẹ xin lỗi con nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P18",
+   "cat": "pron/role word お母さんが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お母さんが悪かったわ。ごめんね。",
+   "translation": "Con sai rồi. Con xin lỗi mẹ nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "con",
+     1
+    ],
+    [
+     "mẹ",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P19",
+   "cat": "pron/お兄ちゃんは 私の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんは私の自慢だよ。",
+   "translation": "Anh là niềm tự hào của em.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P20",
+   "cat": "pron/お兄ちゃんは 私の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんは私の自慢だよ。",
+   "translation": "Em là niềm tự hào của anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P21",
+   "cat": "pron/僕は 姉ちゃんの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "僕は姉ちゃんの味方だよ。",
+   "translation": "Em luôn đứng về phía chị.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P22",
+   "cat": "pron/僕は 姉ちゃんの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "僕は姉ちゃんの味方だよ。",
+   "translation": "Chị luôn đứng về phía em.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P23",
+   "cat": "pron/role word おばあちゃんが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "おばあちゃんが一緒に探してあげるからね。",
+   "translation": "Bà sẽ cùng cháu tìm nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P24",
+   "cat": "pron/role word おばあちゃんが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Chiyo",
+   "listener": "Minato",
+   "own": "bà",
+   "other": "cháu",
+   "source": "おばあちゃんが一緒に探してあげるからね。",
+   "translation": "Cháu sẽ cùng bà tìm nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "bà",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P25",
+   "cat": "pron/topic + 俺が",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前は俺が家まで送る。",
+   "translation": "Anh sẽ đưa em về tận nhà.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P26",
+   "cat": "pron/topic + 俺が",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前は俺が家まで送る。",
+   "translation": "Em sẽ đưa anh về tận nhà.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P27",
+   "cat": "pron/relative clause",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが作ったカレー、また食べたいな。",
+   "translation": "Em lại muốn ăn món cà ri anh nấu.",
+   "label": "ok",
+   "wrong": [],
+   "note": "お兄ちゃんが is inside a relative clause"
+  },
+  {
+   "id": "R2-P28",
+   "cat": "pron/relative clause",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが買ってきたお菓子、全部食べちゃった。",
+   "translation": "Em ăn hết chỗ bánh kẹo anh mua về rồi.",
+   "label": "ok",
+   "wrong": [],
+   "note": "お兄ちゃんが is inside a relative clause"
+  },
+  {
+   "id": "R2-P29",
+   "cat": "pron/EN you and I",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "You and I are a team.",
+   "translation": "Anh và em là một đội mà.",
+   "label": "ok",
+   "wrong": [],
+   "note": "Vietnamese puts the speaker first"
+  },
+  {
+   "id": "R2-P30",
+   "cat": "pron/EN we exclusive",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "We'll pay you back next week.",
+   "translation": "Tuần sau bọn em sẽ trả lại tiền cho anh.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P31",
+   "cat": "pron/EN we exclusive",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "We'll pay you back next week.",
+   "translation": "Tuần sau anh sẽ trả lại tiền cho em.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P32",
+   "cat": "pron/EN my",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "Hey, that's my seat!",
+   "translation": "Này, đó là chỗ của em mà!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P33",
+   "cat": "pron/EN my",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "Hey, that's my seat!",
+   "translation": "Này, đó là chỗ của anh mà!",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P34",
+   "cat": "pron/EN yours",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Mark",
+   "listener": "Daniel",
+   "own": "tôi",
+   "other": "anh",
+   "source": "Is this umbrella yours?",
+   "translation": "Chiếc ô này có phải của anh không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P35",
+   "cat": "pron/EN yours",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Mark",
+   "listener": "Daniel",
+   "own": "tôi",
+   "other": "anh",
+   "source": "Is this umbrella yours?",
+   "translation": "Chiếc ô này có phải của tôi không?",
+   "label": "error",
+   "wrong": [
+    [
+     "tôi",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P36",
+   "cat": "pron/EN embedded",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I knew you'd come back.",
+   "translation": "Anh biết em sẽ quay lại mà.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P37",
+   "cat": "pron/EN embedded",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I knew you'd come back.",
+   "translation": "Em biết anh sẽ quay lại mà.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P38",
+   "cat": "pron/EN relative",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "You're the one I trust most.",
+   "translation": "Anh là người em tin tưởng nhất.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P39",
+   "cat": "pron/EN relative",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "You're the one I trust most.",
+   "translation": "Em là người anh tin tưởng nhất.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P40",
+   "cat": "pron/先生の (student)",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生の授業、すごく分かりやすいです。",
+   "translation": "Giờ học của cô rất dễ hiểu ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P41",
+   "cat": "pron/先生の (student)",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生の授業、すごく分かりやすいです。",
+   "translation": "Giờ học của em rất dễ hiểu ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "分かりやすい is an adjective"
+  },
+  {
+   "id": "R2-P42",
+   "cat": "pron/role word 先生に",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生に何か聞きたいことある？",
+   "translation": "Em có muốn hỏi cô điều gì không?",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P43",
+   "cat": "pron/role word 先生に",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "先生に何か聞きたいことある？",
+   "translation": "Cô có muốn hỏi em điều gì không?",
+   "label": "error",
+   "wrong": [
+    [
+     "cô",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P44",
+   "cat": "pron/role word お母さんにも",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お母さんにも見せて。",
+   "translation": "Cho mẹ xem với.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P45",
+   "cat": "pron/role word お母さんにも",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yoko",
+   "listener": "Hana",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お母さんにも見せて。",
+   "translation": "Cho con xem với.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P46",
+   "cat": "pron/role word お姉ちゃんの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "お姉ちゃんの言うこと、聞きなさい。",
+   "translation": "Em phải nghe lời chị.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P47",
+   "cat": "pron/role word お姉ちゃんの",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "お姉ちゃんの言うこと、聞きなさい。",
+   "translation": "Chị phải nghe lời em.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P48",
+   "cat": "pron/role word お父さんは",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "お父さんは怒ってないぞ。",
+   "translation": "Bố không giận con đâu.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P49",
+   "cat": "pron/role word お父さんは",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "お父さんは怒ってないぞ。",
+   "translation": "Con không giận bố đâu.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "bố",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P50",
+   "cat": "pron/third subject",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "母さんが、お前のこと心配してたぞ。",
+   "translation": "Mẹ lo cho em lắm đấy.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P51",
+   "cat": "pron/third subject",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "母さんが、お前のこと心配してたぞ。",
+   "translation": "Mẹ lo cho anh lắm đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P52",
+   "cat": "pron/のせいで + が",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "僕のせいで、お姉ちゃんが怒られた。",
+   "translation": "Tại em mà chị bị mắng.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P53",
+   "cat": "pron/のせいで + が",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Yuto",
+   "listener": "Aoi",
+   "own": "em",
+   "other": "chị",
+   "source": "僕のせいで、お姉ちゃんが怒られた。",
+   "translation": "Tại chị mà em bị mắng.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P54",
+   "cat": "pron/お前と",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前と一緒にいると、楽しいよ。",
+   "translation": "Ở bên em, anh thấy vui lắm.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P55",
+   "cat": "pron/お前と",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前と一緒にいると、楽しいよ。",
+   "translation": "Ở bên anh, em thấy vui lắm.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P56",
+   "cat": "pron/kinship noun",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "俺はお前の兄貴だぞ。",
+   "translation": "Anh là anh trai của em đấy!",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P57",
+   "cat": "pron/kinship noun",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "俺はお前の兄貴だぞ。",
+   "translation": "Em là anh trai của anh đấy!",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-P58",
+   "cat": "pron/わたくしが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Leon",
+   "listener": "Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "姫様、わたくしがお守りいたします。",
+   "translation": "Thưa công chúa, thần sẽ bảo vệ công chúa.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P59",
+   "cat": "pron/わたくしが",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Leon",
+   "listener": "Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "姫様、わたくしがお守りいたします。",
+   "translation": "Thưa công chúa, công chúa sẽ bảo vệ thần.",
+   "label": "error",
+   "wrong": [
+    [
+     "công chúa",
+     1
+    ],
+    [
+     "thần",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P60",
+   "cat": "pron/貴様の -> subject",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Zarek",
+   "listener": "Garron",
+   "own": "ta",
+   "other": "ngươi",
+   "source": "貴様の負けだ。",
+   "translation": "Ngươi thua rồi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P61",
+   "cat": "pron/貴様の -> subject",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Zarek",
+   "listener": "Garron",
+   "own": "ta",
+   "other": "ngươi",
+   "source": "貴様の負けだ。",
+   "translation": "Ta thua rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "ta",
+     0
+    ]
+   ],
+   "note": "possessor rendered as subject"
+  },
+  {
+   "id": "R2-P62",
+   "cat": "pron/final vocative",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Genji",
+   "listener": "Tobi",
+   "own": "ta",
+   "other": "con",
+   "source": "お前は本当に頑張ったな、トビ。",
+   "translation": "Con thật sự đã rất cố gắng, Tobi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P63",
+   "cat": "pron/final vocative",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Genji",
+   "listener": "Tobi",
+   "own": "ta",
+   "other": "con",
+   "source": "お前は本当に頑張ったな、トビ。",
+   "translation": "Ta thật sự đã rất cố gắng, Tobi.",
+   "label": "error",
+   "wrong": [
+    [
+     "ta",
+     0
+    ]
+   ],
+   "note": "sentence-final name"
+  },
+  {
+   "id": "R2-P64",
+   "cat": "pron/EN I ... you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "Grandma, I made this for you.",
+   "translation": "Bà ơi, cháu làm cái này cho bà đấy.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P65",
+   "cat": "pron/EN I ... you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Minato",
+   "listener": "Chiyo",
+   "own": "cháu",
+   "other": "bà",
+   "source": "Grandma, I made this for you.",
+   "translation": "Bà ơi, bà làm cái này cho cháu đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     1
+    ],
+    [
+     "cháu",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P66",
+   "cat": "pron/EN my -> noun phrase",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "You saved my life.",
+   "translation": "Anh đã cứu mạng em.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P67",
+   "cat": "pron/EN my -> noun phrase",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Daniel",
+   "listener": "Mark",
+   "own": "em",
+   "other": "anh",
+   "source": "You saved my life.",
+   "translation": "Em đã cứu mạng anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P68",
+   "cat": "pron/EN relative you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "The cake you made was delicious.",
+   "translation": "Bánh em làm ngon lắm.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P69",
+   "cat": "pron/EN relative you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "The cake you made was delicious.",
+   "translation": "Bánh anh làm ngon lắm.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P70",
+   "cat": "pron/EN sorry + you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I'm sorry you had to see that.",
+   "translation": "Anh xin lỗi vì em phải thấy cảnh đó.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P71",
+   "cat": "pron/EN sorry + you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "I'm sorry you had to see that.",
+   "translation": "Em xin lỗi vì anh phải thấy cảnh đó.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P72",
+   "cat": "pron/EN final vocative son",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "I'm so proud of you, son.",
+   "translation": "Bố rất tự hào về con, con trai.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P73",
+   "cat": "pron/EN final vocative son",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Takeshi",
+   "listener": "Hana",
+   "own": "bố",
+   "other": "con",
+   "source": "I'm so proud of you, son.",
+   "translation": "Con rất tự hào về bố, con trai.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "bố",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P74",
+   "cat": "pron/EN don't you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Don't you dare leave me.",
+   "translation": "Em không được bỏ anh đâu đấy.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P75",
+   "cat": "pron/EN don't you",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Don't you dare leave me.",
+   "translation": "Anh không được bỏ em đâu đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P76",
+   "cat": "pron/conditional",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前が来なかったら、俺は帰るからな。",
+   "translation": "Nếu em không đến thì anh về đấy.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P77",
+   "cat": "pron/conditional",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前が来なかったら、俺は帰るからな。",
+   "translation": "Nếu anh không đến thì em về đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "conditional: deliberately not judged"
+  },
+  {
+   "id": "R2-P78",
+   "cat": "pron/EN reported",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "Mom said you were looking for me.",
+   "translation": "Mẹ bảo em đang tìm anh.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P79",
+   "cat": "pron/私が + 先生の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "私が先生の代わりにやります。",
+   "translation": "Em sẽ làm thay cô ạ.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P80",
+   "cat": "pron/私が + 先生の",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "私が先生の代わりにやります。",
+   "translation": "Cô sẽ làm thay em ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cô",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P81",
+   "cat": "pron/role word 先生が after いいのよ",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "いいのよ、先生がやっておくから。",
+   "translation": "Không sao đâu, cô làm nốt cho.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P82",
+   "cat": "pron/role word 先生が after いいのよ",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Mori",
+   "listener": "Mio",
+   "own": "cô",
+   "other": "em",
+   "source": "いいのよ、先生がやっておくから。",
+   "translation": "Không sao đâu, em làm nốt cho.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "note": "いいのよ = never mind"
+  },
+  {
+   "id": "R2-P83",
+   "cat": "pron/EN your + us",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Mark",
+   "listener": "Daniel",
+   "own": "tôi",
+   "other": "anh",
+   "source": "Your wife called us this morning.",
+   "translation": "Sáng nay vợ anh có gọi cho chúng tôi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P84",
+   "cat": "pron/あたしが + 許して",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "あたしが悪かった。許して。",
+   "translation": "Chị sai rồi. Em tha lỗi cho chị nhé.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P85",
+   "cat": "pron/あたしが + 許して",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Yuto",
+   "own": "chị",
+   "other": "em",
+   "source": "あたしが悪かった。許して。",
+   "translation": "Em sai rồi. Chị tha lỗi cho em nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "R2-P86",
+   "cat": "pron/俺の (bare predicate)",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前、それ俺のだろ。",
+   "translation": "Cái đó là của anh mà.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P87",
+   "cat": "pron/俺の (bare predicate)",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前、それ俺のだろ。",
+   "translation": "Cái đó là của em mà.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "R2-P88",
+   "cat": "pron/both subjects",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "俺もお前も悪くない。",
+   "translation": "Anh với em đều không có lỗi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P89",
+   "cat": "pron/EN we inclusive",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Sera",
+   "listener": "Ren",
+   "own": "em",
+   "other": "anh",
+   "source": "We should go home before it rains.",
+   "translation": "Anh em mình về nhà trước khi trời mưa đi.",
+   "label": "ok",
+   "wrong": []
+  },
+  {
+   "id": "R2-P90",
+   "cat": "pron/stranger EN",
+   "origin": "composed",
+   "src_lang": "en",
+   "speaker": "Mark",
+   "listener": "Daniel",
+   "own": "tôi",
+   "other": "anh",
+   "source": "Let me help you with that, ma'am.",
+   "translation": "Để cháu giúp bác ạ.",
+   "label": "ok",
+   "wrong": [],
+   "note": "Mark helps an old lady; listener guess Daniel"
+  },
+  {
+   "id": "R2-P91",
+   "cat": "pron/stranger JA",
+   "origin": "composed",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "おじいさん、大丈夫ですか？",
+   "translation": "Ông ơi, ông có sao không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "note": "an old man in the street"
+  }
+ ]
+}

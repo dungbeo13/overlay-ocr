@@ -1,0 +1,44 @@
+{
+  "name": "roles_shop_en",
+  "lang": "en",
+  "split": "tune",
+  "description": "Pronoun ROLES in English: a middle-aged phone-repair shopkeeper (tôi -> anh, polite service register) and a young customer (em -> anh). Both call the other 'anh': only the direction tells whose word it is. Refs tag every pronoun use: {S:..} the speaker, {L:..} the listener.",
+  "style": "Giọng lịch sự ở cửa hàng.",
+  "glossary": [],
+  "characters": [
+    {"name": "Mark", "name_vi": "Mark", "gender": "nam", "self_pronoun": "tôi",
+     "notes": "Khoảng 45 tuổi, chủ tiệm sửa điện thoại, chu đáo. Xưng 'tôi', gọi khách là 'anh'."},
+    {"name": "Daniel", "name_vi": "Daniel", "gender": "nam", "self_pronoun": "em",
+     "notes": "25 tuổi, sinh viên, khách của tiệm. Gọi Mark là 'anh', xưng 'em'."}
+  ],
+  "pronouns": {
+    "Mark>Daniel": {"self": ["tôi"], "other": ["anh"]},
+    "Daniel>Mark": {"self": ["em"], "other": ["anh"]}
+  },
+  "lines": [
+    {"speaker": "Mark", "text": "Good afternoon! What can I do for you today?",
+     "ref": "Chào {L:anh}! Hôm nay {S:tôi} có thể giúp gì cho {L:anh}?"},
+    {"speaker": "Daniel", "text": "Hi. I dropped my phone this morning, and now the screen won't turn on. Could you take a look at it?",
+     "ref": "Chào {L:anh}. Sáng nay {S:em} làm rơi điện thoại, giờ màn hình không lên nữa. {L:Anh} xem giúp {S:em} được không ạ?"},
+    {"speaker": "Mark", "text": "Of course. Let me open it up and check the connector.",
+     "ref": "Được chứ. Để {S:tôi} mở máy ra kiểm tra đầu nối."},
+    {"speaker": "Mark", "text": "I'm sorry, the display is cracked inside. I'll have to replace it.",
+     "ref": "{S:Tôi} xin lỗi, màn hình bị nứt bên trong rồi. {S:Tôi} sẽ phải thay mới."},
+    {"speaker": "Daniel", "text": "Oh no. How much will that cost? I'm a student, so please go easy on me.",
+     "ref": "Trời ạ. Thay hết bao nhiêu tiền vậy {L:anh}? {S:Em} là sinh viên, {L:anh} bớt cho {S:em} chút nhé."},
+    {"speaker": "Mark", "text": "Normally it's eighty dollars, but I can do it for sixty.",
+     "ref": "Bình thường là tám mươi đô, nhưng {S:tôi} lấy {L:anh} sáu mươi thôi."},
+    {"speaker": "Daniel", "text": "Really? Thank you so much! When will it be ready?",
+     "ref": "Thật ạ? {S:Em} cảm ơn {L:anh} nhiều lắm! Khi nào thì xong hả {L:anh}?"},
+    {"speaker": "Mark", "text": "Give me about an hour. You can wait here, or I'll call you when it's done.",
+     "ref": "Cho {S:tôi} khoảng một tiếng. {L:Anh} có thể đợi ở đây, hoặc xong {S:tôi} sẽ gọi cho {L:anh}."},
+    {"speaker": "Daniel", "text": "I'll wait. Sorry for the trouble, and thanks for squeezing me in.",
+     "ref": "{S:Em} đợi ạ. Xin lỗi vì đã làm phiền {L:anh}, và cảm ơn {L:anh} đã nhận sửa gấp cho {S:em}."},
+    {"speaker": "Mark", "text": "No trouble at all. Could you write your name and number on this form?",
+     "ref": "Không phiền gì đâu. {L:Anh} ghi tên và số điện thoại vào phiếu này giúp {S:tôi} nhé."},
+    {"speaker": "Daniel", "text": "Sure. Here you go. I really appreciate your help.",
+     "ref": "Dạ vâng. Đây ạ. {S:Em} thật sự rất biết ơn {L:anh} đã giúp."},
+    {"speaker": "Mark", "text": "Thank you. I'll text you as soon as it's ready.",
+     "ref": "Cảm ơn {L:anh}. Sửa xong là {S:tôi} nhắn tin cho {L:anh} ngay."}
+  ]
+}

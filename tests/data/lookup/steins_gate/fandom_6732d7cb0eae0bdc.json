@@ -1,0 +1,127 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://steins-gate.fandom.com/api.php?action=query&format=json&gcmlimit=20&gcmnamespace=0&gcmtitle=Category%3ALocations&gcmtype=page&generator=categorymembers&prop=revisions&rvprop=content&rvsection=0&rvslots=main",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "pages": {
+    "12827": {
+     "pageid": 12827,
+     "ns": 0,
+     "title": "Akihabara",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "12673": {
+     "pageid": 12673,
+     "ns": 0,
+     "title": "Akihabara Radio Kaikan",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "13885": {
+     "pageid": 13885,
+     "ns": 0,
+     "title": "Ayamein Women's Academy",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "12676": {
+     "pageid": 12676,
+     "ns": 0,
+     "title": "Braun Tube Workshop",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "11504": {
+     "pageid": 11504,
+     "ns": 0,
+     "title": "Future Gadget Laboratory",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "2384": {
+     "pageid": 2384,
+     "ns": 0,
+     "title": "MayQueen+Nyan²",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "11654": {
+     "pageid": 11654,
+     "ns": 0,
+     "title": "Viktor Chondria University",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    },
+    "12675": {
+     "pageid": 12675,
+     "ns": 0,
+     "title": "Yanabayashi Shrine",
+     "revisions": [
+      {
+       "slots": {
+        "main": {
+         "*": ""
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

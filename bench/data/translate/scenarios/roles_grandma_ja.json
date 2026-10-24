@@ -1,0 +1,46 @@
+{
+  "name": "roles_grandma_ja",
+  "lang": "ja",
+  "split": "test",
+  "description": "Pronoun ROLES: a grandmother and her 9-year-old grandson helping in her kitchen; he breaks a plate. bà -> cháu / cháu -> bà; she calls herself ばあちゃん (a self-reference, not 'you'). Refs tag every pronoun use: {S:..} the speaker, {L:..} the listener.",
+  "style": "Giọng bà hiền từ; cháu lễ phép, hay dạ vâng.",
+  "glossary": [
+    {"source": "どら焼き", "target": "bánh dorayaki", "kind": "item"}
+  ],
+  "characters": [
+    {"name": "千代", "name_vi": "Chiyo", "gender": "nữ", "self_pronoun": "bà",
+     "notes": "72 tuổi, bà nội của Minato, hiền lành. Xưng 'bà' (ばあちゃん), gọi Minato là 'cháu'."},
+    {"name": "湊", "name_vi": "Minato", "gender": "nam", "self_pronoun": "cháu",
+     "notes": "9 tuổi, cháu nội của bà Chiyo, ngoan và lễ phép. Gọi Chiyo là 'bà' (おばあちゃん), xưng 'cháu'."}
+  ],
+  "pronouns": {
+    "千代>湊": {"self": ["bà"], "other": ["cháu"]},
+    "湊>千代": {"self": ["cháu"], "other": ["bà"]}
+  },
+  "lines": [
+    {"speaker": "湊", "text": "おばあちゃん、こんにちは！手伝いに来たよ。",
+     "ref": "{L:Bà} ơi, {S:cháu} chào {L:bà}! {S:Cháu} đến giúp {L:bà} đây."},
+    {"speaker": "千代", "text": "まあ、湊、よく来てくれたねえ。ありがとう。",
+     "ref": "Ôi, Minato, {L:cháu} đến thăm {S:bà} đấy à. Cảm ơn {L:cháu} nhé."},
+    {"speaker": "湊", "text": "何をすればいい？僕、何でもやるよ。",
+     "ref": "{S:Cháu} làm gì bây giờ ạ? Việc gì {S:cháu} cũng làm được."},
+    {"speaker": "千代", "text": "じゃあ、棚の上のお皿を取ってくれるかい？ばあちゃんは手が届かなくてね。",
+     "ref": "Vậy {L:cháu} lấy giúp {S:bà} cái đĩa trên kệ được không? {S:Bà} với không tới."},
+    {"speaker": "湊", "text": "いいよ。よいしょ…あっ！",
+     "ref": "Dạ được ạ. Hự… Á!"},
+    {"speaker": "湊", "text": "ごめんなさい、おばあちゃん！お皿、割っちゃった…。",
+     "ref": "{S:Cháu} xin lỗi {L:bà}! {S:Cháu} làm vỡ đĩa mất rồi…"},
+    {"speaker": "千代", "text": "怪我はないかい？お皿なんかより、湊のほうが大事だよ。",
+     "ref": "{L:Cháu} có bị đứt tay không? Cái đĩa sao quý bằng {L:cháu} được."},
+    {"speaker": "湊", "text": "大丈夫。片付けは僕がやるから、おばあちゃんは座ってて。",
+     "ref": "{S:Cháu} không sao ạ. Để {S:cháu} dọn cho, {L:bà} cứ ngồi nghỉ đi."},
+    {"speaker": "千代", "text": "優しい子だねえ。じゃあ、お願いしようかね。",
+     "ref": "Đúng là đứa cháu ngoan. Vậy {S:bà} nhờ {L:cháu} nhé."},
+    {"speaker": "湊", "text": "うん！終わったら、一緒におやつ食べよう。",
+     "ref": "Dạ! Dọn xong rồi {S:cháu} với {L:bà} cùng ăn bánh nhé."},
+    {"speaker": "千代", "text": "そうだね。湊の好きなどら焼き、取っておいたんだよ。",
+     "ref": "Ừ. {S:Bà} để dành bánh dorayaki {L:cháu} thích rồi đấy."},
+    {"speaker": "湊", "text": "やったー！おばあちゃん、ありがとう！",
+     "ref": "Yeah! {L:Bà} ơi, {S:cháu} cảm ơn {L:bà}!"}
+  ]
+}

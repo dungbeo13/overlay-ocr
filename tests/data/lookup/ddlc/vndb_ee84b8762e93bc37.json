@@ -1,0 +1,98 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/release",
+  "body": {
+   "filters": [
+    "and",
+    [
+     "vn",
+     "=",
+     [
+      "id",
+      "=",
+      "v21905"
+     ]
+    ],
+    [
+     "lang",
+     "=",
+     "vi"
+    ]
+   ],
+   "fields": "id,title,alttitle,languages.lang,languages.mtl,languages.title,official,patch,freeware,released,platforms,producers.name,extlinks.url,extlinks.label",
+   "sort": "released",
+   "results": 10
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": false,
+  "results": [
+   {
+    "alttitle": null,
+    "extlinks": [
+     {
+      "label": "Official website",
+      "url": "http://hoshivsub.com/2017/10/tuyen-nhan-su-cau-lac-bo-van-hoc-vui.html"
+     }
+    ],
+    "freeware": true,
+    "id": "r54075",
+    "languages": [
+     {
+      "lang": "vi",
+      "mtl": false,
+      "title": "Câu lạc bộ Văn Học vui nhộn"
+     }
+    ],
+    "official": false,
+    "patch": true,
+    "platforms": [
+     "win",
+     "lin",
+     "mac"
+    ],
+    "producers": [
+     {
+      "id": "p6463",
+      "name": "Hoshi Translation"
+     }
+    ],
+    "released": "2018-08-06",
+    "title": "Câu lạc bộ Văn Học vui nhộn"
+   },
+   {
+    "alttitle": null,
+    "extlinks": [
+     {
+      "label": "Official website",
+      "url": "https://hoshivsub.com/2017/10/tuyen-nhan-su-cau-lac-bo-van-hoc-vui.html"
+     }
+    ],
+    "freeware": true,
+    "id": "r63290",
+    "languages": [
+     {
+      "lang": "vi",
+      "mtl": false,
+      "title": "Câu lạc bộ Văn Học vui nhộn"
+     }
+    ],
+    "official": false,
+    "patch": false,
+    "platforms": [
+     "and"
+    ],
+    "producers": [
+     {
+      "id": "p6463",
+      "name": "Hoshi Translation"
+     }
+    ],
+    "released": "2019-04-20",
+    "title": "Câu lạc bộ Văn Học vui nhộn"
+   }
+  ]
+ }
+}

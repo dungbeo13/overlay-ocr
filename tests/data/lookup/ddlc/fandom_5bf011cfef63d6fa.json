@@ -1,0 +1,20 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://doki-doki-literature-club.fandom.com/api.php?action=query&format=json&meta=siteinfo",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "general": {
+    "sitename": "Doki Doki Literature Club Wiki",
+    "server": "https://doki-doki-literature-club.fandom.com",
+    "articlepath": "/wiki/$1",
+    "wikiid": "dokidokiliteratureclub",
+    "lang": "en"
+   }
+  }
+ }
+}

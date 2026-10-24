@@ -1,0 +1,1177 @@
+{
+ "about": "Held-out set E1 (independent, written blind to the checker and earlier sets): Vietnamese pronoun ROLE errors in JA/EN->VI game/manga dialogue, focused on benefactives (who did the favour for whom: てくれた/てくれる？/てもらう/ていただく/てあげる/てやる/て差し上げる, EN 'for me', 'thanks for helping me', offers and requests) plus near-misses that must stay ok (third-person giver, reported favours, conditionals, passives, 'cho' = let, restructured 'nhờ ... mà' / 'được'). 'wrong' = [pair word, 0-based index among case-insensitive whole-word occurrences in translation]; 'ref' tags every pronoun use of the pair words with {S:..} (speaker) or {L:..} (listener).",
+ "lines": [
+  {
+   "id": "HE1-01",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Haruto",
+   "listener": "Mio",
+   "own": "anh",
+   "other": "em",
+   "source": "俺の部屋、片付けてくれたのか？助かったよ",
+   "translation": "Anh dọn phòng cho em rồi à? Đỡ quá.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} dọn phòng giúp {S:anh} rồi à? Đỡ cho {S:anh} quá.",
+   "note": "くれた: Mio tidied Haruto's room. MT made the speaker the doer (anh) and the listener the beneficiary (em)."
+  },
+  {
+   "id": "HE1-02",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Haruto",
+   "listener": "Mio",
+   "own": "anh",
+   "other": "em",
+   "source": "宿題、見てやろうか？",
+   "translation": "Để anh xem bài tập giúp em nhé?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Để {S:anh} xem bài tập cho {L:em} nhé?",
+   "note": "てやろうか: Haruto offers the favour; anh = helper, em = beneficiary. Correct."
+  },
+  {
+   "id": "HE1-03",
+   "cat": "third-party",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Haruto",
+   "listener": "Mio",
+   "own": "anh",
+   "other": "em",
+   "source": "この弁当、母さんが作ってくれたんだ。お前の分もあるぞ",
+   "translation": "Hộp cơm này là mẹ làm cho đấy. Có cả phần của em nữa.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cơm hộp này mẹ làm cho đấy. Có cả phần {L:em} nữa.",
+   "note": "Near-miss: the mother (third person) did the favour; no pair word for the giver, em = the listener's share. Correct."
+  },
+  {
+   "id": "HE1-04",
+   "cat": "thanks",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Haruto",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃん、駅まで迎えに来てくれてありがとう",
+   "translation": "Anh hai, cảm ơn em đã ra ga đón anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     1
+    ]
+   ],
+   "ref": "Anh hai, cảm ơn {L:anh} đã ra tận ga đón {S:em}.",
+   "note": "てくれてありがとう: Haruto came to pick Mio up. 'Anh hai' (anh #0) is a correct kinship vocative; em is then used for Haruto and anh #1 for Mio."
+  },
+  {
+   "id": "HE1-05",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Haruto",
+   "own": "em",
+   "other": "anh",
+   "source": "ねえ、この問題教えてくれない？",
+   "translation": "Anh ơi, chỉ em bài này với được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} ơi, giảng giúp {S:em} bài này với được không?",
+   "note": "くれない？ request: the listener teaches the speaker. Correct."
+  },
+  {
+   "id": "HE1-06",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Haruto",
+   "own": "em",
+   "other": "anh",
+   "source": "帰りにコンビニでアイス買ってきてくれる？",
+   "translation": "Trên đường về em ghé cửa hàng tiện lợi mua kem cho anh nhé?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Trên đường về {L:anh} ghé cửa hàng tiện lợi mua kem cho {S:em} nhé?",
+   "note": "くれる？ request: Haruto should buy ice cream for Mio. MT turned it into Mio offering to buy it for him."
+  },
+  {
+   "id": "HE1-07",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Haruto",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんのシャツ、アイロンかけといてあげたよ",
+   "translation": "Em ủi sẵn áo sơ mi cho anh rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Áo sơ mi của {L:anh}, {S:em} ủi sẵn rồi đấy.",
+   "note": "ておいてあげた: Mio (speaker) did the favour. Correct."
+  },
+  {
+   "id": "HE1-08",
+   "cat": "conditional",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Mio",
+   "listener": "Haruto",
+   "own": "em",
+   "other": "anh",
+   "source": "掃除手伝ってくれたら、ケーキ半分あげる",
+   "translation": "Nếu anh giúp em dọn dẹp thì em cho anh nửa cái bánh.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} phụ {S:em} dọn dẹp thì {S:em} chia cho {L:anh} nửa cái bánh.",
+   "note": "Near-miss: conditional てくれたら (listener would help) + あげる (speaker gives cake). Both directions correct."
+  },
+  {
+   "id": "HE1-09",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sota",
+   "listener": "mother",
+   "own": "con",
+   "other": "mẹ",
+   "source": "明日の朝、6時に起こしてくれる？",
+   "translation": "Sáng mai con gọi mẹ dậy lúc 6 giờ nhé?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     0
+    ]
+   ],
+   "ref": "Sáng mai {L:mẹ} gọi {S:con} dậy lúc 6 giờ nhé?",
+   "note": "くれる？ request: mother should wake Sota. MT made Sota the one waking mother."
+  },
+  {
+   "id": "HE1-10",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sota",
+   "listener": "mother",
+   "own": "con",
+   "other": "mẹ",
+   "source": "体操服、洗っといてくれたんだ。ありがとう",
+   "translation": "Mẹ giặt đồ thể dục cho con rồi à? Con cảm ơn mẹ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} giặt sẵn đồ thể dục cho {S:con} rồi à? {S:Con} cảm ơn {L:mẹ}.",
+   "note": "ておいてくれた + thanks: mother washed the gym clothes for Sota. Correct."
+  },
+  {
+   "id": "HE1-11",
+   "cat": "third-party",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sota",
+   "listener": "mother",
+   "own": "con",
+   "other": "mẹ",
+   "source": "この自転車、おじいちゃんに買ってもらったんだ",
+   "translation": "Chiếc xe đạp này ông đã mua cho mẹ đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ]
+   ],
+   "ref": "Xe đạp này là ông mua cho {S:con} đấy.",
+   "note": "もらった: grandfather (third person) bought it, Sota (speaker) received it. MT used mẹ for the recipient."
+  },
+  {
+   "id": "HE1-12",
+   "cat": "passive",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sota",
+   "listener": "mother",
+   "own": "con",
+   "other": "mẹ",
+   "source": "今日、先生に褒められたんだよ！",
+   "translation": "Hôm nay con được cô giáo khen đấy!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hôm nay {S:con} được cô giáo khen đấy!",
+   "note": "Near-miss: passive 褒められた, the teacher is third person ('cô giáo' is not a pair word here). Correct."
+  },
+  {
+   "id": "HE1-13",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "mother",
+   "listener": "Sota",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お皿洗ってくれたの？えらいね",
+   "translation": "Mẹ rửa bát cho con à? Giỏi quá.",
+   "label": "error",
+   "wrong": [
+    [
+     "mẹ",
+     0
+    ],
+    [
+     "con",
+     0
+    ]
+   ],
+   "ref": "{L:Con} rửa bát giúp {S:mẹ} à? Ngoan quá.",
+   "note": "くれたの？: Sota washed the dishes for his mother. MT reversed doer and beneficiary."
+  },
+  {
+   "id": "HE1-14",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "mother",
+   "listener": "Sota",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お弁当にハンバーグ入れてあげるね",
+   "translation": "Mẹ bỏ thêm miếng hamburg vào hộp cơm cho con nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Mẹ} bỏ thêm miếng hamburg vào hộp cơm cho {L:con} nhé.",
+   "note": "てあげる: mother does the favour for Sota. Correct."
+  },
+  {
+   "id": "HE1-15",
+   "cat": "cho-let",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "mother",
+   "listener": "Sota",
+   "own": "mẹ",
+   "other": "con",
+   "source": "宿題終わったら、ゲームしていいよ",
+   "translation": "Làm xong bài tập thì mẹ cho con chơi game.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Làm xong bài tập thì {S:mẹ} cho {L:con} chơi game.",
+   "note": "Near-miss: 'cho' means let/allow here (〜していい), not a benefactive. mẹ = speaker, con = listener. Correct."
+  },
+  {
+   "id": "HE1-16",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "mother",
+   "listener": "Sota",
+   "own": "mẹ",
+   "other": "con",
+   "source": "ちょっと買い物袋持ってもらえる？",
+   "translation": "Con cầm giúp mẹ túi đồ một lát được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Con} cầm giúp {S:mẹ} túi đồ một lát được không?",
+   "note": "もらえる？ request: Sota should carry the bag for his mother. Correct."
+  },
+  {
+   "id": "HE1-17",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "grandmother",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、マフラー編んでくれたの？すごくあったかい！",
+   "translation": "Bà ơi, bà đan khăn cho cháu ạ? Ấm quá!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Bà} ơi, {L:bà} đan khăn quàng cho {S:cháu} ạ? Ấm lắm ạ!",
+   "note": "くれたの？: grandmother knitted the scarf for Yui. Correct."
+  },
+  {
+   "id": "HE1-18",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "grandmother",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、肩もんであげる",
+   "translation": "Bà ơi, bà xoa bóp vai cho cháu nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "bà",
+     1
+    ],
+    [
+     "cháu",
+     0
+    ]
+   ],
+   "ref": "{L:Bà} ơi, để {S:cháu} bóp vai cho {L:bà} nhé.",
+   "note": "てあげる: Yui offers to massage her grandmother. 'Bà ơi' (bà #0) is a correct vocative; bà #1 is used for the masseur (speaker) and cháu for the receiver (listener)."
+  },
+  {
+   "id": "HE1-19",
+   "cat": "reported",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "grandmother",
+   "own": "cháu",
+   "other": "bà",
+   "source": "お母さんが、困ったらおばあちゃんに手伝ってもらいなさいって",
+   "translation": "Mẹ cháu dặn có gì khó thì nhờ bà giúp ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mẹ {S:cháu} dặn có gì khó thì nhờ {L:bà} giúp ạ.",
+   "note": "Near-miss: a reported instruction from Yui's mother; the favour asked of grandmother keeps bà = listener. 'Mẹ' is third person. Correct."
+  },
+  {
+   "id": "HE1-20",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Yui",
+   "listener": "grandmother",
+   "own": "cháu",
+   "other": "bà",
+   "source": "この前送ってくれたみかん、すごく甘かったよ",
+   "translation": "Quýt bà gửi cho cháu hôm trước ngọt lắm ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Quýt hôm trước {L:bà} gửi cho {S:cháu} ngọt lắm ạ.",
+   "note": "Relative clause 送ってくれた: grandmother sent the mandarins to Yui. Correct."
+  },
+  {
+   "id": "HE1-21",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Daichi",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "休んでた間のノート、コピーしてくれたんだな。サンキュー",
+   "translation": "Tớ đã photo vở ghi cho cậu trong mấy hôm cậu nghỉ rồi. Cảm ơn nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "tớ",
+     0
+    ],
+    [
+     "cậu",
+     0
+    ],
+    [
+     "cậu",
+     1
+    ]
+   ],
+   "ref": "{L:Cậu} photo giúp {S:tớ} vở ghi mấy hôm {S:tớ} nghỉ à? Cảm ơn nhé.",
+   "note": "くれた: Ren was absent and Daichi copied the notes for him. MT flipped the copier, the beneficiary and the absent person."
+  },
+  {
+   "id": "HE1-22",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Daichi",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "明日、傘貸してくれない？",
+   "translation": "Mai cậu cho tớ mượn ô được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mai {L:cậu} cho {S:tớ} mượn cái ô được không?",
+   "note": "くれない？ request restructured as 'cho ... mượn' (let borrow): listener lends, speaker borrows. Correct."
+  },
+  {
+   "id": "HE1-23",
+   "cat": "restructure",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Daichi",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "お前が勉強教えてくれたおかげで、追試にならずに済んだよ",
+   "translation": "Nhờ cậu kèm bài mà tớ thoát được vụ thi lại.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nhờ {L:cậu} kèm bài cho mà {S:tớ} thoát được vụ thi lại.",
+   "note": "Near-miss: restructured with 'nhờ cậu ... mà tớ'. Correct roles."
+  },
+  {
+   "id": "HE1-24",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Ren",
+   "listener": "Daichi",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "引っ越しの日、手伝いに行ってやるよ",
+   "translation": "Hôm chuyển nhà, cậu sẽ đến giúp tớ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cậu",
+     0
+    ],
+    [
+     "tớ",
+     0
+    ]
+   ],
+   "ref": "Hôm {L:cậu} chuyển nhà, {S:tớ} sẽ qua phụ {L:cậu}.",
+   "note": "てやる: Ren offers to help Daichi move. MT made Daichi the helper."
+  },
+  {
+   "id": "HE1-25",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Goro",
+   "listener": "Tetsu",
+   "own": "tao",
+   "other": "mày",
+   "source": "おい、俺のバイク直してくれたのか？",
+   "translation": "Này, tao sửa xe máy cho mày rồi à?",
+   "label": "error",
+   "wrong": [
+    [
+     "tao",
+     0
+    ],
+    [
+     "mày",
+     0
+    ]
+   ],
+   "ref": "Ê, {L:mày} sửa xe cho {S:tao} rồi à?",
+   "note": "くれたのか: Tetsu fixed Goro's bike. MT made Goro (tao) the mechanic."
+  },
+  {
+   "id": "HE1-26",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Goro",
+   "listener": "Tetsu",
+   "own": "tao",
+   "other": "mày",
+   "source": "しょうがねえな、今回だけ金貸してやるよ",
+   "translation": "Hết cách với mày, lần này thôi tao cho mày vay tiền đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Chịu {L:mày} thật, lần này thôi đấy, {S:tao} cho {L:mày} vay tiền.",
+   "note": "てやる: Goro lends Tetsu money. Correct."
+  },
+  {
+   "id": "HE1-27",
+   "cat": "third-party",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Goro",
+   "listener": "Tetsu",
+   "own": "tao",
+   "other": "mày",
+   "source": "この傷か？兄貴が手当てしてくれたんだよ",
+   "translation": "Vết này à? Đại ca băng bó cho tao đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Vết này à? Đại ca băng bó cho {S:tao} đấy.",
+   "note": "Near-miss: the gang boss (third person) treated the wound for Goro. Correct."
+  },
+  {
+   "id": "HE1-28",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Tanaka",
+   "own": "em",
+   "other": "cô",
+   "source": "先生が推薦状を書いてくださったおかげで、合格できました",
+   "translation": "Nhờ em viết thư giới thiệu cho cô mà em đã đỗ ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "cô",
+     0
+    ]
+   ],
+   "ref": "Nhờ {L:cô} viết thư giới thiệu cho {S:em} mà {S:em} đã đỗ rồi ạ.",
+   "note": "くださった: the teacher wrote the recommendation for Aoi. MT reversed writer and beneficiary in the first clause; em #1 (who passed) is right."
+  },
+  {
+   "id": "HE1-29",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Tanaka",
+   "own": "em",
+   "other": "cô",
+   "source": "昨日教えていただいた方法で解けました",
+   "translation": "Em đã giải được bằng cách cô chỉ hôm qua ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Em} giải được rồi ạ, bằng cách hôm qua {L:cô} chỉ cho {S:em}.",
+   "note": "ていただいた: Aoi received the explanation from the teacher. Correct."
+  },
+  {
+   "id": "HE1-30",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Tanaka",
+   "own": "em",
+   "other": "cô",
+   "source": "すみません、もう一度説明していただけますか",
+   "translation": "Xin lỗi, em có thể giải thích lại một lần nữa được không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{S:Em} xin lỗi, {L:cô} giảng lại cho {S:em} một lần nữa được không ạ?",
+   "note": "ていただけますか: Aoi asks the teacher to explain again. MT made Aoi the one who explains."
+  },
+  {
+   "id": "HE1-31",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Ms. Tanaka",
+   "listener": "Aoi",
+   "own": "cô",
+   "other": "em",
+   "source": "プリント、机の上に置いておいてあげたからね",
+   "translation": "Cô để sẵn phiếu bài tập trên bàn cho em rồi nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Cô} để sẵn phiếu bài tập trên bàn cho {L:em} rồi nhé.",
+   "note": "ておいてあげた: the teacher did the favour for Aoi. Correct."
+  },
+  {
+   "id": "HE1-32",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Kenji",
+   "listener": "Sato",
+   "own": "em",
+   "other": "chị",
+   "source": "先週は資料を直していただいて、本当に助かりました",
+   "translation": "Tuần trước em đã sửa tài liệu cho chị, thật sự giúp được rất nhiều.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "chị",
+     0
+    ]
+   ],
+   "ref": "Tuần trước {L:chị} sửa tài liệu giúp {S:em}, {S:em} đỡ vất vả hẳn ạ.",
+   "note": "ていただいて: Sato fixed Kenji's documents. MT made Kenji the fixer."
+  },
+  {
+   "id": "HE1-33",
+   "cat": "restructure",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Kenji",
+   "listener": "Sato",
+   "own": "em",
+   "other": "chị",
+   "source": "入社したばかりの頃、先輩にいろいろ教えてもらいましたよね",
+   "translation": "Hồi mới vào công ty, em được chị chỉ bảo đủ thứ nhỉ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hồi mới vào công ty, {S:em} được {L:chị} chỉ bảo đủ thứ nhỉ.",
+   "note": "Near-miss: もらいました restructured as 'em được chị chỉ bảo'; 先輩 used as 'you'. Correct."
+  },
+  {
+   "id": "HE1-34",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Kenji",
+   "listener": "Sato",
+   "own": "em",
+   "other": "chị",
+   "source": "このメール、送る前にチェックしてくれませんか",
+   "translation": "Em kiểm tra email này trước khi gửi được không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Chị} kiểm tra giúp {S:em} email này trước khi gửi được không ạ?",
+   "note": "くれませんか: Kenji asks Sato to check the email. MT made Kenji the checker."
+  },
+  {
+   "id": "HE1-35",
+   "cat": "thanks",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sato",
+   "listener": "Kenji",
+   "own": "chị",
+   "other": "em",
+   "source": "残業代わってくれてありがとう。今度おごるね",
+   "translation": "Cảm ơn em đã làm thêm giờ thay chị nhé. Lần sau chị bao.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:em} đã tăng ca thay {S:chị} nhé. Lần sau {S:chị} mời.",
+   "note": "てくれてありがとう: Kenji covered Sato's overtime; Sato will treat him. Correct."
+  },
+  {
+   "id": "HE1-36",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Sato",
+   "listener": "Kenji",
+   "own": "chị",
+   "other": "em",
+   "source": "コピー取ってくれたの？助かる！お礼にランチおごってあげる",
+   "translation": "Chị photo giúp em à? Đỡ quá! Để cảm ơn, chị mời em ăn trưa nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} photo giúp {S:chị} à? Đỡ quá! Coi như cảm ơn, {S:chị} mời {L:em} bữa trưa nhé.",
+   "note": "Mixed line: くれたの？ reversed (chị #0, em #0 wrong); the あげる clause (chị #1, em #1) is correct."
+  },
+  {
+   "id": "HE1-37",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Master Gen",
+   "listener": "Kai",
+   "own": "ta",
+   "other": "con",
+   "source": "明日から剣の型を教えてやろう",
+   "translation": "Từ mai ta sẽ dạy con các thế kiếm.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Từ mai {S:ta} sẽ dạy {L:con} các thế kiếm.",
+   "note": "てやろう: the master teaches the apprentice. Correct."
+  },
+  {
+   "id": "HE1-38",
+   "cat": "plural",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Master Gen",
+   "listener": "Kai",
+   "own": "ta",
+   "other": "con",
+   "source": "村の者たちが食料を分けてくれた。明日、礼を言いに行くぞ",
+   "translation": "Dân làng đã chia lương thực cho chúng ta. Mai ta với con đi cảm ơn họ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Dân làng đã chia lương thực cho chúng ta. Mai {S:ta} với {L:con} đi cảm ơn họ.",
+   "note": "Near-miss: villagers (third person) did the favour for 'chúng ta' (plural, untagged; ta #0). ta #1 = speaker. Correct."
+  },
+  {
+   "id": "HE1-39",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Leon",
+   "listener": "Princess Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "姫様が自ら傷の手当てをしてくださったのですか",
+   "translation": "Thần đã tự tay băng bó vết thương cho công chúa sao?",
+   "label": "error",
+   "wrong": [
+    [
+     "thần",
+     0
+    ],
+    [
+     "công chúa",
+     0
+    ]
+   ],
+   "ref": "{L:Công chúa} đã đích thân băng bó vết thương cho {S:thần} sao?",
+   "note": "くださった: the princess herself treated the knight's wound. MT made the knight the healer."
+  },
+  {
+   "id": "HE1-40",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "ja",
+   "speaker": "Leon",
+   "listener": "Princess Elise",
+   "own": "thần",
+   "other": "công chúa",
+   "source": "姫様の剣は、私が研いで差し上げましょう",
+   "translation": "Thanh kiếm của công chúa, xin để thần mài lại cho.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thanh kiếm của {L:công chúa}, xin để {S:thần} mài lại cho.",
+   "note": "て差し上げましょう: the knight offers the favour. Correct."
+  },
+  {
+   "id": "HE1-41",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "You fixed my bike for me? You're the best!",
+   "translation": "Em sửa xe đạp cho anh à? Anh là nhất!",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} sửa xe đạp cho {S:em} à? {L:Anh} là nhất!",
+   "note": "Max fixed Lily's bike. MT reversed the first sentence; anh #1 ('Anh là nhất') is right."
+  },
+  {
+   "id": "HE1-42",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Can you lend me your charger for a sec?",
+   "translation": "Anh cho em mượn sạc một lát được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} cho {S:em} mượn cục sạc một lát được không?",
+   "note": "'lend me' -> 'cho em mượn': listener lends, speaker borrows. Correct."
+  },
+  {
+   "id": "HE1-43",
+   "cat": "third-party",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Mom baked this cake for you, not for me.",
+   "translation": "Mẹ nướng cái bánh này cho anh chứ không phải cho em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mẹ nướng cái bánh này cho {L:anh} chứ có phải cho {S:em} đâu.",
+   "note": "Near-miss: the mother (third person) did the favour. Correct."
+  },
+  {
+   "id": "HE1-44",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "I'll walk you home tonight.",
+   "translation": "Tối nay em sẽ đưa anh về nhà.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Tối nay {S:anh} đưa {L:em} về nhà.",
+   "note": "Max offers to walk Lily home. MT used the default I=em / you=anh mapping."
+  },
+  {
+   "id": "HE1-45",
+   "cat": "thanks",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "Thanks for covering for me with Mom.",
+   "translation": "Cảm ơn em đã nói đỡ cho anh với mẹ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:em} đã nói đỡ cho {S:anh} với mẹ nhé.",
+   "note": "Lily covered for Max. Correct."
+  },
+  {
+   "id": "HE1-46",
+   "cat": "thanks",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "Thanks for helping me move the couch.",
+   "translation": "Cảm ơn anh đã giúp em chuyển cái ghế sofa.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Cảm ơn {L:em} đã phụ {S:anh} khiêng cái sofa nhé.",
+   "note": "Lily helped Max. MT used the default you=anh / me=em mapping."
+  },
+  {
+   "id": "HE1-47",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Noah",
+   "listener": "Dad",
+   "own": "con",
+   "other": "bố",
+   "source": "Dad, could you help me with my science project?",
+   "translation": "Bố ơi, bố giúp con làm dự án khoa học được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Bố} ơi, {L:bố} giúp {S:con} làm dự án khoa học được không ạ?",
+   "note": "Request to Dad. Correct."
+  },
+  {
+   "id": "HE1-48",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Noah",
+   "listener": "Dad",
+   "own": "con",
+   "other": "bố",
+   "source": "Did you buy this game for me?",
+   "translation": "Con mua trò chơi này cho bố à?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "bố",
+     0
+    ]
+   ],
+   "ref": "{L:Bố} mua trò chơi này cho {S:con} ạ?",
+   "note": "Dad bought the game for Noah. MT reversed buyer and recipient."
+  },
+  {
+   "id": "HE1-49",
+   "cat": "conditional",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Noah",
+   "listener": "Dad",
+   "own": "con",
+   "other": "bố",
+   "source": "If you take me fishing, I'll wash the car for you.",
+   "translation": "Nếu bố cho con đi câu cá thì con sẽ rửa xe cho bố.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nếu {L:bố} cho {S:con} đi câu cá thì {S:con} sẽ rửa xe cho {L:bố}.",
+   "note": "Near-miss: conditional + 'cho con đi' (let/take me) + speaker's offered favour. Correct."
+  },
+  {
+   "id": "HE1-50",
+   "cat": "thanks",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Ethan",
+   "listener": "Grandpa",
+   "own": "cháu",
+   "other": "ông",
+   "source": "Thank you for teaching me how to fish, Grandpa.",
+   "translation": "Cảm ơn cháu đã dạy ông câu cá, ông ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "ông",
+     0
+    ]
+   ],
+   "ref": "{S:Cháu} cảm ơn {L:ông} đã dạy {S:cháu} câu cá ạ.",
+   "note": "Grandpa taught Ethan. MT reversed teacher and learner; the closing vocative 'ông ạ' (ông #1) is right."
+  },
+  {
+   "id": "HE1-51",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Ethan",
+   "listener": "Grandpa",
+   "own": "cháu",
+   "other": "ông",
+   "source": "Let me carry that for you, Grandpa.",
+   "translation": "Ông ơi, để cháu xách giúp ông.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Ông} ơi, để {S:cháu} xách cho {L:ông}.",
+   "note": "Ethan offers the favour. Correct."
+  },
+  {
+   "id": "HE1-52",
+   "cat": "reported",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Ethan",
+   "listener": "Grandpa",
+   "own": "cháu",
+   "other": "ông",
+   "source": "Grandma says you built this treehouse for Dad.",
+   "translation": "Bà bảo ông đã làm ngôi nhà trên cây này cho bố cháu.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Bà bảo {L:ông} làm ngôi nhà trên cây này cho bố {S:cháu} đấy ạ.",
+   "note": "Near-miss: reported favour from Grandpa to Ethan's father; 'Bà' and 'bố' are third person, 'bố cháu' = my dad. Correct."
+  },
+  {
+   "id": "HE1-53",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Kim",
+   "own": "mình",
+   "other": "bạn",
+   "source": "Could you save me a seat at the library?",
+   "translation": "Mình giữ chỗ cho bạn ở thư viện nhé?",
+   "label": "error",
+   "wrong": [
+    [
+     "mình",
+     0
+    ],
+    [
+     "bạn",
+     0
+    ]
+   ],
+   "ref": "{L:Bạn} giữ giúp {S:mình} một chỗ ở thư viện được không?",
+   "note": "Request: Kim should save a seat for Jun. MT turned it into Jun's offer."
+  },
+  {
+   "id": "HE1-54",
+   "cat": "restructure",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Kim",
+   "own": "mình",
+   "other": "bạn",
+   "source": "I passed the interview thanks to the tips you gave me.",
+   "translation": "Nhờ mấy mẹo bạn chỉ mà mình qua được vòng phỏng vấn rồi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nhờ mấy mẹo {L:bạn} chỉ mà {S:mình} qua vòng phỏng vấn rồi.",
+   "note": "Near-miss: restructured with 'nhờ ... mà'. Correct."
+  },
+  {
+   "id": "HE1-55",
+   "cat": "passive",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Kim",
+   "own": "mình",
+   "other": "bạn",
+   "source": "I got picked for the team, and the coach even gave me a new jersey!",
+   "translation": "Mình được chọn vào đội rồi, huấn luyện viên còn tặng mình áo đấu mới nữa!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Mình} được chọn vào đội rồi, huấn luyện viên còn tặng {S:mình} áo đấu mới nữa!",
+   "note": "Near-miss: passive + third-person giver (coach). Correct."
+  },
+  {
+   "id": "HE1-56",
+   "cat": "third-party",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Kim",
+   "own": "mình",
+   "other": "bạn",
+   "source": "A friend lent me this book, so be careful with it.",
+   "translation": "Sách này bạn mình cho mình mượn đấy, bạn giữ cẩn thận nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Sách này bạn {S:mình} cho {S:mình} mượn đấy, {L:bạn} giữ cẩn thận nhé.",
+   "note": "Near-miss: 'bạn mình' (bạn #0) is the noun 'my friend' (third person, untagged); bạn #1 = listener. Correct."
+  },
+  {
+   "id": "HE1-57",
+   "cat": "favour-received",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Leo",
+   "listener": "Ana",
+   "own": "anh",
+   "other": "em",
+   "source": "You knitted this scarf for me? I love it.",
+   "translation": "Anh đan chiếc khăn này cho em à? Em thích lắm.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ],
+   "ref": "{L:Em} đan chiếc khăn này cho {S:anh} à? {S:Anh} thích lắm.",
+   "note": "Ana knitted the scarf for Leo. MT applied the girlfriend's pronouns to Leo throughout."
+  },
+  {
+   "id": "HE1-58",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Leo",
+   "listener": "Ana",
+   "own": "anh",
+   "other": "em",
+   "source": "I'll cook dinner for you tonight.",
+   "translation": "Tối nay anh nấu bữa tối cho em nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Tối nay {S:anh} nấu cơm cho {L:em} ăn nhé.",
+   "note": "Leo offers to cook. Correct."
+  },
+  {
+   "id": "HE1-59",
+   "cat": "favour-request",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Mai (shop clerk)",
+   "listener": "male customer",
+   "own": "em",
+   "other": "anh",
+   "source": "Could you sign here for me, please?",
+   "translation": "Em có thể ký vào đây cho anh được không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} ký giúp {S:em} vào đây được không ạ?",
+   "note": "Clerk asks the customer to sign. MT made the clerk the signer and the customer the beneficiary."
+  },
+  {
+   "id": "HE1-60",
+   "cat": "favour-offered",
+   "origin": "heldout-e",
+   "src_lang": "en",
+   "speaker": "Mai (shop clerk)",
+   "listener": "male customer",
+   "own": "em",
+   "other": "anh",
+   "source": "Let me wrap it for you. It's a gift, right?",
+   "translation": "Để em gói lại cho anh nhé. Quà tặng phải không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Để {S:em} gói lại cho {L:anh} nhé. Đồ làm quà phải không ạ?",
+   "note": "Clerk offers the favour. Correct."
+  }
+ ]
+}

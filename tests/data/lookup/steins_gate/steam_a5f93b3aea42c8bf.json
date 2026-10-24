@@ -1,0 +1,184 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://store.steampowered.com/api/storesearch/?cc=US&l=english&term=Steins%3BGate",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "total": 10,
+  "items": [
+   {
+    "type": "app",
+    "name": "STEINS;GATE",
+    "id": 412830,
+    "price": {
+     "currency": "USD",
+     "initial": 2999,
+     "final": 2999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412830/capsule_231x87.jpg?t=1715703398",
+    "metascore": "87",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE 0",
+    "id": 825630,
+    "price": {
+     "currency": "USD",
+     "initial": 3499,
+     "final": 3499
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/825630/capsule_231x87.jpg?t=1715703408",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE RE:BOOT",
+    "id": 4012810,
+    "price": {
+     "currency": "USD",
+     "initial": 5999,
+     "final": 5999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/66cd3882f3926e2d0e88c598fde47213517e9a70/capsule_231x87.jpg?t=1788401296",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE ELITE",
+    "id": 819030,
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/819030/capsule_231x87.jpg?t=1715703414",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false,
+    "controller_support": "full"
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE 15th LIVE ONE WORLD",
+    "id": 4872740,
+    "price": {
+     "currency": "USD",
+     "initial": 7999,
+     "final": 7999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872740/125bba91ff356e7c3c0ebe7543cc4d3334da351b/capsule_231x87.jpg?t=1787151625",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE: Linear Bounded Phenogram",
+    "id": 930910,
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/930910/capsule_231x87.jpg?t=1715703424",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE: My Darling's Embrace",
+    "id": 970560,
+    "price": {
+     "currency": "USD",
+     "initial": 2999,
+     "final": 2999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970560/capsule_231x87.jpg?t=1715703432",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "sub",
+    "name": "STEINS;GATE REBOOT DIGITAL DELUXE EDITION",
+    "id": 1707312,
+    "price": {
+     "currency": "USD",
+     "initial": 7999,
+     "final": 7999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1707312/1385e7d595719924b63f5a33c0c19f774b08ff99/capsule_231x87.jpg?t=1787152750",
+    "metascore": 0,
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE RE:BOOT Soundtrack",
+    "id": 4872720,
+    "price": {
+     "currency": "USD",
+     "initial": 7999,
+     "final": 7999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872720/7491c8873dd53d462ba4b2de7e2f879029478b8e/capsule_231x87.jpg?t=1787151615",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": true,
+     "linux": true
+    },
+    "streamingvideo": false
+   },
+   {
+    "type": "app",
+    "name": "STEINS;GATE RE:BOOT VISUAL COLLECTION",
+    "id": 4872730,
+    "price": {
+     "currency": "USD",
+     "initial": 7999,
+     "final": 7999
+    },
+    "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4872730/b2d128014f88a06daea7d0d7fb8cd7f51b6c0fdf/capsule_231x87.jpg?t=1787151679",
+    "metascore": "",
+    "platforms": {
+     "windows": true,
+     "mac": false,
+     "linux": false
+    },
+    "streamingvideo": false
+   }
+  ]
+ }
+}

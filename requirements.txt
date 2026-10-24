@@ -1,0 +1,38 @@
+# Phase 0 environment (Python 3.12 x64, Windows 11 24H2+).
+# Only ONE onnxruntime* package may be installed: onnxruntime-gpu also ships the CPU provider.
+# Keep the venv on a short path (e.g. %USERPROFILE%\.venvs\screen-translator): cv2 and the
+# CUDA/cuDNN DLLs fail to load past MAX_PATH ("The filename or extension is too long").
+
+# UI / overlay
+PySide6-Essentials>=6.11
+
+# Capture
+dxcam==0.3.0
+windows-capture==2.0.1
+mss>=10.0
+
+# OCR
+rapidocr==3.10.0
+onnxruntime-gpu[cuda,cudnn]>=1.24
+winrt-runtime
+winrt-Windows.Foundation
+winrt-Windows.Foundation.Collections
+winrt-Windows.Globalization
+winrt-Windows.Graphics.Imaging
+winrt-Windows.Media.Ocr
+winrt-Windows.Storage.Streams
+
+# Translation
+httpx[http2]>=0.27
+rapidfuzz>=3.0
+
+# Utilities
+numpy
+# Both OpenCV wheels end up installed: rapidocr needs opencv-python-headless, windows-capture needs
+# opencv-python. They share the cv2/ package, so keep them on the same version (see requirements.lock.txt)
+# and never `pip uninstall` either one: that deletes cv2/ files the other one still uses.
+opencv-python
+Pillow
+psutil
+# Desktop / Start Menu shortcuts (tools/install_shortcut.py)
+comtypes==1.4.17

@@ -1,0 +1,69 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://doki-doki-literature-club.fandom.com/api.php?action=query&format=json&list=search&srlimit=10&srnamespace=14&srprop=&srsearch=Doki+Doki+Literature+Club%21+characters",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "continue": {
+   "sroffset": 10,
+   "continue": "-||"
+  },
+  "query": {
+   "search": [
+    {
+     "ns": 14,
+     "title": "Category:Characters",
+     "pageid": 156
+    },
+    {
+     "ns": 14,
+     "title": "Category:Characters in DDLC",
+     "pageid": 21715
+    },
+    {
+     "ns": 14,
+     "title": "Category:Characters in DDLC Plus",
+     "pageid": 21714
+    },
+    {
+     "ns": 14,
+     "title": "Category:Sprites",
+     "pageid": 23116
+    },
+    {
+     "ns": 14,
+     "title": "Category:DDLC+",
+     "pageid": 23031
+    },
+    {
+     "ns": 14,
+     "title": "Category:Content",
+     "pageid": 4645
+    },
+    {
+     "ns": 14,
+     "title": "Category:Videos",
+     "pageid": 4982
+    },
+    {
+     "ns": 14,
+     "title": "Category:Developers",
+     "pageid": 3312
+    },
+    {
+     "ns": 14,
+     "title": "Category:Locations",
+     "pageid": 393
+    },
+    {
+     "ns": 14,
+     "title": "Category:Acts",
+     "pageid": 3310
+    }
+   ]
+  }
+ }
+}

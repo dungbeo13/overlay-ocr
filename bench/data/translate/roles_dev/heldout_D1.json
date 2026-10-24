@@ -1,0 +1,1137 @@
+{
+  "about": "Held-out set D1 (origin 'heldout-d'), written independently and blind to the checker and to earlier test sets. 60 original lines of game/manga/anime dialogue (Japanese or English source) with a Vietnamese translation as a small MT model might produce it, for testing detection of PRONOUN ROLE errors. Focus: explicit source pronouns with clear grammatical roles (JA 私/僕/俺/あたし/わし/わたくし vs お前/あなた/君/あんた/てめぇ/貴様 with が/は/も/を/に/の/と/から, speakers who refer to themselves by role word 先生/お母さん/お姉ちゃん/お兄ちゃん/おばあちゃん; EN I/me/my/mine vs you/your/yours, we vs you): subject, object, possessive and double swaps, plus near-misses that must stay ok (passives, quoted/reported speech, conditionals, relative clauses, 好き/嫌い, third persons such as 'anh ấy'/'cô ấy', kinship nouns, the classifier 'con', 'tinh thần', the noun 'bạn', plurals and inclusive we such as 'chúng ta'/'tụi mình'/'bọn cháu', correct restructurings, and wrong-register words in the right role). label 'error' = at least one pair word (own/other) used in the wrong role; a non-pair word in the right role is 'ok'. wrong = [[word, k]] with k the 0-based index among case-insensitive whole-word occurrences of that word in the translation (occurrences inside 'anh ấy', 'chúng ta', 'tinh thần' etc. are counted). ref = a correct translation in which every pronoun use of the pair words is tagged {S:word} (speaker) or {L:word} (listener); vocatives addressing the listener ('Anh ơi', 'Thưa công chúa', 'con yêu') are tagged L; third persons, kinship nouns, classifiers, plurals and compounds stay untagged.",
+  "lines": [
+    {
+      "id": "HD1-01",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "私もお兄ちゃんと一緒に行きたい！",
+      "translation": "Em cũng muốn đi cùng anh!",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Em} cũng muốn đi cùng {L:anh}!",
+      "note": "私も (speaker) -> em, お兄ちゃんと (listener) -> anh. Both roles right."
+    },
+    {
+      "id": "HD1-02",
+      "cat": "object",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "お兄ちゃん、私を置いていかないで。",
+      "translation": "Anh ơi, đừng bỏ anh lại một mình.",
+      "label": "error",
+      "wrong": [
+        [
+          "anh",
+          1
+        ]
+      ],
+      "ref": "{L:Anh} ơi, đừng bỏ {S:em} lại một mình.",
+      "note": "Vocative 'Anh ơi' is right; the object 私を (the speaker) came out as 'anh' (listener's word). Should be 'em'."
+    },
+    {
+      "id": "HD1-03",
+      "cat": "passive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "昨日お兄ちゃんに怒られたの、まだ気にしてるんだから。",
+      "translation": "Em vẫn còn để bụng chuyện hôm qua bị anh mắng đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Em} vẫn còn để bụng chuyện hôm qua bị {L:anh} mắng đấy.",
+      "note": "Passive お兄ちゃんに怒られた: the listener is the agent (bị anh mắng), the speaker the implied subject (em). Correct."
+    },
+    {
+      "id": "HD1-04",
+      "cat": "quote",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "お兄ちゃん、昨日『俺に任せろ』って言ったじゃん。",
+      "translation": "Anh ơi, hôm qua anh bảo “cứ để anh lo” còn gì.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Anh} ơi, hôm qua {L:anh} bảo “cứ để {L:anh} lo” còn gì.",
+      "note": "Near-miss: inside the quote 俺 is the listener (Kaito) quoting himself, so 'để anh lo' refers to the listener -> 'anh' is the right role."
+    },
+    {
+      "id": "HD1-05",
+      "cat": "emotive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "お兄ちゃんのそういうところ、私は好きだよ。",
+      "translation": "Anh thích em ở điểm đó đấy.",
+      "label": "error",
+      "wrong": [
+        [
+          "anh",
+          0
+        ],
+        [
+          "em",
+          0
+        ]
+      ],
+      "ref": "{S:Em} thích cái tính đó của {L:anh} lắm.",
+      "note": "私は好き: the speaker likes the listener's trait. MT reversed both: 'Anh' as the one who likes, 'em' as the one liked."
+    },
+    {
+      "id": "HD1-06",
+      "cat": "third-person",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Sera",
+      "listener": "Kaito",
+      "own": "em",
+      "other": "anh",
+      "source": "彼ね、毎日私にお弁当作ってくれるの。お兄ちゃんも見習ってよ。",
+      "translation": "Anh ấy ngày nào cũng làm cơm hộp cho em đấy. Anh cũng học hỏi người ta đi.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Anh ấy ngày nào cũng làm cơm hộp cho {S:em} đấy. {L:Anh} cũng học hỏi người ta đi.",
+      "note": "Near-miss: 'Anh ấy' = 彼 (third person, untagged). 私に -> em (speaker), お兄ちゃんも -> Anh (listener)."
+    },
+    {
+      "id": "HD1-07",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Kaito",
+      "listener": "Sera",
+      "own": "anh",
+      "other": "em",
+      "source": "俺が迎えに行くから、お前は駅で待ってろ。",
+      "translation": "Em sẽ đi đón, cứ đợi ở nhà ga nhé.",
+      "label": "error",
+      "wrong": [
+        [
+          "em",
+          0
+        ]
+      ],
+      "ref": "{S:Anh} sẽ ra đón, {L:em} cứ đợi ở nhà ga nhé.",
+      "note": "俺が (older brother) rendered as 'Em' (the sister's word); お前は was dropped. Single subject swap."
+    },
+    {
+      "id": "HD1-08",
+      "cat": "conditional",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Kaito",
+      "listener": "Sera",
+      "own": "anh",
+      "other": "em",
+      "source": "お前に何かあったら、俺が父さんに怒られるんだぞ。",
+      "translation": "Nếu em có chuyện gì thì anh sẽ bị bố mắng đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Nếu {L:em} có chuyện gì thì {S:anh} sẽ bị bố mắng đấy.",
+      "note": "Conditional + passive: お前に -> em (listener), 俺が...怒られる -> anh bị bố mắng (speaker). 'bố' is a third person."
+    },
+    {
+      "id": "HD1-09",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Kaito",
+      "listener": "Sera",
+      "own": "anh",
+      "other": "em",
+      "source": "お前の宿題、俺が手伝ってやるよ。",
+      "translation": "Anh sẽ giúp em làm bài tập của anh.",
+      "label": "error",
+      "wrong": [
+        [
+          "anh",
+          1
+        ]
+      ],
+      "ref": "Bài tập của {L:em} để {S:anh} giúp cho.",
+      "note": "Subject 'Anh' and object 'em' are right, but お前の宿題 (the listener's homework) became 'bài tập của anh'."
+    },
+    {
+      "id": "HD1-10",
+      "cat": "relative",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Kaito",
+      "listener": "Sera",
+      "own": "anh",
+      "other": "em",
+      "source": "これ、お前が欲しがってた本だろ？お兄ちゃんが買っといてやったぞ。",
+      "translation": "Đây là quyển sách em muốn có đúng không? Anh mua sẵn cho em rồi đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Đây là quyển sách {L:em} muốn có đúng không? {S:Anh} mua sẵn cho {L:em} rồi đấy.",
+      "note": "Relative clause お前が欲しがってた -> 'em muốn có'; the brother refers to himself by role word お兄ちゃん -> Anh (speaker)."
+    },
+    {
+      "id": "HD1-11",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Hana",
+      "listener": "Tsuru",
+      "own": "cháu",
+      "other": "bà",
+      "source": "これは私からのプレゼント。おばあちゃんに似合うと思って。",
+      "translation": "Đây là quà của bà tặng cháu. Cháu nghĩ nó hợp với bà.",
+      "label": "error",
+      "wrong": [
+        [
+          "bà",
+          0
+        ],
+        [
+          "cháu",
+          0
+        ]
+      ],
+      "ref": "Đây là quà {S:cháu} tặng {L:bà}. {S:Cháu} nghĩ nó sẽ hợp với {L:bà} lắm ạ.",
+      "note": "私からのプレゼント (gift from the speaker) became a gift from grandma to the grandchild: giver and recipient swapped. Second sentence is right (bà #1, cháu #1 are fine)."
+    },
+    {
+      "id": "HD1-12",
+      "cat": "quote",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Hana",
+      "listener": "Tsuru",
+      "own": "cháu",
+      "other": "bà",
+      "source": "お母さんが『おばあちゃんに無理させないで』って言ってたよ。",
+      "translation": "Mẹ cháu dặn cháu đừng để bà phải làm việc quá sức ạ.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Mẹ {S:cháu} dặn {S:cháu} đừng để {L:bà} phải làm việc quá sức ạ.",
+      "note": "Reported speech of the mother, restructured: 'Mẹ' is a kinship noun (third person); cháu = speaker, bà = listener."
+    },
+    {
+      "id": "HD1-13",
+      "cat": "role-word",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Tsuru",
+      "listener": "Hana",
+      "own": "bà",
+      "other": "cháu",
+      "source": "おばあちゃんはね、あんたが元気ならそれでいいの。",
+      "translation": "Bà chỉ cần cháu khỏe mạnh là đủ rồi.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Bà} chỉ cần {L:cháu} khỏe mạnh là đủ rồi.",
+      "note": "Grandmother refers to herself by role word おばあちゃん -> Bà (speaker); あんた -> cháu. Correct."
+    },
+    {
+      "id": "HD1-14",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Ren",
+      "listener": "Yoko",
+      "own": "con",
+      "other": "mẹ",
+      "source": "僕がお皿洗うから、お母さんは休んでて。",
+      "translation": "Mẹ sẽ rửa bát, mẹ cứ nghỉ ngơi đi.",
+      "label": "error",
+      "wrong": [
+        [
+          "mẹ",
+          0
+        ]
+      ],
+      "ref": "{S:Con} rửa bát cho, {L:mẹ} cứ nghỉ ngơi đi ạ.",
+      "note": "僕が (the child) rendered as 'Mẹ'. The second 'mẹ' (お母さんは) is right."
+    },
+    {
+      "id": "HD1-15",
+      "cat": "third-person",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Ren",
+      "listener": "Yoko",
+      "own": "con",
+      "other": "mẹ",
+      "source": "お母さん、トモくんのお母さんが僕のこと褒めてたよ。",
+      "translation": "Mẹ ơi, mẹ của Tomo khen con đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Mẹ} ơi, mẹ của Tomo khen {S:con} đấy.",
+      "note": "Near-miss: 'mẹ của Tomo' is a kinship noun for a third person (untagged). 僕のこと -> con (speaker)."
+    },
+    {
+      "id": "HD1-16",
+      "cat": "non-pronoun",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Ren",
+      "listener": "Yoko",
+      "own": "con",
+      "other": "mẹ",
+      "source": "お母さん、僕の猫見なかった？",
+      "translation": "Mẹ có thấy con mèo của con đâu không?",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Mẹ} có thấy con mèo của {S:con} đâu không ạ?",
+      "note": "Near-miss: the first 'con' is the classifier in 'con mèo', not a pronoun; 'của con' = 僕の (speaker)."
+    },
+    {
+      "id": "HD1-17",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Ren",
+      "listener": "Yoko",
+      "own": "con",
+      "other": "mẹ",
+      "source": "お母さん、僕に何か隠してるでしょ。",
+      "translation": "Con đang giấu mẹ chuyện gì đúng không?",
+      "label": "error",
+      "wrong": [
+        [
+          "con",
+          0
+        ],
+        [
+          "mẹ",
+          0
+        ]
+      ],
+      "ref": "{L:Mẹ} đang giấu {S:con} chuyện gì đúng không?",
+      "note": "The implied subject of 隠してる is the mother (listener), 僕に is the child. MT fell into the default 'con ... mẹ' order and inverted both."
+    },
+    {
+      "id": "HD1-18",
+      "cat": "role-word",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Yoko",
+      "listener": "Ren",
+      "own": "mẹ",
+      "other": "con",
+      "source": "お母さんが駅まで迎えに行くから、着いたら電話してね。",
+      "translation": "Mẹ sẽ ra ga đón, đến nơi thì con gọi cho mẹ nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Mẹ} sẽ ra ga đón, đến nơi thì {L:con} gọi cho {S:mẹ} nhé.",
+      "note": "Mother refers to herself as お母さん -> Mẹ (speaker); the implied caller is the child -> con."
+    },
+    {
+      "id": "HD1-19",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Yoko",
+      "listener": "Ren",
+      "own": "mẹ",
+      "other": "con",
+      "source": "お母さんの言うことをちゃんと聞きなさい。",
+      "translation": "Con phải nghe lời mẹ đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Con} phải nghe lời {S:mẹ} đấy.",
+      "note": "Imperative: implied subject is the listener (Con); お母さんの言うこと = the speaker's words (lời mẹ). Correct."
+    },
+    {
+      "id": "HD1-20",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Daigo",
+      "listener": "Ryuji",
+      "own": "tao",
+      "other": "mày",
+      "source": "てめぇが先に俺を殴ったんだろうが！",
+      "translation": "Tao đánh mày trước mà!",
+      "label": "error",
+      "wrong": [
+        [
+          "tao",
+          0
+        ],
+        [
+          "mày",
+          0
+        ]
+      ],
+      "ref": "{L:Mày} đánh {S:tao} trước còn gì!",
+      "note": "てめぇが (listener) hit 俺を (speaker); MT inverted both: 'Tao đánh mày'."
+    },
+    {
+      "id": "HD1-21",
+      "cat": "restructure",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Daigo",
+      "listener": "Ryuji",
+      "own": "tao",
+      "other": "mày",
+      "source": "俺の財布、お前が持ってんのか？",
+      "translation": "Ví của tao đang ở chỗ mày à?",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Ví của {S:tao} đang ở chỗ {L:mày} à?",
+      "note": "Restructured ('is my wallet with you?') but 俺の -> của tao and お前 -> mày keep their roles."
+    },
+    {
+      "id": "HD1-22",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Daigo",
+      "listener": "Ryuji",
+      "own": "tao",
+      "other": "mày",
+      "source": "貴様なんかに俺の気持ちがわかるか！",
+      "translation": "Mày thì hiểu gì cảm giác của mày!",
+      "label": "error",
+      "wrong": [
+        [
+          "mày",
+          1
+        ]
+      ],
+      "ref": "{L:Mày} thì hiểu gì cảm giác của {S:tao}!",
+      "note": "貴様なんかに -> Mày is right; 俺の気持ち (the speaker's feelings) came out as 'của mày'."
+    },
+    {
+      "id": "HD1-23",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Tanaka",
+      "listener": "Ito",
+      "own": "tôi",
+      "other": "quý khách",
+      "source": "わたくし、担当の田中でございます。お客様のご予約を確認いたします。",
+      "translation": "Tôi là Tanaka, người phụ trách ạ. Tôi xin phép kiểm tra thông tin đặt phòng của quý khách.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Tôi} là Tanaka, người phụ trách ạ. {S:Tôi} xin phép kiểm tra thông tin đặt phòng của {L:quý khách}.",
+      "note": "わたくし -> Tôi (speaker); お客様の -> của quý khách (listener). Correct."
+    },
+    {
+      "id": "HD1-24",
+      "cat": "word-choice",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Tanaka",
+      "listener": "Ito",
+      "own": "tôi",
+      "other": "quý khách",
+      "source": "お客様、お席までは私がご案内いたします。",
+      "translation": "Thưa anh, để em dẫn anh tới chỗ ngồi ạ.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Thưa {L:quý khách}, {S:tôi} xin dẫn {L:quý khách} tới chỗ ngồi ạ.",
+      "note": "Wrong register ('em'/'anh' instead of 'tôi'/'quý khách') but each word is in the right role and none is a pair word of this pair -> not a role error."
+    },
+    {
+      "id": "HD1-25",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Mina",
+      "listener": "Sato",
+      "own": "em",
+      "other": "cô",
+      "source": "先生、私、明日の試験が不安なんです。",
+      "translation": "Cô ơi, cô lo lắng về bài thi ngày mai lắm.",
+      "label": "error",
+      "wrong": [
+        [
+          "cô",
+          1
+        ]
+      ],
+      "ref": "{L:Cô} ơi, {S:em} lo bài thi ngày mai quá ạ.",
+      "note": "Vocative 'Cô ơi' is right; 私 (the student) was rendered 'cô', so the teacher is now the one who is worried."
+    },
+    {
+      "id": "HD1-26",
+      "cat": "relative",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Mina",
+      "listener": "Sato",
+      "own": "em",
+      "other": "cô",
+      "source": "先生に教えてもらったこと、私は絶対忘れません。",
+      "translation": "Những điều cô dạy em, em sẽ không bao giờ quên ạ.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Những điều {L:cô} dạy {S:em}, {S:em} sẽ không bao giờ quên ạ.",
+      "note": "Relative clause 先生に教えてもらった -> 'cô dạy em'; 私は -> em. Correct."
+    },
+    {
+      "id": "HD1-27",
+      "cat": "third-person",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Mina",
+      "listener": "Sato",
+      "own": "em",
+      "other": "cô",
+      "source": "先生、ユキちゃんは先生のことが大好きなんですよ。彼女、照れ屋だから言わないけど。",
+      "translation": "Cô ơi, Yuki quý cô lắm đấy ạ. Cô ấy hay ngại nên không nói ra thôi.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Cô} ơi, Yuki quý {L:cô} lắm đấy ạ. Bạn ấy hay ngại nên không nói ra thôi.",
+      "note": "Near-miss: 'Cô ấy' = 彼女 (Yuki), third person, untagged; 'bạn ấy' would be more natural but it is not a role error. 先生のこと (listener) as object of 好き -> cô."
+    },
+    {
+      "id": "HD1-28",
+      "cat": "role-word",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Mori",
+      "listener": "Kenta",
+      "own": "thầy",
+      "other": "em",
+      "source": "先生は君ならできると信じてるぞ。",
+      "translation": "Em tin là thầy làm được mà.",
+      "label": "error",
+      "wrong": [
+        [
+          "em",
+          0
+        ],
+        [
+          "thầy",
+          0
+        ]
+      ],
+      "ref": "{S:Thầy} tin là {L:em} làm được mà.",
+      "note": "The teacher refers to himself as 先生; MT read 先生 as the addressee and swapped both roles."
+    },
+    {
+      "id": "HD1-29",
+      "cat": "conditional",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Mori",
+      "listener": "Kenta",
+      "own": "thầy",
+      "other": "em",
+      "source": "君が困ったときは、いつでも僕に相談しなさい。",
+      "translation": "Khi nào em gặp khó khăn thì cứ đến tìm thầy nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Khi nào {L:em} gặp khó khăn thì cứ đến tìm {S:thầy} nhé.",
+      "note": "君が -> em (listener) in the conditional; 僕に (the teacher) rendered with the role word thầy: right role."
+    },
+    {
+      "id": "HD1-30",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Yui",
+      "listener": "Aoi",
+      "own": "tớ",
+      "other": "cậu",
+      "source": "あたしのせいじゃないってば！",
+      "translation": "Không phải lỗi của cậu mà!",
+      "label": "error",
+      "wrong": [
+        [
+          "cậu",
+          0
+        ]
+      ],
+      "ref": "Không phải lỗi của {S:tớ} mà!",
+      "note": "あたしのせい (the speaker's fault) became 'lỗi của cậu': the speaker now denies the listener's fault instead of her own."
+    },
+    {
+      "id": "HD1-31",
+      "cat": "relative",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Yui",
+      "listener": "Aoi",
+      "own": "tớ",
+      "other": "cậu",
+      "source": "君が貸してくれたノート、すごく役に立ったよ。",
+      "translation": "Cuốn vở tớ cho cậu mượn giúp ích lắm đấy.",
+      "label": "error",
+      "wrong": [
+        [
+          "tớ",
+          0
+        ],
+        [
+          "cậu",
+          0
+        ]
+      ],
+      "ref": "Cuốn vở {L:cậu} cho {S:tớ} mượn giúp ích lắm luôn.",
+      "note": "Relative clause 君が貸してくれた: the listener lent it to the speaker. MT inverted the lending direction (tớ cho cậu mượn)."
+    },
+    {
+      "id": "HD1-32",
+      "cat": "emotive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Yui",
+      "listener": "Aoi",
+      "own": "tớ",
+      "other": "cậu",
+      "source": "あたし、あんたが好きな人、知ってるよ。",
+      "translation": "Tớ biết người cậu thích là ai rồi nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Tớ} biết người {L:cậu} thích là ai rồi nhé.",
+      "note": "好き inside a relative clause: the listener likes someone (cậu thích), the speaker knows (Tớ biết). Correct."
+    },
+    {
+      "id": "HD1-33",
+      "cat": "object",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Genkai",
+      "listener": "Shin",
+      "own": "ta",
+      "other": "con",
+      "source": "わしについて来い。お前に見せたいものがある。",
+      "translation": "Đi theo ta. Ta có thứ muốn cho con xem.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Đi theo {S:ta}. {S:Ta} có thứ muốn cho {L:con} xem.",
+      "note": "わしについて -> theo ta; お前に -> cho con. Correct."
+    },
+    {
+      "id": "HD1-34",
+      "cat": "inclusive-we",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Genkai",
+      "listener": "Shin",
+      "own": "ta",
+      "other": "con",
+      "source": "我々の修行はまだ終わっておらん。お前もわかっておるな？",
+      "translation": "Việc tu luyện của chúng ta vẫn chưa xong đâu. Con cũng hiểu mà, phải không?",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Việc tu luyện của chúng ta vẫn chưa xong đâu. {L:Con} cũng hiểu mà, phải không?",
+      "note": "Near-miss: 'chúng ta' (我々) is an inclusive plural, untagged, even though it contains 'ta'. お前も -> Con."
+    },
+    {
+      "id": "HD1-35",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Genkai",
+      "listener": "Shin",
+      "own": "ta",
+      "other": "con",
+      "source": "この剣は今日からお前のものだ。わしが若い頃に使っていた剣じゃ。",
+      "translation": "Từ hôm nay thanh kiếm này là của ta. Đây là thanh kiếm ta dùng hồi còn trẻ.",
+      "label": "error",
+      "wrong": [
+        [
+          "ta",
+          0
+        ]
+      ],
+      "ref": "Từ hôm nay thanh kiếm này là của {L:con}. Đây là thanh kiếm {S:ta} dùng hồi còn trẻ.",
+      "note": "お前のもの (the apprentice's) rendered 'của ta'; the second 'ta' (わしが) is right."
+    },
+    {
+      "id": "HD1-36",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Genkai",
+      "listener": "Shin",
+      "own": "ta",
+      "other": "con",
+      "source": "お前がわしを超える日を楽しみにしておるぞ。",
+      "translation": "Ta mong chờ ngày ta vượt qua con.",
+      "label": "error",
+      "wrong": [
+        [
+          "ta",
+          1
+        ],
+        [
+          "con",
+          0
+        ]
+      ],
+      "ref": "{S:Ta} mong chờ ngày {L:con} vượt qua {S:ta}.",
+      "note": "Main clause 'Ta mong chờ' is right (implied speaker); in the embedded clause お前が/わしを were inverted."
+    },
+    {
+      "id": "HD1-37",
+      "cat": "role-word",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Akane",
+      "listener": "Sota",
+      "own": "chị",
+      "other": "em",
+      "source": "お姉ちゃんが守ってあげるから、大丈夫だよ。",
+      "translation": "Em sẽ bảo vệ chị, đừng lo.",
+      "label": "error",
+      "wrong": [
+        [
+          "em",
+          0
+        ],
+        [
+          "chị",
+          0
+        ]
+      ],
+      "ref": "Có {S:chị} bảo vệ {L:em} rồi, không sao đâu.",
+      "note": "The sister refers to herself as お姉ちゃん; MT read it as the addressee and inverted both roles."
+    },
+    {
+      "id": "HD1-38",
+      "cat": "emotive",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Akane",
+      "listener": "Sota",
+      "own": "chị",
+      "other": "em",
+      "source": "お姉ちゃんのこと、嫌いになっちゃった？",
+      "translation": "Em ghét chị rồi à?",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Em} ghét {S:chị} rồi à?",
+      "note": "お姉ちゃんのこと = the speaker as object of 嫌い; implied subject is the listener. 'Em ghét chị' is correct."
+    },
+    {
+      "id": "HD1-39",
+      "cat": "object",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Elise",
+      "listener": "Roland",
+      "own": "ta",
+      "other": "ngươi",
+      "source": "あなたは私の騎士でしょう？私を一人にしないで。",
+      "translation": "Ngươi là hiệp sĩ của ta mà? Đừng để ngươi một mình.",
+      "label": "error",
+      "wrong": [
+        [
+          "ngươi",
+          1
+        ]
+      ],
+      "ref": "{L:Ngươi} là hiệp sĩ của {S:ta} mà? Đừng bỏ {S:ta} lại một mình.",
+      "note": "First sentence right; 私を (the princess) in the second sentence came out as 'ngươi'."
+    },
+    {
+      "id": "HD1-40",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "ja",
+      "speaker": "Roland",
+      "listener": "Elise",
+      "own": "thần",
+      "other": "công chúa",
+      "source": "姫様、私が必ずお守りいたします。",
+      "translation": "Thưa công chúa, thần nhất định sẽ bảo vệ công chúa.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Thưa {L:công chúa}, {S:thần} nhất định sẽ bảo vệ {L:công chúa}.",
+      "note": "私が -> thần (speaker); 姫様 (vocative and implied object) -> công chúa. Correct."
+    },
+    {
+      "id": "HD1-41",
+      "cat": "object",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Roland",
+      "listener": "Elise",
+      "own": "thần",
+      "other": "công chúa",
+      "source": "I will protect you with my life, Your Highness.",
+      "translation": "Thần xin dùng cả tính mạng để bảo vệ công chúa.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Thần} xin dùng cả tính mạng để bảo vệ {L:công chúa}.",
+      "note": "I -> Thần, you/Your Highness -> công chúa. Correct ('my life' folded into 'cả tính mạng')."
+    },
+    {
+      "id": "HD1-42",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Roland",
+      "listener": "Elise",
+      "own": "thần",
+      "other": "công chúa",
+      "source": "Your Highness, please let me go in your place.",
+      "translation": "Thưa công chúa, xin hãy để công chúa đi thay thần.",
+      "label": "error",
+      "wrong": [
+        [
+          "công chúa",
+          1
+        ],
+        [
+          "thần",
+          0
+        ]
+      ],
+      "ref": "Thưa {L:công chúa}, xin hãy để {S:thần} đi thay {L:công chúa}.",
+      "note": "Vocative is right; 'let me go in your place' inverted: the princess would go in the knight's place."
+    },
+    {
+      "id": "HD1-43",
+      "cat": "non-pronoun",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Roland",
+      "listener": "Elise",
+      "own": "thần",
+      "other": "công chúa",
+      "source": "Your courage has lifted my spirits, Princess.",
+      "translation": "Lòng dũng cảm của công chúa đã vực dậy tinh thần của thần.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Lòng dũng cảm của {L:công chúa} đã vực dậy tinh thần của {S:thần}.",
+      "note": "Near-miss: 'thần' in 'tinh thần' (spirit) is part of a noun, not the pronoun; 'của thần' = my (speaker)."
+    },
+    {
+      "id": "HD1-44",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Lily",
+      "listener": "Max",
+      "own": "em",
+      "other": "anh",
+      "source": "I'm sorry, I broke your headphones.",
+      "translation": "Anh xin lỗi, anh làm hỏng tai nghe của em rồi.",
+      "label": "error",
+      "wrong": [
+        [
+          "anh",
+          0
+        ],
+        [
+          "anh",
+          1
+        ],
+        [
+          "em",
+          0
+        ]
+      ],
+      "ref": "{S:Em} xin lỗi, {S:em} làm hỏng tai nghe của {L:anh} rồi.",
+      "note": "Typical default-male MT: the younger sister speaks as 'anh' twice and the brother's headphones become 'của em'."
+    },
+    {
+      "id": "HD1-45",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Lily",
+      "listener": "Max",
+      "own": "em",
+      "other": "anh",
+      "source": "Don't eat that, it's mine! Yours is in the fridge.",
+      "translation": "Đừng ăn cái đó, của em mà! Phần của anh ở trong tủ lạnh ấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Đừng ăn cái đó, của {S:em} mà! Phần của {L:anh} ở trong tủ lạnh ấy.",
+      "note": "mine -> của em, yours -> phần của anh. Correct."
+    },
+    {
+      "id": "HD1-46",
+      "cat": "quote",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Lily",
+      "listener": "Max",
+      "own": "em",
+      "other": "anh",
+      "source": "Mom said you have to drive me to school today.",
+      "translation": "Mẹ bảo hôm nay anh phải chở em đi học đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Mẹ bảo hôm nay {L:anh} phải chở {S:em} đi học đấy.",
+      "note": "Reported speech: you -> anh, me -> em; 'Mẹ' is a third person. Correct."
+    },
+    {
+      "id": "HD1-47",
+      "cat": "conditional",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Lily",
+      "listener": "Max",
+      "own": "em",
+      "other": "anh",
+      "source": "If you tell Mom, I'm never speaking to you again.",
+      "translation": "Anh mà mách mẹ là em không thèm nói chuyện với anh nữa đâu.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Anh} mà mách mẹ là {S:em} không thèm nói chuyện với {L:anh} nữa đâu.",
+      "note": "Conditional with a colloquial 'mà' clause; you -> anh (twice), I -> em. Correct."
+    },
+    {
+      "id": "HD1-48",
+      "cat": "passive",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Lily",
+      "listener": "Max",
+      "own": "em",
+      "other": "anh",
+      "source": "I got yelled at by Mom because of you!",
+      "translation": "Tại anh mà em bị mẹ mắng đấy!",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Tại {L:anh} mà {S:em} bị mẹ mắng đấy!",
+      "note": "Passive + cause restructured ('because of you' fronted): anh = listener, em = speaker. Correct."
+    },
+    {
+      "id": "HD1-49",
+      "cat": "object",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Max",
+      "listener": "Lily",
+      "own": "anh",
+      "other": "em",
+      "source": "Who told you to wait for me?",
+      "translation": "Ai bảo em đợi em?",
+      "label": "error",
+      "wrong": [
+        [
+          "em",
+          1
+        ]
+      ],
+      "ref": "Ai bảo {L:em} đợi {S:anh} thế?",
+      "note": "'you' -> em is right; the object 'me' (the brother) was also rendered 'em'."
+    },
+    {
+      "id": "HD1-50",
+      "cat": "third-person",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Max",
+      "listener": "Lily",
+      "own": "anh",
+      "other": "em",
+      "source": "Your boyfriend called me. He said you weren't picking up your phone.",
+      "translation": "Bạn trai em gọi cho anh đấy. Anh ấy bảo em không nghe máy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Bạn trai {L:em} gọi cho {S:anh} đấy. Anh ấy bảo {L:em} không nghe máy.",
+      "note": "Near-miss: 'Anh ấy' = he (the boyfriend), third person, untagged. your -> em, me -> anh."
+    },
+    {
+      "id": "HD1-51",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Jake",
+      "listener": "Mia",
+      "own": "mình",
+      "other": "bạn",
+      "source": "I can't believe you remembered my birthday!",
+      "translation": "Mình không thể tin là bạn nhớ sinh nhật của bạn!",
+      "label": "error",
+      "wrong": [
+        [
+          "bạn",
+          1
+        ]
+      ],
+      "ref": "{S:Mình} không ngờ là {L:bạn} lại nhớ sinh nhật của {S:mình}!",
+      "note": "I -> Mình and you -> bạn are right, but 'my birthday' became 'sinh nhật của bạn'."
+    },
+    {
+      "id": "HD1-52",
+      "cat": "non-pronoun",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Jake",
+      "listener": "Mia",
+      "own": "mình",
+      "other": "bạn",
+      "source": "My friends really want to meet you.",
+      "translation": "Mấy đứa bạn của mình rất muốn gặp bạn đấy.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Mấy đứa bạn của {S:mình} rất muốn gặp {L:bạn} đấy.",
+      "note": "Near-miss: the first 'bạn' is the noun 'friends' (untagged); 'gặp bạn' = you."
+    },
+    {
+      "id": "HD1-53",
+      "cat": "inclusive-we",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Jake",
+      "listener": "Mia",
+      "own": "mình",
+      "other": "bạn",
+      "source": "We should study together before the exam. You bring snacks, I'll bring my notes.",
+      "translation": "Tụi mình nên học chung trước kỳ thi. Bạn mang đồ ăn vặt, mình mang vở ghi nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Tụi mình nên học chung trước kỳ thi. {L:Bạn} mang đồ ăn vặt, {S:mình} mang vở ghi nhé.",
+      "note": "Near-miss: 'Tụi mình' is inclusive we (plural, untagged). You -> Bạn, I -> mình."
+    },
+    {
+      "id": "HD1-54",
+      "cat": "plural",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Tommy",
+      "listener": "Joe",
+      "own": "cháu",
+      "other": "ông",
+      "source": "Grandpa, we baked this cake for you!",
+      "translation": "Ông ơi, bọn cháu nướng cái bánh này tặng ông đấy ạ!",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Ông} ơi, bọn cháu nướng cái bánh này tặng {L:ông} đấy ạ!",
+      "note": "Near-miss: 'bọn cháu' is exclusive plural we (untagged). Grandpa/you -> ông. Correct."
+    },
+    {
+      "id": "HD1-55",
+      "cat": "role-word",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Frank",
+      "listener": "Emma",
+      "own": "bố",
+      "other": "con",
+      "source": "Daddy's here now. You're safe.",
+      "translation": "Bố đây rồi. Con an toàn rồi.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{S:Bố} đây rồi. {L:Con} an toàn rồi.",
+      "note": "The father calls himself 'Daddy' -> Bố (speaker); you -> Con."
+    },
+    {
+      "id": "HD1-56",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Frank",
+      "listener": "Emma",
+      "own": "bố",
+      "other": "con",
+      "source": "I'm so proud of you, sweetheart.",
+      "translation": "Con tự hào về bố lắm, con yêu.",
+      "label": "error",
+      "wrong": [
+        [
+          "con",
+          0
+        ],
+        [
+          "bố",
+          0
+        ]
+      ],
+      "ref": "{S:Bố} tự hào về {L:con} lắm, {L:con} yêu.",
+      "note": "Subject and object inverted; the closing vocative 'con yêu' (sweetheart) is right, so only con #0 is wrong."
+    },
+    {
+      "id": "HD1-57",
+      "cat": "possessive",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Nora",
+      "listener": "Mrs. Park",
+      "own": "em",
+      "other": "chị",
+      "source": "May I see your receipt, please?",
+      "translation": "Em có thể xem hóa đơn của em được không ạ?",
+      "label": "error",
+      "wrong": [
+        [
+          "em",
+          1
+        ]
+      ],
+      "ref": "{S:Em} xem hóa đơn của {L:chị} một chút được không ạ?",
+      "note": "Shop clerk to a female customer: I -> Em is right, 'your receipt' came out as 'của em'."
+    },
+    {
+      "id": "HD1-58",
+      "cat": "word-choice",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Nora",
+      "listener": "Mrs. Park",
+      "own": "em",
+      "other": "chị",
+      "source": "Let me check if we have your size in the back.",
+      "translation": "Để tôi kiểm tra trong kho xem còn size của chị không nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "Để {S:em} kiểm tra trong kho xem còn size của {L:chị} không ạ.",
+      "note": "'tôi' instead of 'em' is a register slip in the right role, not a role error; your -> chị is right."
+    },
+    {
+      "id": "HD1-59",
+      "cat": "double",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Jax",
+      "listener": "Rico",
+      "own": "tao",
+      "other": "mày",
+      "source": "I told you not to touch my bike!",
+      "translation": "Mày đã bảo tao đừng đụng vào xe của tao mà!",
+      "label": "error",
+      "wrong": [
+        [
+          "mày",
+          0
+        ],
+        [
+          "tao",
+          0
+        ]
+      ],
+      "ref": "{S:Tao} đã bảo {L:mày} đừng đụng vào xe của {S:tao} rồi mà!",
+      "note": "'I told you' inverted (Mày đã bảo tao); 'my bike' -> của tao is right, so only tao #0 is wrong."
+    },
+    {
+      "id": "HD1-60",
+      "cat": "subject",
+      "origin": "heldout-d",
+      "src_lang": "en",
+      "speaker": "Jax",
+      "listener": "Rico",
+      "own": "tao",
+      "other": "mày",
+      "source": "You owe me one, man.",
+      "translation": "Mày nợ tao một lần đấy nhé.",
+      "label": "ok",
+      "wrong": [],
+      "ref": "{L:Mày} nợ {S:tao} một lần đấy nhé.",
+      "note": "You -> Mày (subject), me -> tao (object). Correct."
+    }
+  ]
+}

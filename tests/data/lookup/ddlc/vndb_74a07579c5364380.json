@@ -1,0 +1,287 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/vn",
+  "body": {
+   "filters": [
+    "search",
+    "=",
+    "Doki Doki Literature Club"
+   ],
+   "fields": "id,title,alttitle,olang,released,languages,votecount,titles.lang,titles.title,titles.latin,titles.main,titles.official,developers.name,extlinks.name,extlinks.url",
+   "sort": "searchrank",
+   "results": 5
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": true,
+  "results": [
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p7209",
+      "name": "Team Salvato"
+     }
+    ],
+    "extlinks": [
+     {
+      "name": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q42266827"
+     }
+    ],
+    "id": "v21905",
+    "languages": [
+     "ar",
+     "be",
+     "de",
+     "en",
+     "es",
+     "fa",
+     "fr",
+     "id",
+     "it",
+     "ja",
+     "ko",
+     "pl",
+     "pt-br",
+     "ru",
+     "tr",
+     "uk",
+     "vi",
+     "zh-Hans",
+     "zh-Hant"
+    ],
+    "olang": "en",
+    "released": "2017-09-22",
+    "title": "Doki Doki Literature Club!",
+    "titles": [
+     {
+      "lang": "de",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "en",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "es",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "fr",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "it",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "ja",
+      "latin": "Doki Doki Bungeibu!",
+      "main": false,
+      "official": true,
+      "title": "ドキドキ文芸部!"
+     },
+     {
+      "lang": "ko",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "pl",
+      "latin": null,
+      "main": false,
+      "official": false,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "pt-br",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "ru",
+      "latin": null,
+      "main": false,
+      "official": true,
+      "title": "Doki Doki Literature Club!"
+     },
+     {
+      "lang": "tr",
+      "latin": null,
+      "main": false,
+      "official": false,
+      "title": "Doki Doki Edebiyat Kulübü!"
+     },
+     {
+      "lang": "uk",
+      "latin": "Doki Doki Literaturnyi klub!",
+      "main": false,
+      "official": false,
+      "title": "Doki Doki Літературний клуб!"
+     },
+     {
+      "lang": "vi",
+      "latin": null,
+      "main": false,
+      "official": false,
+      "title": "Câu lạc bộ Văn Học vui nhộn"
+     },
+     {
+      "lang": "zh-Hans",
+      "latin": "Xin Tiao Wen Xue Bu!",
+      "main": false,
+      "official": false,
+      "title": "心跳文学部！"
+     },
+     {
+      "lang": "zh-Hant",
+      "latin": "Xin Dong Dong Wen Xue She!",
+      "main": false,
+      "official": false,
+      "title": "心動動文學社！"
+     }
+    ],
+    "votecount": 19562
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p10431",
+      "name": "Tabuukilla"
+     }
+    ],
+    "extlinks": [],
+    "id": "v25414",
+    "languages": [
+     "en",
+     "ko",
+     "ru"
+    ],
+    "olang": "en",
+    "released": "2018-08-24",
+    "title": "Doki Doki Literature Club! Purist Mod",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Doki Doki Literature Club! Purist Mod"
+     },
+     {
+      "lang": "ru",
+      "latin": "Literaturnyj klub: Estetika",
+      "main": false,
+      "official": false,
+      "title": "Литературный клуб: Эстетика"
+     }
+    ],
+    "votecount": 115
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p11023",
+      "name": "American Eagle"
+     }
+    ],
+    "extlinks": [],
+    "id": "v26793",
+    "languages": [
+     "en"
+    ],
+    "olang": "en",
+    "released": "2020-01-08",
+    "title": "Doki Doki Literature Club! Fruits of the Literature Club",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Doki Doki Literature Club! Fruits of the Literature Club"
+     }
+    ],
+    "votecount": 27
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p7697",
+      "name": "tiosenpai"
+     }
+    ],
+    "extlinks": [],
+    "id": "v22971",
+    "languages": [
+     "pt-br"
+    ],
+    "olang": "pt-br",
+    "released": "2018-03-26",
+    "title": "Doki Doki Literature Club 2 Next History",
+    "titles": [
+     {
+      "lang": "pt-br",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Doki Doki Literature Club 2 Next History"
+     }
+    ],
+    "votecount": 3
+   },
+   {
+    "alttitle": null,
+    "developers": [
+     {
+      "id": "p6422",
+      "name": "Stefannofornari Games"
+     }
+    ],
+    "extlinks": [],
+    "id": "v23283",
+    "languages": [
+     "en"
+    ],
+    "olang": "en",
+    "released": "2018-06-03",
+    "title": "Doki Doki Literature Club: Episode Natsuki",
+    "titles": [
+     {
+      "lang": "en",
+      "latin": null,
+      "main": true,
+      "official": true,
+      "title": "Doki Doki Literature Club: Episode Natsuki"
+     }
+    ],
+    "votecount": 7
+   }
+  ]
+ }
+}

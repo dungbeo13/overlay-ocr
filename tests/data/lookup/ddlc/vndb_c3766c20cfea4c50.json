@@ -1,0 +1,125 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/character",
+  "body": {
+   "filters": [
+    "vn",
+    "=",
+    [
+     "id",
+     "=",
+     "v21905"
+    ]
+   ],
+   "fields": "id,name,original,aliases,sex,vns.id,vns.role,vns.spoiler",
+   "sort": "id",
+   "results": 100
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": false,
+  "results": [
+   {
+    "aliases": [
+     "莫妮卡"
+    ],
+    "id": "c64502",
+    "name": "Monika",
+    "original": null,
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v21905",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "さより",
+     "纱世里"
+    ],
+    "id": "c64503",
+    "name": "Sayori",
+    "original": null,
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v21905",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "優里"
+    ],
+    "id": "c64504",
+    "name": "Yuri",
+    "original": null,
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v21905",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "なつき",
+     "夏树"
+    ],
+    "id": "c64505",
+    "name": "Natsuki",
+    "original": null,
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v21905",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "MC",
+     "Main Character",
+     "Player"
+    ],
+    "id": "c64506",
+    "name": "Protagonist",
+    "original": null,
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v21905",
+      "role": "main",
+      "spoiler": 0
+     }
+    ]
+   }
+  ]
+ }
+}

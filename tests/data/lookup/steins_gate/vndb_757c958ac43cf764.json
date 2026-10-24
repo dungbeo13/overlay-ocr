@@ -1,0 +1,737 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://api.vndb.org/kana/character",
+  "body": {
+   "filters": [
+    "vn",
+    "=",
+    [
+     "id",
+     "=",
+     "v2002"
+    ]
+   ],
+   "fields": "id,name,original,aliases,sex,vns.id,vns.role,vns.spoiler",
+   "sort": "id",
+   "results": 100
+  }
+ },
+ "status": 200,
+ "json": {
+  "more": false,
+  "results": [
+   {
+    "aliases": [
+     "Assistant",
+     "Celeb 17",
+     "Ku-nyan",
+     "Perverted Genius Girl",
+     "The Zombie",
+     "クリス",
+     "Chris",
+     "クリスチィーナ",
+     "Christina",
+     "助手",
+     "Joshu",
+     "栗悟飯とカメハメ波",
+     "KuriGohan and Kamehameha",
+     "＠ちゃんねらークリス",
+     "@-Channer Chris"
+    ],
+    "id": "c6487",
+    "name": "Makise Kurisu",
+    "original": "牧瀬 紅莉栖",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v5883",
+      "role": "appears",
+      "spoiler": 1
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v21281",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v37274",
+      "role": "appears",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Mayushii NyanNyan",
+     "まゆしぃ",
+     "Mayushii"
+    ],
+    "id": "c6491",
+    "name": "Shiina Mayuri",
+    "original": "椎名 まゆり",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v21281",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v37274",
+      "role": "appears",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Alpha Suzuha",
+     "Sierra",
+     "Working Warrior",
+     "ジョン・タイター",
+     "John Titor",
+     "バイト戦士",
+     "Part-Time Warrior"
+    ],
+    "id": "c6492",
+    "name": "Amane Suzuha",
+    "original": "阿万音 鈴羽",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "DaSH",
+     "DaSP",
+     "Duck",
+     "スーパーハッカー",
+     "Supah Hakah",
+     "ダル",
+     "Daru",
+     "バレル・タイター",
+     "Barrel Titor"
+    ],
+    "id": "c6493",
+    "name": "Hashida Itaru",
+    "original": "橋田 至",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Faris NyanNyan",
+     "フェイリス",
+     "Feyris",
+     "フェリス",
+     "Feris"
+    ],
+    "id": "c6494",
+    "name": "Akiha Rumiho",
+    "original": "秋葉 留未穂",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "FB",
+     "ミスター ブラウン",
+     "Mr. Braun"
+    ],
+    "id": "c6495",
+    "name": "Tennouji Yuugo",
+    "original": "天王寺 裕吾",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "M4",
+     "Mail Demon",
+     "Moe",
+     "SHININGFINGER_MK",
+     "Shining Finger, Glowing Masseuse",
+     "閃光の指圧師"
+    ],
+    "id": "c6496",
+    "name": "Kiryuu Moeka",
+    "original": "桐生 萌郁",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v21281",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Lukako",
+     "ルカニャン",
+     "Ruka-nyan",
+     "ルカ子",
+     "Rukako"
+    ],
+    "id": "c6497",
+    "name": "Urushibara Ruka",
+    "original": "漆原 るか",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v21281",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Okabe Rintaro",
+     "オカリン",
+     "Okarin",
+     "鳳凰院 凶真",
+     "Hououin Kyouma"
+    ],
+    "id": "c6498",
+    "name": "Okabe Rintarou",
+    "original": "岡部 倫太郎",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "main",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "main",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "main",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v21281",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "main",
+      "spoiler": 0
+     },
+     {
+      "id": "v37274",
+      "role": "appears",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Sister Braun",
+     "Chipmunk"
+    ],
+    "id": "c15469",
+    "name": "Tennouji Nae",
+    "original": "天王寺 綯",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v9887",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "primary",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Papa"
+    ],
+    "id": "c24992",
+    "name": "Akiha Yukitaka",
+    "original": "秋葉 幸孝",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "牧瀬 章一",
+     "Makise Shouichi"
+    ],
+    "id": "c24993",
+    "name": "Doctor Nakabachi",
+    "original": "中鉢博士",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "4℃",
+     "Shido"
+    ],
+    "id": "c24994",
+    "name": "Suzuki Kouichi",
+    "original": "鈴木 功一",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v6618",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "side",
+      "spoiler": 0
+     },
+     {
+      "id": "v23221",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Alpaca commander"
+    ],
+    "id": "c43791",
+    "name": "Alpaca-man",
+    "original": "アルパカマン",
+    "sex": null,
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "side",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Beta Suzuha",
+     "スズ",
+     "Suzu"
+    ],
+    "id": "c73598",
+    "name": "Amane Suzuha",
+    "original": "阿万音 鈴羽",
+    "sex": [
+     "f",
+     "f"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 2
+     },
+     {
+      "id": "v11660",
+      "role": "appears",
+      "spoiler": 1
+     },
+     {
+      "id": "v17102",
+      "role": "primary",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [
+     "Okabe Rintaro",
+     "オカリン",
+     "Okarin",
+     "鳳凰院 凶真",
+     "Hououin Kyouma"
+    ],
+    "id": "c80100",
+    "name": "Okabe Rintarou",
+    "original": "岡部 倫太郎",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 2
+     },
+     {
+      "id": "v17102",
+      "role": "main",
+      "spoiler": 0
+     }
+    ]
+   },
+   {
+    "aliases": [],
+    "id": "c97423",
+    "name": "Urushibara Eisuke",
+    "original": "漆原 栄輔",
+    "sex": [
+     "m",
+     "m"
+    ],
+    "vns": [
+     {
+      "id": "v2002",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v11660",
+      "role": "appears",
+      "spoiler": 0
+     },
+     {
+      "id": "v17102",
+      "role": "appears",
+      "spoiler": 0
+     }
+    ]
+   }
+  ]
+ }
+}

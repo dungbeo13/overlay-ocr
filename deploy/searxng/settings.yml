@@ -1,0 +1,40 @@
+# SearXNG settings for Screen Translator: a private, single-user instance on this machine only.
+# Used by the native install (python -m tools.setup_searxng copies this file to
+# %USERPROFILE%\.screen-translator\searxng\settings.yml) and by docker-compose.yml next to this file.
+#
+# secret_key below is a PLACEHOLDER: SearXNG refuses to start while it is "ultrasecretkey". The installed copies
+# get a random key (tools.setup_searxng, or tools.setup_searxng --docker for a Docker folder). Never commit a
+# real key here.
+#
+# Everything not set here comes from SearXNG's own defaults (use_default_settings).
+
+use_default_settings:
+  engines:
+    # Tor-only engines: they fail to load without a Tor proxy and only add errors to the log.
+    remove:
+      - ahmia
+      - torch
+
+general:
+  instance_name: "Screen Translator (local)"
+  enable_metrics: false
+
+search:
+  safe_search: 0
+  formats:  # json: the app reads results through /search?format=json
+    - html
+    - json
+
+server:
+  # Native install: the app also forces these through SEARXNG_BIND_ADDRESS / SEARXNG_PORT. In Docker the server
+  # listens on port 8080 inside the container and docker-compose.yml publishes it on 127.0.0.1:8888 only.
+  bind_address: "127.0.0.1"
+  port: 8888
+  secret_key: "ultrasecretkey"  # placeholder, see above
+  limiter: false  # single user on 127.0.0.1: no bot detection, no Valkey/Redis needed
+  public_instance: false
+  image_proxy: false
+  method: "GET"
+
+valkey:
+  url: false

@@ -1,0 +1,69 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://steins-gate.fandom.com/api.php?action=query&format=json&list=search&srlimit=10&srnamespace=14&srprop=&srsearch=Steins%3BGate+characters",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "continue": {
+   "sroffset": 10,
+   "continue": "-||"
+  },
+  "query": {
+   "search": [
+    {
+     "ns": 14,
+     "title": "Category:Characters in Steins;Gate 0",
+     "pageid": 13111
+    },
+    {
+     "ns": 14,
+     "title": "Category:Characters",
+     "pageid": 2051
+    },
+    {
+     "ns": 14,
+     "title": "Category:Characters in Steins;Gate",
+     "pageid": 13110
+    },
+    {
+     "ns": 14,
+     "title": "Category:Characters by specificity",
+     "pageid": 14519
+    },
+    {
+     "ns": 14,
+     "title": "Category:Character galleries",
+     "pageid": 14518
+    },
+    {
+     "ns": 14,
+     "title": "Category:Character plots",
+     "pageid": 14538
+    },
+    {
+     "ns": 14,
+     "title": "Category:Females",
+     "pageid": 9138
+    },
+    {
+     "ns": 14,
+     "title": "Category:Males",
+     "pageid": 9137
+    },
+    {
+     "ns": 14,
+     "title": "Category:Content",
+     "pageid": 1851
+    },
+    {
+     "ns": 14,
+     "title": "Category:Other Images",
+     "pageid": 15002
+    }
+   ]
+  }
+ }
+}

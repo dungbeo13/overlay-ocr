@@ -1,0 +1,2219 @@
+{
+ "about": "Round-4 native-Vietnamese linguistic review (written for the round-6 benefactive rules, AFTER reading them, adversarially): who did the favour for whom. 〜てくれた / 〜てくれる / 〜てくれ / 〜てもらう / 〜ていただく / 〜てくださる / 〜てあげる / 〜てやる / main-verb くれる / あげる / やる, sarcastic 〜てくれたな / 〜てくれるね, 〜てくれたら / 〜ていただけると conditionals, 〜てもらった with に-agents (listener, third party), 〜てあげて(くれる) for a third person, 'cho' as let / put in / make, nominalised favours, a named or 先輩 listener, EN 'for me / for you / thanks to you / thanks for …ing'. Same fields as the held-out sets; 'wrong' = [word, k], k the 0-based index among case-insensitive whole-word occurrences.",
+ "lines": [
+  {
+   "id": "R4-01",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、昨日の夜、毛布かけてくれた？",
+   "translation": "Mẹ ơi, tối qua mẹ đắp chăn cho con à?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, tối qua {L:mẹ} đắp chăn cho {S:con} à?"
+  },
+  {
+   "id": "R4-02",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、昨日の夜、毛布かけてくれた？",
+   "translation": "Mẹ ơi, tối qua con đắp chăn cho mẹ à?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "ref": "{L:Mẹ} ơi, tối qua {L:mẹ} đắp chăn cho {S:con} à?"
+  },
+  {
+   "id": "R4-03",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "部屋、片付けてくれたのか。助かるよ。",
+   "translation": "Em dọn phòng giúp anh à? Đỡ cho anh ghê.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} dọn phòng giúp {S:anh} à? Đỡ cho {S:anh} ghê."
+  },
+  {
+   "id": "R4-04",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "部屋、片付けてくれたのか。助かるよ。",
+   "translation": "Anh dọn phòng giúp em à? Đỡ cho anh ghê.",
+   "label": "error",
+   "wrong": [
+    [
+     "Anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} dọn phòng giúp {S:anh} à? Đỡ cho {S:anh} ghê."
+  },
+  {
+   "id": "R4-05",
+   "cat": "negative-past-question",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "どうして教えてくれなかったの？",
+   "translation": "Sao anh không nói cho em biết?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Sao {L:anh} không nói cho {S:em} biết?"
+  },
+  {
+   "id": "R4-06",
+   "cat": "negative-past-question",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "どうして教えてくれなかったの？",
+   "translation": "Sao em không nói cho anh biết?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Sao {L:anh} không nói cho {S:em} biết?"
+  },
+  {
+   "id": "R4-07",
+   "cat": "nominalised",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前が作ってくれた弁当、うまかったよ。",
+   "translation": "Hộp cơm em làm cho anh ngon lắm.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hộp cơm {L:em} làm cho {S:anh} ngon lắm."
+  },
+  {
+   "id": "R4-08",
+   "cat": "nominalised",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前が作ってくれた弁当、うまかったよ。",
+   "translation": "Hộp cơm anh làm cho em ngon lắm.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Hộp cơm {L:em} làm cho {S:anh} ngon lắm."
+  },
+  {
+   "id": "R4-09",
+   "cat": "nominalised-role-word",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃんが送ってくれた野菜、みんなで食べたよ。",
+   "translation": "Rau bà gửi cho cháu, cả nhà ăn hết rồi ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Rau {L:bà} gửi cho {S:cháu}, cả nhà ăn hết rồi ạ."
+  },
+  {
+   "id": "R4-10",
+   "cat": "nominalised-role-word",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃんが送ってくれた野菜、みんなで食べたよ。",
+   "translation": "Rau cháu gửi cho bà, cả nhà ăn hết rồi ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "bà",
+     0
+    ]
+   ],
+   "ref": "Rau {L:bà} gửi cho {S:cháu}, cả nhà ăn hết rồi ạ."
+  },
+  {
+   "id": "R4-11",
+   "cat": "main-verb-ageru",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "この前あげたマフラー、使ってる？",
+   "translation": "Cái khăn em tặng anh hôm trước, anh có dùng không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cái khăn {S:em} tặng {L:anh} hôm trước, {L:anh} có dùng không?"
+  },
+  {
+   "id": "R4-12",
+   "cat": "main-verb-ageru",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "この前あげたマフラー、使ってる？",
+   "translation": "Cái khăn anh tặng em hôm trước, anh có dùng không?",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Cái khăn {S:em} tặng {L:anh} hôm trước, {L:anh} có dùng không?",
+   "note": "main verb あげた without に: not a frame in the round-6 rules"
+  },
+  {
+   "id": "R4-13",
+   "cat": "main-verb-ageru",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "これ、あげる。",
+   "translation": "Cái này em cho anh.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cái này {S:em} cho {L:anh}."
+  },
+  {
+   "id": "R4-14",
+   "cat": "main-verb-ageru",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "これ、あげる。",
+   "translation": "Cái này anh cho em.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Cái này {S:em} cho {L:anh}.",
+   "note": "main verb あげる without に"
+  },
+  {
+   "id": "R4-15",
+   "cat": "main-verb-ni",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "はい、プレゼント。お兄ちゃんにあげる！",
+   "translation": "Đây, quà nè. Em tặng anh!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Đây, quà nè. {S:Em} tặng {L:anh}!"
+  },
+  {
+   "id": "R4-16",
+   "cat": "main-verb-ni",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "はい、プレゼント。お兄ちゃんにあげる！",
+   "translation": "Đây, quà nè. Anh tặng em!",
+   "label": "error",
+   "wrong": [
+    [
+     "Anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Đây, quà nè. {S:Em} tặng {L:anh}!"
+  },
+  {
+   "id": "R4-17",
+   "cat": "sarcastic",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "よくも俺のプリン食べてくれたな。",
+   "translation": "Mày dám ăn bánh pudding của tao à!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mày} dám ăn bánh pudding của {S:tao} à!"
+  },
+  {
+   "id": "R4-18",
+   "cat": "sarcastic",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "よくも俺のプリン食べてくれたな。",
+   "translation": "Tao dám ăn bánh pudding của mày à!",
+   "label": "error",
+   "wrong": [
+    [
+     "Tao",
+     0
+    ],
+    [
+     "mày",
+     0
+    ]
+   ],
+   "ref": "{L:Mày} dám ăn bánh pudding của {S:tao} à!"
+  },
+  {
+   "id": "R4-19",
+   "cat": "sarcastic",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "余計なことしてくれたな。",
+   "translation": "Em làm chuyện thừa thãi rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} làm chuyện thừa thãi rồi đấy."
+  },
+  {
+   "id": "R4-20",
+   "cat": "sarcastic",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "余計なことしてくれたな。",
+   "translation": "Anh làm chuyện thừa thãi rồi đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "Anh",
+     0
+    ]
+   ],
+   "ref": "{L:Em} làm chuyện thừa thãi rồi đấy.",
+   "note": "sarcastic statement: skipped by design (no question / thanks / vocative)"
+  },
+  {
+   "id": "R4-21",
+   "cat": "sarcastic-thanks",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "どうもありがとう、余計なことをしてくれて。",
+   "translation": "Cảm ơn em nhiều nhé, đã làm chuyện thừa thãi giùm anh.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:em} nhiều nhé, đã làm chuyện thừa thãi giùm {S:anh}."
+  },
+  {
+   "id": "R4-22",
+   "cat": "sarcastic-thanks",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "どうもありがとう、余計なことをしてくれて。",
+   "translation": "Cảm ơn em nhiều nhé, anh đã làm chuyện thừa thãi giùm em.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ],
+   "ref": "Cảm ơn {L:em} nhiều nhé, {L:em} đã làm chuyện thừa thãi giùm {S:anh}."
+  },
+  {
+   "id": "R4-23",
+   "cat": "conditional",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが手伝ってくれたら、すぐ終わるのに。",
+   "translation": "Giá mà anh giúp em thì xong ngay rồi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Giá mà {L:anh} giúp {S:em} thì xong ngay rồi."
+  },
+  {
+   "id": "R4-24",
+   "cat": "conditional",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが手伝ってくれたら、すぐ終わるのに。",
+   "translation": "Giá mà em giúp anh thì xong ngay rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Giá mà {L:anh} giúp {S:em} thì xong ngay rồi.",
+   "note": "conditional: skipped by design"
+  },
+  {
+   "id": "R4-25",
+   "cat": "conditional-offer",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "手伝ってくれたら、ジュースおごってあげる。",
+   "translation": "Anh mà giúp em thì em bao anh chai nước.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} mà giúp {S:em} thì {S:em} bao {L:anh} chai nước.",
+   "note": "trap: the only marker (giúp) is the conditional's act"
+  },
+  {
+   "id": "R4-26",
+   "cat": "conditional-offer",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "手伝ってくれたら、ジュースおごってあげる。",
+   "translation": "Anh giúp em một tay, em sẽ mời anh uống nước nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} giúp {S:em} một tay, {S:em} sẽ mời {L:anh} uống nước nhé.",
+   "note": "trap: condition rendered without nếu"
+  },
+  {
+   "id": "R4-27",
+   "cat": "morau-ni-nominal",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前に教えてもらった店、行ってきたよ。",
+   "translation": "Anh đến cái quán em chỉ cho anh rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Anh} đến cái quán {L:em} chỉ cho {S:anh} rồi đấy."
+  },
+  {
+   "id": "R4-28",
+   "cat": "morau-ni-nominal",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前に教えてもらった店、行ってきたよ。",
+   "translation": "Em đến cái quán anh chỉ cho em rồi đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     1
+    ]
+   ],
+   "ref": "{S:Anh} đến cái quán {L:em} chỉ cho {S:anh} rồi đấy."
+  },
+  {
+   "id": "R4-29",
+   "cat": "third-party-ni",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "この髪、美容師さんに切ってもらったの。",
+   "translation": "Tóc này là em nhờ thợ cắt cho đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Tóc này là {S:em} nhờ thợ cắt cho đấy."
+  },
+  {
+   "id": "R4-30",
+   "cat": "third-party-ni",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "友達に手伝ってもらったから、もう大丈夫。",
+   "translation": "Con nhờ bạn giúp rồi nên không sao đâu mẹ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Con} nhờ {X:bạn} giúp rồi nên không sao đâu {L:mẹ}.",
+   "note": "'bạn' = a friend, not the listener"
+  },
+  {
+   "id": "R4-31",
+   "cat": "agete-third",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "母さんに電話してあげて。心配してたぞ。",
+   "translation": "Em gọi điện cho mẹ đi. Mẹ lo cho em lắm đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} gọi điện cho mẹ đi. Mẹ lo cho {L:em} lắm đấy."
+  },
+  {
+   "id": "R4-32",
+   "cat": "agete-third",
+   "src_lang": "ja",
+   "speaker": "Mom",
+   "listener": "Yuta",
+   "own": "mẹ",
+   "other": "con",
+   "source": "お父さんにもケーキ、残しておいてあげてね。",
+   "translation": "Con để phần bánh cho bố nữa nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Con} để phần bánh cho bố nữa nhé."
+  },
+  {
+   "id": "R4-33",
+   "cat": "let",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "今日だけ、夜更かしさせてやる。",
+   "translation": "Hôm nay thôi đấy, anh cho em thức khuya.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hôm nay thôi đấy, {S:anh} cho {L:em} thức khuya."
+  },
+  {
+   "id": "R4-34",
+   "cat": "let",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "今日だけ、夜更かしさせてやる。",
+   "translation": "Hôm nay thôi đấy, em cho anh thức khuya.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Hôm nay thôi đấy, {S:anh} cho {L:em} thức khuya."
+  },
+  {
+   "id": "R4-35",
+   "cat": "let-request",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "スマホ、ちょっと貸してくれない？",
+   "translation": "Anh cho em mượn điện thoại một chút được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} cho {S:em} mượn điện thoại một chút được không?"
+  },
+  {
+   "id": "R4-36",
+   "cat": "let-request",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "スマホ、ちょっと貸してくれない？",
+   "translation": "Em cho anh mượn điện thoại một chút được không?",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} cho {S:em} mượn điện thoại một chút được không?"
+  },
+  {
+   "id": "R4-37",
+   "cat": "let",
+   "src_lang": "ja",
+   "speaker": "Mom",
+   "listener": "Yuta",
+   "own": "mẹ",
+   "other": "con",
+   "source": "今日は好きなだけ遊ばせてあげる。",
+   "translation": "Hôm nay mẹ cho con chơi thỏa thích.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hôm nay {S:mẹ} cho {L:con} chơi thỏa thích."
+  },
+  {
+   "id": "R4-38",
+   "cat": "let",
+   "src_lang": "ja",
+   "speaker": "Mom",
+   "listener": "Yuta",
+   "own": "mẹ",
+   "other": "con",
+   "source": "今日は好きなだけ遊ばせてあげる。",
+   "translation": "Hôm nay con cho mẹ chơi thỏa thích.",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     0
+    ]
+   ],
+   "ref": "Hôm nay {S:mẹ} cho {L:con} chơi thỏa thích."
+  },
+  {
+   "id": "R4-39",
+   "cat": "request-cho-put",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、カレーにじゃがいも入れてくれる？",
+   "translation": "Mẹ ơi, mẹ cho khoai tây vào cà ri giúp con được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} cho khoai tây vào cà ri giúp {S:con} được không?"
+  },
+  {
+   "id": "R4-40",
+   "cat": "request-cho-put",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、カレーにじゃがいも入れてくれる？",
+   "translation": "Mẹ ơi, con cho khoai tây vào cà ri được không?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ]
+   ],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} cho khoai tây vào cà ri giúp {S:con} được không?",
+   "note": "the held-out D error type: 'cho' = put in, not 'for'"
+  },
+  {
+   "id": "R4-41",
+   "cat": "kure-imperative",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "悪い、塩取ってくれ。",
+   "translation": "Xin lỗi, lấy giúp anh lọ muối với.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Xin lỗi, lấy giúp {S:anh} lọ muối với."
+  },
+  {
+   "id": "R4-42",
+   "cat": "kure-imperative",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "悪い、塩取ってくれ。",
+   "translation": "Xin lỗi, lấy giúp em lọ muối với.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Xin lỗi, lấy giúp {S:anh} lọ muối với."
+  },
+  {
+   "id": "R4-43",
+   "cat": "morau-intent",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "今日は、お前に晩飯作ってもらうからな。",
+   "translation": "Hôm nay em phải nấu bữa tối cho anh đấy nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Hôm nay {L:em} phải nấu bữa tối cho {S:anh} đấy nhé."
+  },
+  {
+   "id": "R4-44",
+   "cat": "morau-intent",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "今日は、お前に晩飯作ってもらうからな。",
+   "translation": "Hôm nay anh phải nấu bữa tối cho em đấy nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Hôm nay {L:em} phải nấu bữa tối cho {S:anh} đấy nhé."
+  },
+  {
+   "id": "R4-45",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "風呂、沸かしておいてくれたのか。サンキュー。",
+   "translation": "Em đun sẵn nước tắm cho anh rồi à? Cảm ơn nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} đun sẵn nước tắm cho {S:anh} rồi à? Cảm ơn nhé."
+  },
+  {
+   "id": "R4-46",
+   "cat": "past-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "風呂、沸かしておいてくれたのか。サンキュー。",
+   "translation": "Anh đun sẵn nước tắm cho em rồi à? Cảm ơn nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "Anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} đun sẵn nước tắm cho {S:anh} rồi à? Cảm ơn nhé."
+  },
+  {
+   "id": "R4-47",
+   "cat": "vocative-statement",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、洗濯物、取り込んでくれたんだ。",
+   "translation": "Bà ơi, bà rút quần áo vào giúp cháu rồi ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Bà} ơi, {L:bà} rút quần áo vào giúp {S:cháu} rồi ạ."
+  },
+  {
+   "id": "R4-48",
+   "cat": "vocative-statement",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、洗濯物、取り込んでくれたんだ。",
+   "translation": "Bà ơi, cháu rút quần áo vào giúp bà rồi ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "bà",
+     1
+    ]
+   ],
+   "ref": "{L:Bà} ơi, {L:bà} rút quần áo vào giúp {S:cháu} rồi ạ."
+  },
+  {
+   "id": "R4-49",
+   "cat": "negated-ageru",
+   "src_lang": "ja",
+   "speaker": "Mika",
+   "listener": "Takumi",
+   "own": "em",
+   "other": "anh",
+   "source": "べ、別にあんたのために作ってあげたわけじゃないんだからね！",
+   "translation": "Không phải em làm cho anh đâu nhé!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Không phải {S:em} làm cho {L:anh} đâu nhé!",
+   "note": "tsundere: the favour is negated, the roles are not"
+  },
+  {
+   "id": "R4-50",
+   "cat": "negated-ageru",
+   "src_lang": "ja",
+   "speaker": "Mika",
+   "listener": "Takumi",
+   "own": "em",
+   "other": "anh",
+   "source": "べ、別にあんたのために作ってあげたわけじゃないんだからね！",
+   "translation": "Không phải anh làm cho em đâu nhé!",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Không phải {S:em} làm cho {L:anh} đâu nhé!"
+  },
+  {
+   "id": "R4-51",
+   "cat": "honorific-request",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、この本、貸していただけませんか。",
+   "translation": "Thưa cô, cô cho em mượn cuốn sách này được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thưa {L:cô}, {L:cô} cho {S:em} mượn cuốn sách này được không ạ?"
+  },
+  {
+   "id": "R4-52",
+   "cat": "honorific-request",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、この本、貸していただけませんか。",
+   "translation": "Thưa cô, em cho cô mượn cuốn sách này được không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "cô",
+     1
+    ]
+   ],
+   "ref": "Thưa {L:cô}, {L:cô} cho {S:em} mượn cuốn sách này được không ạ?"
+  },
+  {
+   "id": "R4-53",
+   "cat": "honorific-conditional",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "明日までに見ていただけると助かります。",
+   "translation": "Nếu cô xem giúp em trước ngày mai thì tốt quá ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nếu {L:cô} xem giúp {S:em} trước ngày mai thì tốt quá ạ."
+  },
+  {
+   "id": "R4-54",
+   "cat": "honorific-conditional",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "明日までに見ていただけると助かります。",
+   "translation": "Nếu em xem giúp cô trước ngày mai thì tốt quá ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "cô",
+     0
+    ]
+   ],
+   "ref": "Nếu {L:cô} xem giúp {S:em} trước ngày mai thì tốt quá ạ.",
+   "note": "〜と conditional: skipped by design"
+  },
+  {
+   "id": "R4-55",
+   "cat": "senpai-vocative",
+   "src_lang": "ja",
+   "speaker": "Nao",
+   "listener": "Kana",
+   "own": "em",
+   "other": "chị",
+   "source": "先輩、手伝ってくれてありがとうございます。",
+   "translation": "Chị ơi, cảm ơn chị đã giúp em ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Chị} ơi, cảm ơn {L:chị} đã giúp {S:em} ạ."
+  },
+  {
+   "id": "R4-56",
+   "cat": "senpai-vocative",
+   "src_lang": "ja",
+   "speaker": "Nao",
+   "listener": "Kana",
+   "own": "em",
+   "other": "chị",
+   "source": "先輩、手伝ってくれてありがとうございます。",
+   "translation": "Chị ơi, em cảm ơn vì đã giúp chị ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     1
+    ]
+   ],
+   "ref": "{L:Chị} ơi, {S:em} cảm ơn {L:chị} vì đã giúp {S:em} ạ.",
+   "note": "先輩 is how Nao addresses Kana"
+  },
+  {
+   "id": "R4-57",
+   "cat": "name-kun-vocative",
+   "src_lang": "ja",
+   "speaker": "Mika",
+   "listener": "Takumi",
+   "own": "em",
+   "other": "anh",
+   "source": "たくみくん、私のために傘持ってきてくれたの？",
+   "translation": "Takumi, anh mang ô đến cho em à?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Takumi, {L:anh} mang ô đến cho {S:em} à?"
+  },
+  {
+   "id": "R4-58",
+   "cat": "name-kun-vocative",
+   "src_lang": "ja",
+   "speaker": "Mika",
+   "listener": "Takumi",
+   "own": "em",
+   "other": "anh",
+   "source": "たくみくん、私のために傘持ってきてくれたの？",
+   "translation": "Takumi, em mang ô đến cho anh à?",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Takumi, {L:anh} mang ô đến cho {S:em} à?",
+   "note": "the listener called by name + くん"
+  },
+  {
+   "id": "R4-59",
+   "cat": "name-vocative",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "セラ、洗濯してくれたのか。ありがとな。",
+   "translation": "Sera, em giặt đồ giúp anh à? Cảm ơn em nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Sera, {L:em} giặt đồ giúp {S:anh} à? Cảm ơn {L:em} nhé."
+  },
+  {
+   "id": "R4-60",
+   "cat": "name-vocative",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "セラ、洗濯してくれたのか。ありがとな。",
+   "translation": "Sera, anh giặt đồ giúp em à? Cảm ơn em nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Sera, {L:em} giặt đồ giúp {S:anh} à? Cảm ơn {L:em} nhé."
+  },
+  {
+   "id": "R4-61",
+   "cat": "main-verb-kureru",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、これくれるの？",
+   "translation": "Bà ơi, bà cho cháu cái này ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Bà} ơi, {L:bà} cho {S:cháu} cái này ạ?"
+  },
+  {
+   "id": "R4-62",
+   "cat": "main-verb-kureru",
+   "src_lang": "ja",
+   "speaker": "Haru",
+   "listener": "Grandma",
+   "own": "cháu",
+   "other": "bà",
+   "source": "おばあちゃん、これくれるの？",
+   "translation": "Bà ơi, cháu cho bà cái này ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "cháu",
+     0
+    ],
+    [
+     "bà",
+     1
+    ]
+   ],
+   "ref": "{L:Bà} ơi, {L:bà} cho {S:cháu} cái này ạ?"
+  },
+  {
+   "id": "R4-63",
+   "cat": "main-verb-yaru",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "このゲーム、もうクリアしたから、お前にやるよ。",
+   "translation": "Game này anh phá đảo rồi, cho em đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Game này {S:anh} phá đảo rồi, cho {L:em} đấy."
+  },
+  {
+   "id": "R4-64",
+   "cat": "main-verb-yaru",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "このゲーム、もうクリアしたから、お前にやるよ。",
+   "translation": "Game này em phá đảo rồi, cho anh đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Game này {S:anh} phá đảo rồi, cho {L:em} đấy."
+  },
+  {
+   "id": "R4-65",
+   "cat": "two-directions",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "宿題見てくれたら、お皿洗ってあげる。",
+   "translation": "Anh xem bài tập giúp em thì em rửa bát cho anh.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} xem bài tập giúp {S:em} thì {S:em} rửa bát cho {L:anh}."
+  },
+  {
+   "id": "R4-66",
+   "cat": "okage",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが手伝ってくれたおかげで、宿題終わった！",
+   "translation": "Nhờ anh giúp mà em làm xong bài tập rồi!",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nhờ {L:anh} giúp mà {S:em} làm xong bài tập rồi!"
+  },
+  {
+   "id": "R4-67",
+   "cat": "okage",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんが手伝ってくれたおかげで、宿題終わった！",
+   "translation": "Nhờ em giúp mà anh làm xong bài tập rồi!",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Nhờ {L:anh} giúp mà {S:em} làm xong bài tập rồi!"
+  },
+  {
+   "id": "R4-68",
+   "cat": "receive-duoc",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前には助けてもらってばかりだな。",
+   "translation": "Lúc nào anh cũng được em giúp nhỉ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Lúc nào {S:anh} cũng được {L:em} giúp nhỉ."
+  },
+  {
+   "id": "R4-69",
+   "cat": "receive-duoc",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前には助けてもらってばかりだな。",
+   "translation": "Lúc nào em cũng được anh giúp nhỉ.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Lúc nào {S:anh} cũng được {L:em} giúp nhỉ."
+  },
+  {
+   "id": "R4-70",
+   "cat": "morau-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "その宿題、誰かに手伝ってもらったのか？",
+   "translation": "Bài tập đó em có nhờ ai giúp không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Bài tập đó {L:em} có nhờ ai giúp không?"
+  },
+  {
+   "id": "R4-71",
+   "cat": "ageru-question",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "プレゼント、もう買ってあげたの？",
+   "translation": "Em đã mua quà cho cậu ấy chưa?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} đã mua quà cho cậu ấy chưa?",
+   "note": "the listener's favour for a third person"
+  },
+  {
+   "id": "R4-72",
+   "cat": "request-third-ben",
+   "src_lang": "ja",
+   "speaker": "Sakura",
+   "listener": "Nao",
+   "own": "chị",
+   "other": "em",
+   "source": "明日、弟を駅まで迎えに行ってもらえる？",
+   "translation": "Mai em ra ga đón em trai chị giúp chị được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mai {L:em} ra ga đón em trai {S:chị} giúp {S:chị} được không?"
+  },
+  {
+   "id": "R4-73",
+   "cat": "agete-kureru",
+   "src_lang": "ja",
+   "speaker": "Ms. Mori",
+   "listener": "Aoi",
+   "own": "cô",
+   "other": "em",
+   "source": "新しく来た子に、学校を案内してあげてくれる？",
+   "translation": "Em dẫn bạn mới đi một vòng quanh trường giúp cô được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} dẫn {X:bạn} mới đi một vòng quanh trường giúp {S:cô} được không?",
+   "note": "'bạn mới' = the new pupil"
+  },
+  {
+   "id": "R4-74",
+   "cat": "agete-kureru",
+   "src_lang": "ja",
+   "speaker": "Ms. Mori",
+   "listener": "Aoi",
+   "own": "cô",
+   "other": "em",
+   "source": "新しく来た子に、学校を案内してあげてくれる？",
+   "translation": "Cô dẫn bạn mới đi một vòng quanh trường giúp em được không?",
+   "label": "error",
+   "wrong": [
+    [
+     "Cô",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{L:Em} dẫn {X:bạn} mới đi một vòng quanh trường giúp {S:cô} được không?"
+  },
+  {
+   "id": "R4-75",
+   "cat": "role-word-self",
+   "src_lang": "ja",
+   "speaker": "Ms. Mori",
+   "listener": "Aoi",
+   "own": "cô",
+   "other": "em",
+   "source": "先生が手伝ってあげるから、心配しないで。",
+   "translation": "Cô sẽ giúp em, em đừng lo.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Cô} sẽ giúp {L:em}, {L:em} đừng lo."
+  },
+  {
+   "id": "R4-76",
+   "cat": "role-word-self",
+   "src_lang": "ja",
+   "speaker": "Ms. Mori",
+   "listener": "Aoi",
+   "own": "cô",
+   "other": "em",
+   "source": "先生が手伝ってあげるから、心配しないで。",
+   "translation": "Em sẽ giúp cô, cô đừng lo.",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "cô",
+     0
+    ],
+    [
+     "cô",
+     1
+    ]
+   ],
+   "ref": "{S:Cô} sẽ giúp {L:em}, {L:em} đừng lo."
+  },
+  {
+   "id": "R4-77",
+   "cat": "honorific-thanks",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、お忙しいところ、わざわざ来てくださってありがとうございます。",
+   "translation": "Thưa cô, cô bận như vậy mà vẫn đến tận nơi, em cảm ơn cô ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thưa {L:cô}, {L:cô} bận như vậy mà vẫn đến tận nơi, {S:em} cảm ơn {L:cô} ạ."
+  },
+  {
+   "id": "R4-78",
+   "cat": "receive-duoc",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生に褒めていただけて、とても嬉しかったです。",
+   "translation": "Em rất vui vì được cô khen ạ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Em} rất vui vì được {L:cô} khen ạ."
+  },
+  {
+   "id": "R4-79",
+   "cat": "receive-duoc",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生に褒めていただけて、とても嬉しかったです。",
+   "translation": "Cô rất vui vì được em khen ạ.",
+   "label": "error",
+   "wrong": [
+    [
+     "Cô",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{S:Em} rất vui vì được {L:cô} khen ạ."
+  },
+  {
+   "id": "R4-80",
+   "cat": "ageta-share",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんの分も買っておいてあげたよ。",
+   "translation": "Em mua sẵn cho anh một phần rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Em} mua sẵn cho {L:anh} một phần rồi đấy."
+  },
+  {
+   "id": "R4-81",
+   "cat": "ageta-share",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃんの分も買っておいてあげたよ。",
+   "translation": "Anh mua sẵn cho em một phần rồi đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "Anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "{S:Em} mua sẵn cho {L:anh} một phần rồi đấy."
+  },
+  {
+   "id": "R4-82",
+   "cat": "morau-unnamed",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "これ、作ってもらったの。",
+   "translation": "Cái này em được người ta làm cho đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cái này {S:em} được người ta làm cho đấy.",
+   "note": "someone unnamed made it for Sera"
+  },
+  {
+   "id": "R4-83",
+   "cat": "threat-yaru",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "見てろ、思い知らせてやる。",
+   "translation": "Cứ chờ đấy, tao sẽ cho mày biết tay.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cứ chờ đấy, {S:tao} sẽ cho {L:mày} biết tay.",
+   "note": "malefactive やる; 'cho' = make / let"
+  },
+  {
+   "id": "R4-84",
+   "cat": "threat-yaru",
+   "src_lang": "ja",
+   "speaker": "Ryo",
+   "listener": "Daichi",
+   "own": "tao",
+   "other": "mày",
+   "source": "見てろ、思い知らせてやる。",
+   "translation": "Cứ chờ đấy, mày sẽ cho tao biết tay.",
+   "label": "error",
+   "wrong": [
+    [
+     "mày",
+     0
+    ],
+    [
+     "tao",
+     0
+    ]
+   ],
+   "ref": "Cứ chờ đấy, {S:tao} sẽ cho {L:mày} biết tay."
+  },
+  {
+   "id": "R4-85",
+   "cat": "sarcastic-statement",
+   "src_lang": "ja",
+   "speaker": "Kana",
+   "listener": "Nao",
+   "own": "chị",
+   "other": "em",
+   "source": "朝から仕事増やしてくれるね…",
+   "translation": "Mới sáng ra em đã kiếm thêm việc cho chị rồi…",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mới sáng ra {L:em} đã kiếm thêm việc cho {S:chị} rồi…"
+  },
+  {
+   "id": "R4-86",
+   "cat": "sarcastic-statement",
+   "src_lang": "ja",
+   "speaker": "Kana",
+   "listener": "Nao",
+   "own": "chị",
+   "other": "em",
+   "source": "朝から仕事増やしてくれるね…",
+   "translation": "Mới sáng ra chị đã kiếm thêm việc cho em rồi…",
+   "label": "error",
+   "wrong": [
+    [
+     "chị",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Mới sáng ra {L:em} đã kiếm thêm việc cho {S:chị} rồi…",
+   "note": "sarcastic statement: skipped by design"
+  },
+  {
+   "id": "R4-87",
+   "cat": "let-request",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、友達の家に泊まらせてくれない？",
+   "translation": "Mẹ ơi, mẹ cho con ngủ lại nhà bạn được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} cho {S:con} ngủ lại nhà {X:bạn} được không?",
+   "note": "'nhà bạn' = a friend's house"
+  },
+  {
+   "id": "R4-88",
+   "cat": "honorific-request",
+   "src_lang": "ja",
+   "speaker": "Clerk",
+   "listener": "Customer",
+   "own": "tôi",
+   "other": "quý khách",
+   "source": "こちらにお名前を書いていただけますか。",
+   "translation": "Quý khách vui lòng ghi tên vào đây giúp tôi được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Quý khách} vui lòng ghi tên vào đây giúp {S:tôi} được không ạ?"
+  },
+  {
+   "id": "R4-89",
+   "cat": "honorific-request",
+   "src_lang": "ja",
+   "speaker": "Clerk",
+   "listener": "Customer",
+   "own": "tôi",
+   "other": "quý khách",
+   "source": "こちらにお名前を書いていただけますか。",
+   "translation": "Tôi ghi tên vào đây giúp quý khách được không ạ?",
+   "label": "error",
+   "wrong": [
+    [
+     "Tôi",
+     0
+    ],
+    [
+     "quý khách",
+     0
+    ]
+   ],
+   "ref": "{L:Quý khách} vui lòng ghi tên vào đây giúp {S:tôi} được không ạ?"
+  },
+  {
+   "id": "R4-90",
+   "cat": "en-didnt",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "You didn't have to do all this for me.",
+   "translation": "Anh đâu cần phải làm hết những thứ này cho em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} đâu cần phải làm hết những thứ này cho {S:em}."
+  },
+  {
+   "id": "R4-91",
+   "cat": "en-didnt",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "You didn't have to do all this for me.",
+   "translation": "Em đâu cần phải làm hết những thứ này cho anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} đâu cần phải làm hết những thứ này cho {S:em}."
+  },
+  {
+   "id": "R4-92",
+   "cat": "en-for-you",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "I got this for you.",
+   "translation": "Anh mua cái này cho em đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Anh} mua cái này cho {L:em} đấy."
+  },
+  {
+   "id": "R4-93",
+   "cat": "en-for-you",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "I got this for you.",
+   "translation": "Em mua cái này cho anh đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{S:Anh} mua cái này cho {L:em} đấy."
+  },
+  {
+   "id": "R4-94",
+   "cat": "en-for-me-noun",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Is this for me?",
+   "translation": "Cái này là cho em à?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cái này là cho {S:em} à?"
+  },
+  {
+   "id": "R4-95",
+   "cat": "en-thanks-to-you",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Thanks to you, I passed the exam.",
+   "translation": "Nhờ anh mà em đã đỗ rồi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Nhờ {L:anh} mà {S:em} đã đỗ rồi."
+  },
+  {
+   "id": "R4-96",
+   "cat": "en-thanks-to-you",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Thanks to you, I passed the exam.",
+   "translation": "Nhờ em mà anh đã đỗ rồi.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Nhờ {L:anh} mà {S:em} đã đỗ rồi."
+  },
+  {
+   "id": "R4-97",
+   "cat": "en-cover-request",
+   "src_lang": "en",
+   "speaker": "Ken",
+   "listener": "Jun",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Can you cover for me tomorrow?",
+   "translation": "Mai cậu làm thay tớ được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Mai {L:cậu} làm thay {S:tớ} được không?"
+  },
+  {
+   "id": "R4-98",
+   "cat": "en-cover-request",
+   "src_lang": "en",
+   "speaker": "Ken",
+   "listener": "Jun",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Can you cover for me tomorrow?",
+   "translation": "Mai tớ làm thay cậu được không?",
+   "label": "error",
+   "wrong": [
+    [
+     "tớ",
+     0
+    ],
+    [
+     "cậu",
+     0
+    ]
+   ],
+   "ref": "Mai {L:cậu} làm thay {S:tớ} được không?"
+  },
+  {
+   "id": "R4-99",
+   "cat": "en-cover-offer",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Ken",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Don't worry, I'll cover for you tomorrow.",
+   "translation": "Đừng lo, mai tớ làm thay cậu cho.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Đừng lo, mai {S:tớ} làm thay {L:cậu} cho."
+  },
+  {
+   "id": "R4-100",
+   "cat": "en-cover-offer",
+   "src_lang": "en",
+   "speaker": "Jun",
+   "listener": "Ken",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Don't worry, I'll cover for you tomorrow.",
+   "translation": "Đừng lo, mai cậu làm thay tớ cho.",
+   "label": "error",
+   "wrong": [
+    [
+     "cậu",
+     0
+    ],
+    [
+     "tớ",
+     0
+    ]
+   ],
+   "ref": "Đừng lo, mai {S:tớ} làm thay {L:cậu} cho."
+  },
+  {
+   "id": "R4-101",
+   "cat": "en-let-me",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "Let me carry that for you.",
+   "translation": "Để anh xách cái đó cho em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Để {S:anh} xách cái đó cho {L:em}."
+  },
+  {
+   "id": "R4-102",
+   "cat": "en-let-me",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "Let me carry that for you.",
+   "translation": "Để em xách cái đó cho anh.",
+   "label": "error",
+   "wrong": [
+    [
+     "em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "Để {S:anh} xách cái đó cho {L:em}."
+  },
+  {
+   "id": "R4-103",
+   "cat": "en-who-for-you",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Who made this for you?",
+   "translation": "Ai làm cái này cho anh vậy?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Ai làm cái này cho {L:anh} vậy?",
+   "note": "trap: 'for you' with a third-person giver"
+  },
+  {
+   "id": "R4-104",
+   "cat": "en-did-you-for-me",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Did you save some cake for me?",
+   "translation": "Anh có để dành bánh cho em không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} có để dành bánh cho {S:em} không?"
+  },
+  {
+   "id": "R4-105",
+   "cat": "en-did-you-for-me",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Did you save some cake for me?",
+   "translation": "Em có để dành bánh cho anh không?",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{L:Anh} có để dành bánh cho {S:em} không?"
+  },
+  {
+   "id": "R4-106",
+   "cat": "en-thanks-ing",
+   "src_lang": "en",
+   "speaker": "Ken",
+   "listener": "Jun",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Thanks for lending me your notes.",
+   "translation": "Cảm ơn cậu đã cho tớ mượn vở.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:cậu} đã cho {S:tớ} mượn vở."
+  },
+  {
+   "id": "R4-107",
+   "cat": "en-thanks-ing",
+   "src_lang": "en",
+   "speaker": "Ken",
+   "listener": "Jun",
+   "own": "tớ",
+   "other": "cậu",
+   "source": "Thanks for lending me your notes.",
+   "translation": "Cảm ơn cậu, tớ đã cho cậu mượn vở.",
+   "label": "error",
+   "wrong": [
+    [
+     "tớ",
+     0
+    ],
+    [
+     "cậu",
+     1
+    ]
+   ],
+   "ref": "Cảm ơn {L:cậu}, {L:cậu} đã cho {S:tớ} mượn vở."
+  },
+  {
+   "id": "R4-108",
+   "cat": "en-offer-you",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "Would you like me to make you some tea?",
+   "translation": "Em có muốn anh pha trà cho em không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Em} có muốn {S:anh} pha trà cho {L:em} không?"
+  },
+  {
+   "id": "R4-109",
+   "cat": "en-sarcastic-thanks",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Oh great. Thanks for ruining everything.",
+   "translation": "Ồ, hay lắm. Cảm ơn anh đã phá hỏng mọi thứ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Ồ, hay lắm. Cảm ơn {L:anh} đã phá hỏng mọi thứ."
+  },
+  {
+   "id": "R4-110",
+   "cat": "en-request-for-me",
+   "src_lang": "en",
+   "speaker": "Emma",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "Mom, could you braid my hair for me?",
+   "translation": "Mẹ ơi, mẹ tết tóc cho con được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} tết tóc cho {S:con} được không?"
+  },
+  {
+   "id": "R4-111",
+   "cat": "en-request-for-me",
+   "src_lang": "en",
+   "speaker": "Emma",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "Mom, could you braid my hair for me?",
+   "translation": "Mẹ ơi, con tết tóc cho mẹ được không?",
+   "label": "error",
+   "wrong": [
+    [
+     "con",
+     0
+    ],
+    [
+     "mẹ",
+     1
+    ]
+   ],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} tết tóc cho {S:con} được không?"
+  },
+  {
+   "id": "R4-112",
+   "cat": "en-all-for-you",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "I did it all for you, you know.",
+   "translation": "Anh làm tất cả là vì em đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Anh} làm tất cả là vì {L:em} đấy."
+  },
+  {
+   "id": "R4-113",
+   "cat": "en-all-for-you",
+   "src_lang": "en",
+   "speaker": "Max",
+   "listener": "Lily",
+   "own": "anh",
+   "other": "em",
+   "source": "I did it all for you, you know.",
+   "translation": "Em làm tất cả là vì anh đấy.",
+   "label": "error",
+   "wrong": [
+    [
+     "Em",
+     0
+    ],
+    [
+     "anh",
+     0
+    ]
+   ],
+   "ref": "{S:Anh} làm tất cả là vì {L:em} đấy."
+  },
+  {
+   "id": "R4-114",
+   "cat": "en-being-there",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Thank you for always being there for me.",
+   "translation": "Cảm ơn anh vì đã luôn ở bên em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:anh} vì đã luôn ở bên {S:em}."
+  },
+  {
+   "id": "R4-115",
+   "cat": "en-third-party",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "My brother fixed my bike for me.",
+   "translation": "Anh trai em sửa xe đạp cho em rồi.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Anh trai {S:em} sửa xe đạp cho {S:em} rồi.",
+   "note": "trap: 'anh trai' is a third person"
+  },
+  {
+   "id": "R4-116",
+   "cat": "reciprocal",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "手伝ってくれてありがとう、今度は私が手伝ってあげるね。",
+   "translation": "Cảm ơn anh đã giúp em, lần sau em sẽ giúp anh nhé.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:anh} đã giúp {S:em}, lần sau {S:em} sẽ giúp {L:anh} nhé.",
+   "note": "both directions in one sentence"
+  },
+  {
+   "id": "R4-117",
+   "cat": "reciprocal",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "手伝ってくれてありがとう、今度は私が手伝ってあげるね。",
+   "translation": "Cảm ơn anh đã giúp em, lần sau anh sẽ giúp em nhé.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     1
+    ],
+    [
+     "em",
+     1
+    ]
+   ],
+   "ref": "Cảm ơn {L:anh} đã giúp {S:em}, lần sau {S:em} sẽ giúp {L:anh} nhé."
+  },
+  {
+   "id": "R4-118",
+   "cat": "reciprocal",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "手伝ってくれて助かったよ、今度は俺が手伝ってやる。",
+   "translation": "Cảm ơn em đã giúp anh, lần sau anh sẽ giúp lại em.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:em} đã giúp {S:anh}, lần sau {S:anh} sẽ giúp lại {L:em}.",
+   "note": "both directions in one sentence"
+  },
+  {
+   "id": "R4-119",
+   "cat": "reciprocal",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "手伝ってくれて助かったよ、今度は俺が手伝ってやる。",
+   "translation": "Cảm ơn anh đã giúp em, lần sau anh sẽ giúp lại em.",
+   "label": "error",
+   "wrong": [
+    [
+     "anh",
+     0
+    ],
+    [
+     "em",
+     0
+    ]
+   ],
+   "ref": "Cảm ơn {L:em} đã giúp {S:anh}, lần sau {S:anh} sẽ giúp lại {L:em}."
+  },
+  {
+   "id": "R4-120",
+   "cat": "reciprocal",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "作ってくれてありがとう、お返しに何か作ってあげる。",
+   "translation": "Cảm ơn anh đã nấu cho em, em sẽ nấu gì đó cho anh để đáp lễ.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:anh} đã nấu cho {S:em}, {S:em} sẽ nấu gì đó cho {L:anh} để đáp lễ."
+  },
+  {
+   "id": "R4-121",
+   "cat": "en-reciprocal",
+   "src_lang": "en",
+   "speaker": "Lily",
+   "listener": "Max",
+   "own": "em",
+   "other": "anh",
+   "source": "Thanks for helping me, I'll help you next time.",
+   "translation": "Cảm ơn anh đã giúp em, lần sau em sẽ giúp anh.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Cảm ơn {L:anh} đã giúp {S:em}, lần sau {S:em} sẽ giúp {L:anh}."
+  },
+  {
+   "id": "R4-122",
+   "cat": "possessor-before-marker",
+   "src_lang": "ja",
+   "speaker": "Yuta",
+   "listener": "Mom",
+   "own": "con",
+   "other": "mẹ",
+   "source": "お母さん、僕のシャツ、アイロンかけてくれる？",
+   "translation": "Mẹ ơi, mẹ ủi áo sơ mi của con giúp con được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Mẹ} ơi, {L:mẹ} ủi áo sơ mi của {S:con} giúp {S:con} được không?"
+  },
+  {
+   "id": "R4-123",
+   "cat": "possessor-before-marker",
+   "src_lang": "ja",
+   "speaker": "Aoi",
+   "listener": "Ms. Mori",
+   "own": "em",
+   "other": "cô",
+   "source": "先生、私の作文、見ていただけますか。",
+   "translation": "Thưa cô, cô xem bài văn của em giúp em được không ạ?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "Thưa {L:cô}, {L:cô} xem bài văn của {S:em} giúp {S:em} được không ạ?"
+  },
+  {
+   "id": "R4-124",
+   "cat": "possessor-before-marker",
+   "src_lang": "ja",
+   "speaker": "Sera",
+   "listener": "Kaito",
+   "own": "em",
+   "other": "anh",
+   "source": "お兄ちゃん、私の自転車、直してくれない？",
+   "translation": "Anh ơi, anh sửa xe đạp của em giúp em được không?",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{L:Anh} ơi, {L:anh} sửa xe đạp của {S:em} giúp {S:em} được không?"
+  },
+  {
+   "id": "R4-125",
+   "cat": "possessor-before-marker",
+   "src_lang": "ja",
+   "speaker": "Kaito",
+   "listener": "Sera",
+   "own": "anh",
+   "other": "em",
+   "source": "お前の分も買ってきてやったぞ。",
+   "translation": "Anh mua cả phần của em cho em rồi đấy.",
+   "label": "ok",
+   "wrong": [],
+   "ref": "{S:Anh} mua cả phần của {L:em} cho {L:em} rồi đấy."
+  }
+ ]
+}

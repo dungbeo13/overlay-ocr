@@ -1,0 +1,322 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q482494&languages=ja%7Cen%7Cvi%7Cmul&props=labels%7Cclaims%7Cdescriptions",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "entities": {
+   "Q482494": {
+    "type": "item",
+    "id": "Q482494",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Steins;Gate"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "STEINS;GATE"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "Steins;Gate"
+     },
+     "mul": {
+      "language": "mul",
+      "value": "Steins;Gate"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "2009 visual novel game"
+     },
+     "ja": {
+      "language": "ja",
+      "value": "2009年のコンピュータゲーム"
+     },
+     "vi": {
+      "language": "vi",
+      "value": "trò chơi điện tử năm 2009 và tựa trò chơi thứ 2 trong loạt Science Adventure"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 7889,
+          "id": "Q7889"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2009-10-15T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P495": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 17,
+          "id": "Q17"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P3180": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "v2002"
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "v9887"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P1733": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": "412830"
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P840": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1490,
+          "id": "Q1490"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P674": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 39766615,
+          "id": "Q39766615"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 3817446,
+          "id": "Q3817446"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 3959462,
+          "id": "Q3959462"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 20873825,
+          "id": "Q20873825"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 3936121,
+          "id": "Q3936121"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 16562850,
+          "id": "Q16562850"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 3860049,
+          "id": "Q3860049"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 20886666,
+          "id": "Q20886666"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 3978387,
+          "id": "Q3978387"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 19876319,
+          "id": "Q19876319"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 21013718,
+          "id": "Q21013718"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ],
+     "P407": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 1860,
+          "id": "Q1860"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 5287,
+          "id": "Q5287"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 13414913,
+          "id": "Q13414913"
+         }
+        }
+       },
+       "rank": "normal"
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "entity-type": "item",
+          "numeric-id": 18130932,
+          "id": "Q18130932"
+         }
+        }
+       },
+       "rank": "normal"
+      }
+     ]
+    }
+   }
+  },
+  "success": 1
+ }
+}

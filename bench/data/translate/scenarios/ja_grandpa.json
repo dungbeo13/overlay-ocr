@@ -1,0 +1,41 @@
+{
+  "name": "ja_grandpa",
+  "lang": "ja",
+  "split": "test",
+  "description": "A 7-year-old girl shows the old man next door a beetle she caught. ông/cháu both ways. The beetle's new name ツノマル is not in the glossary (a new_terms candidate).",
+  "style": "",
+  "glossary": [
+    {"source": "裏山", "target": "ngọn đồi sau nhà", "kind": "place"}
+  ],
+  "characters": [
+    {"name": "ひなた", "name_vi": "Hinata", "gender": "nữ", "self_pronoun": "cháu",
+     "notes": "7 tuổi, bé gái nhà bên, hiếu động. Gọi ông Genzou là 'ông', xưng 'cháu'."},
+    {"name": "源蔵", "name_vi": "Genzou", "gender": "nam", "self_pronoun": "ông",
+     "notes": "75 tuổi, ông lão hàng xóm hiền lành, nói giọng người già. Xưng 'ông', gọi Hinata là 'cháu'."}
+  ],
+  "pronouns": {
+    "ひなた>源蔵": {"self": ["cháu"], "other": ["ông"]},
+    "源蔵>ひなた": {"self": ["ông"], "other": ["cháu"]}
+  },
+  "expect_new_terms": ["ツノマル"],
+  "lines": [
+    {"speaker": "ひなた", "text": "源蔵おじいちゃん、見て見て！カブトムシつかまえたの！",
+     "ref": "Ông Genzou ơi, nhìn này nhìn này! {S:Cháu} bắt được bọ cánh cứng rồi!"},
+    {"speaker": "源蔵", "text": "ほう、立派なカブトムシじゃのう。どこで見つけたんじゃ？",
+     "ref": "Ồ, con bọ cánh cứng oai quá nhỉ. {L:Cháu} tìm thấy ở đâu thế?"},
+    {"speaker": "ひなた", "text": "裏山の大きな木のところ！",
+     "ref": "Ở chỗ cái cây to trên ngọn đồi sau nhà ạ!"},
+    {"speaker": "源蔵", "text": "あそこは危ないから、一人で行ってはいかんぞ。",
+     "ref": "Chỗ đó nguy hiểm lắm, {L:cháu} không được đi một mình đâu đấy."},
+    {"speaker": "ひなた", "text": "ごめんなさい…。でも、おじいちゃんに見せたかったの。",
+     "ref": "{S:Cháu} xin lỗi {L:ông}… Nhưng {S:cháu} muốn cho {L:ông} xem mà."},
+    {"speaker": "源蔵", "text": "そうかそうか。ありがとうな、ひなた。",
+     "ref": "Thế à, thế à. Cảm ơn {L:cháu} nhé, Hinata."},
+    {"speaker": "ひなた", "text": "ねえ、この子の名前、何にしようかな？",
+     "ref": "{L:Ông} ơi, đặt tên cho bạn này là gì nhỉ?"},
+    {"speaker": "源蔵", "text": "「ツノマル」はどうじゃ？強そうじゃろう。",
+     "ref": "Gọi là “Tsunomaru” thì sao? Nghe mạnh mẽ đấy chứ."},
+    {"speaker": "ひなた", "text": "ツノマル！かっこいい！おじいちゃん、天才！",
+     "ref": "Tsunomaru! Ngầu quá! {L:Ông} đúng là thiên tài!"}
+  ]
+}

@@ -1,0 +1,192 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&limit=7&search=Steins%3BGate&type=item&uselang=en",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "searchinfo": {
+   "search": "Steins;Gate"
+  },
+  "search": [
+   {
+    "id": "Q482494",
+    "title": "Q482494",
+    "pageid": 454175,
+    "concepturi": "http://www.wikidata.org/entity/Q482494",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q482494",
+    "display": {
+     "label": {
+      "value": "Steins;Gate",
+      "language": "en"
+     },
+     "description": {
+      "value": "2009 visual novel game",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate",
+    "description": "2009 visual novel game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate"
+    }
+   },
+   {
+    "id": "Q20590069",
+    "title": "Q20590069",
+    "pageid": 22337647,
+    "concepturi": "http://www.wikidata.org/entity/Q20590069",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q20590069",
+    "display": {
+     "label": {
+      "value": "Steins;Gate",
+      "language": "en"
+     },
+     "description": {
+      "value": "Japanese anime television series",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate",
+    "description": "Japanese anime television series",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate"
+    }
+   },
+   {
+    "id": "Q21775901",
+    "title": "Q21775901",
+    "pageid": 23813936,
+    "concepturi": "http://www.wikidata.org/entity/Q21775901",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q21775901",
+    "display": {
+     "label": {
+      "value": "Steins;Gate 0",
+      "language": "en"
+     },
+     "description": {
+      "value": "2015 visual novel game",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate 0",
+    "description": "2015 visual novel game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate 0"
+    }
+   },
+   {
+    "id": "Q55633945",
+    "title": "Q55633945",
+    "pageid": 55619522,
+    "concepturi": "http://www.wikidata.org/entity/Q55633945",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q55633945",
+    "display": {
+     "label": {
+      "value": "Steins;Gate",
+      "language": "en"
+     },
+     "description": {
+      "value": "Japanese manga series",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate",
+    "description": "Japanese manga series",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate"
+    }
+   },
+   {
+    "id": "Q40887622",
+    "title": "Q40887622",
+    "pageid": 42219640,
+    "concepturi": "http://www.wikidata.org/entity/Q40887622",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q40887622",
+    "display": {
+     "label": {
+      "value": "Steins;Gate Elite",
+      "language": "en"
+     },
+     "description": {
+      "value": "Japanese visual novel game",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate Elite",
+    "description": "Japanese visual novel game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate Elite"
+    }
+   },
+   {
+    "id": "Q28127143",
+    "title": "Q28127143",
+    "pageid": 29825278,
+    "concepturi": "http://www.wikidata.org/entity/Q28127143",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q28127143",
+    "display": {
+     "label": {
+      "value": "Steins;Gate: My Darling's Embrace",
+      "language": "en"
+     },
+     "description": {
+      "value": "2011 video game",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate: My Darling's Embrace",
+    "description": "2011 video game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate: My Darling's Embrace"
+    }
+   },
+   {
+    "id": "Q27700820",
+    "title": "Q27700820",
+    "pageid": 29420661,
+    "concepturi": "http://www.wikidata.org/entity/Q27700820",
+    "repository": "wikidata",
+    "url": "//www.wikidata.org/wiki/Q27700820",
+    "display": {
+     "label": {
+      "value": "Steins;Gate: Linear Bounded Phenogram",
+      "language": "en"
+     },
+     "description": {
+      "value": "Japanese visual novel game",
+      "language": "en"
+     }
+    },
+    "label": "Steins;Gate: Linear Bounded Phenogram",
+    "description": "Japanese visual novel game",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Steins;Gate: Linear Bounded Phenogram"
+    }
+   }
+  ],
+  "search-continue": 7,
+  "success": 1
+ }
+}

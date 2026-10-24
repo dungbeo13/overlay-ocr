@@ -1,0 +1,20 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://steins-gate.fandom.com/api.php?action=query&format=json&meta=siteinfo",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "batchcomplete": "",
+  "query": {
+   "general": {
+    "sitename": "Steins;Gate Wiki",
+    "server": "https://steins-gate.fandom.com",
+    "articlepath": "/wiki/$1",
+    "wikiid": "steinsgate",
+    "lang": "en"
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ja_friends",
+  "lang": "ja",
+  "split": "test",
+  "description": "Two rough male friends (childhood friends, rude banter) argue about a new ramen shop and who pays. tao/mày both ways.",
+  "style": "Giọng bỗ bã, suồng sã của hai thằng bạn thân.",
+  "glossary": [
+    {"source": "黒鉄町", "target": "phố Kurogane", "kind": "place"},
+    {"source": "鬼丸ラーメン", "target": "quán mì Onimaru", "kind": "place"}
+  ],
+  "characters": [
+    {"name": "竜二", "name_vi": "Ryuuji", "gender": "nam", "self_pronoun": "tao",
+     "notes": "18 tuổi, bạn thân từ nhỏ của Kenta, ăn nói cục cằn. Xưng 'tao', gọi Kenta là 'mày'."},
+    {"name": "健太", "name_vi": "Kenta", "gender": "nam", "self_pronoun": "tao",
+     "notes": "18 tuổi, bạn thân của Ryuuji, hay đùa, ăn nói bỗ bã. Xưng 'tao', gọi Ryuuji là 'mày'."}
+  ],
+  "pronouns": {
+    "竜二>健太": {"self": ["tao"], "other": ["mày"]},
+    "健太>竜二": {"self": ["tao"], "other": ["mày"]}
+  },
+  "lines": [
+    {"speaker": "竜二", "text": "おい健太、黒鉄町にできた鬼丸ラーメン、もう行ったか？",
+     "ref": "Này Kenta, quán mì Onimaru mới mở ở phố Kurogane, {L:mày} đi chưa?"},
+    {"speaker": "健太", "text": "当たり前だろ。昨日三杯も食ったぜ。",
+     "ref": "Đương nhiên rồi. Hôm qua {S:tao} chén hẳn ba bát đấy."},
+    {"speaker": "竜二", "text": "はあ？なんで俺を誘わねえんだよ！",
+     "ref": "Hả? Sao {L:mày} không rủ {S:tao}!"},
+    {"speaker": "健太", "text": "お前、バイトだったじゃねえか。",
+     "ref": "{L:Mày} đi làm thêm còn gì."},
+    {"speaker": "竜二", "text": "ちっ…じゃあ今日はお前の奢りな。",
+     "ref": "Chậc… vậy hôm nay {L:mày} bao nhé."},
+    {"speaker": "健太", "text": "ふざけんな。先週貸した金、まだ返してもらってねえぞ。",
+     "ref": "Đừng có giỡn. Tiền tuần trước {S:tao} cho {L:mày} vay, {L:mày} còn chưa trả đấy."},
+    {"speaker": "竜二", "text": "細けえこと覚えてやがるな。わかったよ、俺が払う。",
+     "ref": "Chuyện vặt mà cũng nhớ dai thế. Được rồi, {S:tao} trả."},
+    {"speaker": "健太", "text": "よし、決まりだ！さっさと行こうぜ、竜二！",
+     "ref": "Được, chốt vậy! Đi nhanh thôi, Ryuuji!"}
+  ]
+}

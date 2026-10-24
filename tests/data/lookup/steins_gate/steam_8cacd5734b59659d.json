@@ -1,0 +1,19 @@
+{
+ "request": {
+  "method": "GET",
+  "url": "https://store.steampowered.com/api/appdetails?appids=412830&filters=basic&l=japanese",
+  "body": null
+ },
+ "status": 200,
+ "json": {
+  "412830": {
+   "success": true,
+   "data": {
+    "type": "game",
+    "name": "STEINS;GATE",
+    "steam_appid": 412830,
+    "supported_languages": "英語, 日本語<strong>*</strong>, 中国語（簡体字）, 中国語（繁体字）<br><strong>*</strong>フル音声対応言語"
+   }
+  }
+ }
+}
