@@ -2,7 +2,8 @@
 
 The files in this folder are answers of public APIs, recorded on 2026-10-25 (`python -m tools.lookup_game TITLE --record DIR`
 and a local SearXNG instance) and trimmed to what the parsers read. They are kept only as offline test fixtures. They are
-**not** covered by the terms of this project's own code: each file keeps the licence or status of its source.
+**not** covered by the MIT licence of this project's own code (`LICENSE` at the repository root): each file keeps the
+licence or status of its source.
 
 | Files | Source | Licence / status |
 |---|---|---|

@@ -1050,9 +1050,13 @@ Kết quả lúc đó, đo trên máy của tác giả. Số liệu chi tiết �
 - Endpoint Google gtx: chỉ `POST /translate_a/t` với tham số trên query và `q` trong body là được chấp nhận; `GET` bị 429.
 - Bản dịch máy không giữ được ngữ cảnh. Ví dụ "Inventory" bị dịch thành "Hàng tồn kho", câu chửi tiếng Nhật bị dịch lịch sự. Đây là lý do cần tầng LLM có glossary.
 
+## Giấy phép
+
+Mã nguồn dự án theo giấy phép [MIT](LICENSE). Dữ liệu bên thứ ba trong repo, cùng phần mềm và model bạn tự tải khi cài, theo giấy phép riêng của chúng (mục dưới).
+
 ## Dữ liệu bên thứ ba trong repo
 
-`tests/data/lookup/` chứa câu trả lời thật của các API, đã thu gọn, chỉ dùng làm dữ liệu cho test. Các tệp này **không** theo điều khoản của mã nguồn dự án: mỗi tệp giữ giấy phép của nguồn (chi tiết trong `tests/data/lookup/NOTICE.md`).
+`tests/data/lookup/` chứa câu trả lời thật của các API, đã thu gọn, chỉ dùng làm dữ liệu cho test. Các tệp này **không** theo giấy phép MIT của mã nguồn dự án: mỗi tệp giữ giấy phép của nguồn (chi tiết trong `tests/data/lookup/NOTICE.md`).
 
 - `fandom_*.json`: đoạn trích wikitext của steins-gate.fandom.com và doki-doki-literature-club.fandom.com, đã thu gọn và sửa đổi (chỉ giữ tham số infobox và mẫu `{{Nihongo}}`), theo giấy phép [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Tác giả là những người đóng góp có tên trong lịch sử sửa đổi của từng trang; địa chỉ nguồn ghi ở `request.url` của mỗi tệp.
 - `vndb_*.json`: dữ liệu của vndb.org, theo giấy phép [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
