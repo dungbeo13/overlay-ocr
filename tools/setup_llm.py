@@ -37,10 +37,11 @@ from pathlib import Path
 
 import httpx
 
+from app import __version__
 from app.config import LLAMA_DIR, LLM_HOME, MODELS_DIR
 from app.llm.models import DEFAULT_KIND
 
-USER_AGENT = "screen-translator-setup/1"
+USER_AGENT = f"screen-translator-setup/{__version__}"
 GITHUB_REPO = "ggml-org/llama.cpp"
 CREATE_NO_WINDOW = 0x08000000
 

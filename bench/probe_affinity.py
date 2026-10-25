@@ -286,10 +286,12 @@ def main() -> int:
     from PySide6.QtGui import QColor, QPainter
     from PySide6.QtWidgets import QApplication, QWidget
 
+    from app import qt_gc
     from app.capture import enum_monitors
     from app.overlay.affinity import WDA_EXCLUDEFROMCAPTURE, apply_to_widget, get_display_affinity
 
     app = QApplication(sys.argv)  # Qt makes the process PMv2 here, before dxcam / mss load
+    qt_gc.install(app)  # as in app.main: TransientMonitor's thread never runs a gc collection beside the widgets
     flags = (Qt.WindowType.FramelessWindowHint | Qt.WindowType.Tool | Qt.WindowType.WindowStaysOnTopHint
              | Qt.WindowType.WindowTransparentForInput | Qt.WindowType.WindowDoesNotAcceptFocus)
 

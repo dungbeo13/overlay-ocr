@@ -38,6 +38,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
+from app import __version__
 from app.config import LLM_HOME, LOG_DIR, PROJECT_ROOT
 from app.llm.server import (CREATE_NO_WINDOW, CREATE_SUSPENDED, _active_processes, _assign_and_resume, _k32,
                             _kill_on_close_job, free_port)
@@ -51,7 +52,7 @@ SEARXNG_HOME = LLM_HOME / "searxng"
 HOST = "127.0.0.1"
 DEFAULT_PORT = 8888
 IDLE_STOP_S = 600.0  # stop our instance after 10 min without a search
-USER_AGENT = "screen-translator/1 (+https://github.com/dungbeo13/overlay-ocr)"
+USER_AGENT = f"screen-translator/{__version__} (+https://github.com/dungbeo13/overlay-ocr)"
 _PORT_ATTEMPTS = 3
 
 # Public instances that answered GET /search?format=json to an honest API client (our User-Agent, Accept:

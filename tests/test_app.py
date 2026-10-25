@@ -41,6 +41,9 @@ def qapp() -> QApplication:
     if app is None:
         os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
         app = QApplication([sys.argv[0]])
+    from app import qt_gc
+
+    qt_gc.install(app)  # as in app.main: worker threads never run a gc collection (Qt wrappers in the garbage)
     return app
 
 

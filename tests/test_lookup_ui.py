@@ -663,9 +663,14 @@ class SettingsLookupTabTests(_su._DialogFixture):
 
 class AppLookupTests(_ta.AppTestBase):
     def setUp(self):
+        # The real foreground window must not take part: App.start() checks it at once, and a game in front of
+        # the test run (dota2.exe) was offered too. The tests bring their exes to the front with foreground().
+        p = mock.patch("app.ui.game_guard.GameGuard._read_foreground", return_value=None)
+        p.start()
+        self.addCleanup(p.stop)
         super().setUp()
         self.addCleanup(flush_deletes)
-        if self.app.guard is not None:  # the real foreground window must not take part
+        if self.app.guard is not None:  # no polling timer or event hook either
             self.app.guard.stop()
         pump(50)
         self.app._lookup_seen.clear()

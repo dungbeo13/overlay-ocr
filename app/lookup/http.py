@@ -26,12 +26,13 @@ from urllib.parse import parse_qsl, urlencode, urlsplit
 
 import httpx
 
+from app import __version__
 from app.config import DATA_DIR
 
 log = logging.getLogger(__name__)
 
 PROJECT_URL = "https://github.com/dungbeo13/overlay-ocr"
-USER_AGENT = f"ScreenTranslator/1.0 (+{PROJECT_URL}; game glossary lookup, one query per game)"
+USER_AGENT = f"ScreenTranslator/{__version__} (+{PROJECT_URL}; game glossary lookup, one query per game)"
 CACHE_DIR = DATA_DIR / "lookup_cache"
 CACHE_TTL_S = 14 * 86400
 DEFAULT_TIMEOUT_S = 10.0

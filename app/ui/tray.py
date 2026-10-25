@@ -8,6 +8,7 @@ from PySide6.QtCore import QObject, QRectF, Qt, QTimer, Signal
 from PySide6.QtGui import QAction, QActionGroup, QColor, QCursor, QFont, QIcon, QPainter, QPixmap
 from PySide6.QtWidgets import QApplication, QMenu, QSystemTrayIcon
 
+from app import __version__
 from app.config import Config, Hotkeys
 from app.llm.models import model_kind
 from app.overlay.affinity import apply_to_widget
@@ -17,6 +18,7 @@ from app.pipeline.types import OverlayState
 from .hotkeys import format_combo
 
 APP_NAME = "Screen Translator"
+APP_TITLE = f"{APP_NAME} {__version__}"  # the tooltip's first line, and the status line until the first state
 LANG_LABELS = {"ja": "Tiếng Nhật", "en": "Tiếng Anh"}
 GUARD_LABELS = {"pause": "Tạm dừng", "warn": "Chỉ cảnh báo", "off": "Tắt"}
 LLM_LABELS = {"off": "Tắt", "refine": "Google trước, LLM tinh chỉnh", "only": "Chỉ LLM"}
@@ -109,7 +111,7 @@ class TrayController(QObject):
         self._text_visible = True
 
         self._menu = QMenu()
-        self._status_action = QAction(APP_NAME, self._menu)
+        self._status_action = QAction(APP_TITLE, self._menu)
         self._status_action.setEnabled(False)
         self._menu.addAction(self._status_action)
         self._menu.addSeparator()
@@ -219,7 +221,7 @@ class TrayController(QObject):
 
         self._tray = QSystemTrayIcon(self._icons["idle"], self)
         self._tray.setContextMenu(self._menu)
-        self._tray.setToolTip(APP_NAME)
+        self._tray.setToolTip(APP_TITLE)
         self._tray.activated.connect(self._on_activated)
         self._message_token = ""
         self._tray.messageClicked.connect(lambda: self.message_clicked.emit(self._message_token))
@@ -274,7 +276,7 @@ class TrayController(QObject):
             key = self._hotkeys.select_region
             line = f"Chưa chọn vùng — nhấn {format_combo(key)}" if key else "Chưa chọn vùng — dùng menu Chọn vùng dịch"
         self._status_action.setText(f"{lang_pair(state)} · {line}" if line != lang_pair(state) else line)
-        tip = f"{APP_NAME} · {lang_pair(state)}\n{line}"
+        tip = f"{APP_TITLE} · {lang_pair(state)}\n{line}"
         self._tray.setToolTip(tip if len(tip) <= _TOOLTIP_MAX else tip[:_TOOLTIP_MAX - 1] + "…")
         self.set_lang_checked(state.src_lang)
         self._refresh_toggles()

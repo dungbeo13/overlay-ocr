@@ -60,6 +60,9 @@ def qapp() -> QApplication:
     if app is None:
         os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
         app = QApplication([sys.argv[0]])
+    from app import qt_gc
+
+    qt_gc.install(app)  # as in app.main: worker threads never run a gc collection (Qt wrappers in the garbage)
     return app
 
 
@@ -1604,6 +1607,8 @@ class LauncherIntegrationTests(unittest.TestCase):
         self.assertEqual(app_proc.name().lower(), "pythonw.exe")
         self.assertNotIn("conhost.exe", [c.name().lower() for c in app_proc.children(recursive=True)])
         self.assertIn("windowless", self.log_text())
+        from app import __version__
+        self.assertIn(f"Screen Translator {__version__} starting (", self.log_text())  # which build wrote the log
         # the shortcut double-clicked again: the new process hands over and exits
         second = self.launch(*self.ARGS)
         self.assertEqual(second.wait(40), 0)

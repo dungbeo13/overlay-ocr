@@ -56,6 +56,7 @@ from PySide6.QtCore import QObject, Qt, QtMsgType, QTimer, QUrl, Signal, qInstal
 from PySide6.QtGui import QDesktopServices
 from PySide6.QtWidgets import QApplication, QDialog, QInputDialog, QLineEdit, QMessageBox
 
+from app import __version__, qt_gc
 from app.capture.base import Region
 from app.config import CONFIG_PATH, DATA_DIR, LOG_DIR, PROFILES_DIR, PROJECT_ROOT, Config, Hotkeys
 from app.llm.models import model_label
@@ -72,6 +73,7 @@ from app.winutil import set_app_user_model_id, set_power_throttling
 log = logging.getLogger("app")
 
 APP_NAME = "Screen Translator"
+VERSION_TEXT = f"{APP_NAME} {__version__}"  # what --version prints (a box in a windowless run)
 LANGS = ("ja", "en")
 GUARD_MODES = ("pause", "warn", "off")
 LLM_MODES = ("off", "refine", "only")
@@ -162,6 +164,7 @@ def build_parser() -> argparse.ArgumentParser:
                    help="show the first-run guide now (it opens by itself once, not in --exit-after runs)")
     p.add_argument("--wait-for-instance", type=float, default=0.0, metavar="SECONDS",
                    help=argparse.SUPPRESS)  # "Khởi động lại app": wait for the old instance to exit
+    p.add_argument("--version", action="version", version=VERSION_TEXT, help="print the version and exit")
     return p
 
 
@@ -2352,6 +2355,17 @@ def show_error_box(title: str, text: str, details: str = "") -> str:
     return "close"
 
 
+def show_info_box(title: str, text: str) -> None:
+    """Modal, capture-excluded information box: what a windowless run shows instead of printing (--version)."""
+    QApplication.instance() or QApplication(sys.argv[:1])
+    box = QMessageBox(QMessageBox.Icon.Information, title, text)
+    box.addButton("Đóng", QMessageBox.ButtonRole.AcceptRole)
+    box.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
+    exclusion = apply_to_widget(box)  # noqa: F841 - must live as long as the box
+    box.exec()
+    box.deleteLater()
+
+
 def report_startup_error(exc: BaseException, log_path: Path | None, *, show: bool) -> None:
     """Log a failure before the app is up and, in a windowless run, show it in Vietnamese."""
     log.critical("startup failed", exc_info=(type(exc), exc, exc.__traceback__))
@@ -2385,15 +2399,20 @@ def _hand_over(lock: InstanceLock, windowless: bool, *, wait_s: float = HANDOVER
 
 
 def _parse_args(argv: list[str] | None, windowless: bool) -> argparse.Namespace:
-    """argparse; in a windowless run its error text (written to a stderr nobody sees) goes to a box."""
+    """argparse; in a windowless run its error text (written to a stderr nobody sees) goes to a box, and so
+    does --version (its stdout goes nowhere either)."""
     if not windowless:
         return build_parser().parse_args(argv)
-    err, real = io.StringIO(), sys.stderr
-    sys.stderr = err
+    err, out, real_err, real_out = io.StringIO(), io.StringIO(), sys.stderr, sys.stdout
+    sys.stderr, sys.stdout = err, out
     try:
         return build_parser().parse_args(argv)
     except SystemExit as exc:
-        if exc.code not in (0, None):
+        if exc.code in (0, None):
+            if out.getvalue().strip() == VERSION_TEXT:
+                sys.stderr, sys.stdout = real_err, real_out
+                show_info_box(APP_NAME, f"{VERSION_TEXT}\n\nDịch chữ trên màn hình (Nhật / Anh → Việt).")
+        else:
             text = err.getvalue().strip()[-600:]
             try:
                 setup_logging("INFO")
@@ -2404,7 +2423,7 @@ def _parse_args(argv: list[str] | None, windowless: bool) -> argparse.Namespace:
             show_error_box(f"{APP_NAME}: lỗi khởi động", MSG_BAD_ARGS, f"{MSG_BAD_ARGS_FIX}\n\nChi tiết: {reason}")
         raise
     finally:
-        sys.stderr = real
+        sys.stderr, sys.stdout = real_err, real_out
 
 
 def _enable_crash_log() -> None:
@@ -2431,7 +2450,9 @@ def main(argv: list[str] | None = None, *, windowless: bool = False) -> int:
     set_app_user_model_id()  # before any window: the taskbar shows "Screen Translator", not Python
     qapp = QApplication.instance() or QApplication(sys.argv[:1])  # first: makes the process PMv2
     qapp.setApplicationName(APP_NAME)
+    qapp.setApplicationVersion(__version__)
     qapp.setQuitOnLastWindowClosed(False)  # tray app: closing the selector must not quit
+    qt_gc.install(qapp)  # before any worker thread: cyclic garbage with Qt wrappers is freed on this thread only
     install_vietnamese_qt_texts(qapp)  # Qt's own texts (text-field menus, standard buttons) in Vietnamese
     try:
         from app.ui.tray import make_icon
@@ -2472,7 +2493,7 @@ def main(argv: list[str] | None = None, *, windowless: bool = False) -> int:
 
         persisted = Config.load(CONFIG_PATH)
         config = apply_overrides(copy.deepcopy(persisted), args)
-        log.info("%s starting (pid %d, GUI thread %d, log %s, config %s%s)", APP_NAME, os.getpid(),
+        log.info("%s starting (pid %d, GUI thread %d, log %s, config %s%s)", VERSION_TEXT, os.getpid(),
                  threading.get_native_id(), log_path, CONFIG_PATH, ", windowless" if windowless else "")
 
         app = App(qapp, config, persisted, args)

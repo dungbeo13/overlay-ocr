@@ -1,6 +1,6 @@
 # SearXNG bằng Docker (tùy chọn)
 
-App **không cần Docker**: `python -m tools.setup_searxng` cài SearXNG chạy thẳng trên Windows, và app tự bật / tắt nó (xem mục *SearXNG trên máy (tùy chọn)* trong `README.md` ở thư mục gốc). Thư mục này dành cho lúc bạn muốn chạy SearXNG bằng Docker thay cho bản đó.
+App **không cần Docker**: `python -m tools.setup_searxng` cài SearXNG chạy thẳng trên Windows, và app tự bật / tắt nó (xem mục [*SearXNG trên máy (tùy chọn)*](../../README.md#searxng-trên-máy-tùy-chọn) trong `README.md` ở thư mục gốc; chi tiết ở [`docs/tra-cuu-game.md`](../../docs/tra-cuu-game.md#searxng-trên-máy-tùy-chọn)). Thư mục này dành cho lúc bạn muốn chạy SearXNG bằng Docker thay cho bản đó.
 
 - `docker-compose.yml`: một container SearXNG, cùng commit với bản cài thẳng (image `searxng/searxng:2026.10.24-ef0ec03da`). Cổng được mở là `127.0.0.1:8888:8080`, nên chỉ máy này vào được, máy khác trong mạng LAN không vào được. Không có Valkey/Redis, vì đã tắt limiter.
 - `settings.yml`: cài đặt dùng chung cho cả bản Docker và bản cài thẳng: bật định dạng JSON, tắt limiter, tắt image proxy, `public_instance: false`.

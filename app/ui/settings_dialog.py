@@ -58,6 +58,7 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 
+from app import __version__
 from app.config import CONFIG_PATH, DATA_DIR, DEFAULT_BLOCKED_PROCESSES, PROJECT_ROOT, Config, Hotkeys
 from app.overlay.affinity import CaptureExclusion, apply_to_widget
 from app.pipeline.types import Block
@@ -109,6 +110,7 @@ SEARXNG_PUBLIC_HINT = ("Mặc định tắt, và chỉ dùng khi máy bạn chư
                        "truy cập tự động), nên lựa chọn này đang bị khóa.")
 SEARXNG_INSTALL_HINT = "Cài một lần (tải khoảng 100 MB, môi trường Python riêng); chỉ chạy trên 127.0.0.1."
 MSG_BAD_SEARXNG_URL = "Địa chỉ SearXNG phải bắt đầu bằng http:// hoặc https://"
+VERSION_LABEL = f"Screen Translator · Phiên bản {__version__} · Giấy phép MIT · github.com/dungbeo13/overlay-ocr"
 
 MSG_SAVED = "Đã lưu."
 MSG_RESTART = "Đã lưu. Cần khởi động lại app để áp dụng: {what}."
@@ -643,6 +645,8 @@ class SettingsDialog(QDialog):
         row.addStretch(1)
         lay.addLayout(row)
         lay.addStretch(1)
+        self.version_label = _hint(VERSION_LABEL)  # which build the user runs (asked first when reporting a bug)
+        lay.addWidget(self.version_label)
         return page
 
     def _build_translate_tab(self) -> QWidget:
